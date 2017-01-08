@@ -1,5 +1,3 @@
-application: tipoffteam
-version: one
 runtime: php
 api_version: 1
 
