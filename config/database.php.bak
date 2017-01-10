@@ -46,19 +46,6 @@ return [
 
     'connections' => [
 
-        'cloudsql' => [
-            'driver'      => 'mysql',
-            'unix_socket' => env('DB_SOCKET'),
-            'host'        => env('DB_HOST'),
-            'database'    => env('DB_DATABASE'),
-            'username'    => env('DB_USERNAME'),
-            'password'    => env('DB_PASSWORD'),
-            'charset'     => 'utf8',
-            'collation'   => 'utf8_unicode_ci',
-            'prefix'      => '',
-            'strict'      => false,
-        ],
-
         'sqlite' => [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE', database_path('database.sqlite')),

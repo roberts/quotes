@@ -28,8 +28,6 @@ return [
     |
     */
 
-    'compiled' => env('CACHE_COMPILED_VIEWS') ?
-                  Shpasser\GaeSupportL5\Storage\Optimizer::COMPILED_VIEWS_PATH :
-                  storage_path('framework/views'),
+    'compiled' => realpath(storage_path('framework/views')),
 
 ];
