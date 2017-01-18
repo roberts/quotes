@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('construction');
 })->name('home');
 
 Route::group(['prefix' => 'quotes'], function() {
