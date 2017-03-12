@@ -75,7 +75,7 @@
       <section id="menu1" class="tab-pane fade">
         <article role="introduction" class="introduction-pan">
           <header class="page-title">
-            <h2>Coming Soon! (Canary Version) </h2>
+            <h2>Coming Soon! (Canary Version 2) </h2>
           </header>
           <p>We are in the process of creating a resource for entrepreneurs and leaders. There will be <a href="{{ route('quotes') }}">quotes</a>, articles, <br/>
             interviews, news, and more quality content to help you grow your business and leadership skills. Thanks for <br/>
