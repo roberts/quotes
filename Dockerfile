@@ -48,7 +48,7 @@ RUN mkdir -p /var/www/tipoff
 
 # add credential of google cloud repository
 # RUN echo .netrc ~/.netrc
-echo 'machine source.developers.google.com login [your email address] password 1/SZfZC-bzsweSie701RSl_JuYHRi11Cv4RJj6XhJsyCEmwkBOZO5hrj3mJbNJbPHX' >> ~/.netrc
+RUN echo 'machine source.developers.google.com login [your email address] password 1/SZfZC-bzsweSie701RSl_JuYHRi11Cv4RJj6XhJsyCEmwkBOZO5hrj3mJbNJbPHX' >> ~/.netrc
 
 # --- Please modify the username/password for gitub to your own
 RUN git clone https://source.developers.google.com/p/tipoffwebsite/r/tipoff /var/www/tipoff
