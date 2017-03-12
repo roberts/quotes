@@ -46,6 +46,9 @@ RUN perl -pi -e 's/;cgi.fix_pathinfo=1/cgi.fix_pathinfo=0/g' /etc/php5/fpm/php.i
 # --- Get web app source from git
 RUN mkdir -p /var/www/tipoff
 
+# add credential of google cloud repository
+RUN cp .netrc ~/.netrc
+
 # --- Please modify the username/password for gitub to your own
 RUN git clone https://source.developers.google.com/p/tipoffwebsite/r/tipoff /var/www/tipoff
 
