@@ -54,4 +54,5 @@ class QuoteAuthor extends Model
     {
         $this->quotes()->create($quote);
     }
+    
 }
