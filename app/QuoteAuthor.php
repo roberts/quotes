@@ -7,6 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 class QuoteAuthor extends Model
 {
 	public $table = "authors";
+
+    /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
     
     /**
      * Don't auto-apply mass assignment protection.
@@ -26,11 +36,11 @@ class QuoteAuthor extends Model
     }
 
     /**
-     * A reply has an owner.
+     * A reply has a creator.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function owner()
+    public function creator()
     {
         return $this->belongsTo(User::class, 'created_by');
     }
@@ -42,7 +52,7 @@ class QuoteAuthor extends Model
      */
     public function quotes()
     {
-        return $this->hasMany(Quote::class);
+        return $this->hasMany(Quote::class, 'author_id');
     }
 
     /**

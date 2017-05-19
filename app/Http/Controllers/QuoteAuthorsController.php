@@ -24,7 +24,7 @@ class QuoteAuthorsController extends Controller
     {
         $quotes = QuoteAuthor::latest()->get();
 
-        return view('quotes.authors.index', compact('author'));
+        return view('quotes.authors.index', compact('quoteauthor'));
     }
 
     /**
@@ -45,7 +45,7 @@ class QuoteAuthorsController extends Controller
      */
     public function store(Request $request)
     {
-        $quote = QuoteAuthor::create([
+        $quoteauthor = QuoteAuthor::create([
             'slug' => request('slug'),
             'display_name' => request('display_name'),
             'last_name' => request('last_name'),
@@ -66,9 +66,9 @@ class QuoteAuthorsController extends Controller
      * @param  \App\Quotes  $quotes
      * @return \Illuminate\Http\Response
      */
-    public function show(QuoteAuthor $quoteAuthor)
+    public function show(QuoteAuthor $quoteauthor)
     {
-        return view('quotes.author.show', compact('author'));
+        return view('quotes.authors.show', compact('quoteauthor'));
     }
 
     /**
@@ -77,7 +77,7 @@ class QuoteAuthorsController extends Controller
      * @param  \App\QuoteAuthors  $quoteAuthors
      * @return \Illuminate\Http\Response
      */
-    public function edit(QuoteAuthor $quoteAuthor)
+    public function edit(QuoteAuthor $quoteauthor)
     {
         //
     }
@@ -89,7 +89,7 @@ class QuoteAuthorsController extends Controller
      * @param  \App\QuoteAuthors  $quoteAuthors
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, QuoteAuthor $quoteAuthor)
+    public function update(Request $request, QuoteAuthor $quoteauthor)
     {
         //
     }
@@ -100,7 +100,7 @@ class QuoteAuthorsController extends Controller
      * @param  \App\QuoteAuthor  $quoteAuthor
      * @return \Illuminate\Http\Response
      */
-    public function destroy(QuoteAuthor $quoteAuthor)
+    public function destroy(QuoteAuthor $quoteauthor)
     {
         //
     }

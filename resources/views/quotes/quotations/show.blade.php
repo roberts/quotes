@@ -17,14 +17,6 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                @foreach ($quote->comments as $comment)
-                    @include ('quotes.comment')
-                @endforeach
-            </div>
-        </div>
-
         @if (auth()->check())
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
