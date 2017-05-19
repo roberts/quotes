@@ -6,12 +6,12 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <a href="#">{{ $thread->creator->name }}</a> posted:
-                        {{ $thread->title }}
+                        <a href="{{ $quote->author->path() }}">Quote from {{ $quote->author->display_name }}</a>
+                        
                     </div>
 
                     <div class="panel-body">
-                        {{ $thread->body }}
+                        {{ $quote->quote_text }}
                     </div>
                 </div>
             </div>
@@ -19,8 +19,8 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                @foreach ($thread->replies as $reply)
-                    @include ('threads.reply')
+                @foreach ($quote->comments as $comment)
+                    @include ('quotes.comment')
                 @endforeach
             </div>
         </div>
@@ -28,7 +28,7 @@
         @if (auth()->check())
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <form method="POST" action="{{ $thread->path() . '/replies' }}">
+                    <form method="POST" action="{{ $quote->path() . '/comments' }}">
                         {{ csrf_field() }}
 
                         <div class="form-group">
