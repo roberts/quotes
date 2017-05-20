@@ -32,7 +32,7 @@ class QuoteAuthor extends Model
      */
     public function path()
     {
-        return "/quotes/authors/{$this->slug}";
+        return "/quotes/{$this->slug}";
     }
 
     /**

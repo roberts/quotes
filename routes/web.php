@@ -26,6 +26,6 @@ Route::group(['prefix' => 'quotes'], function () {
 Route::group(['prefix' => 'quotes'], function () {
     Route::get('authors', 'QuoteAuthorsController@index');
     Route::get('authors/create', 'QuoteAuthorsController@create');
-	Route::get('authors/{quoteauthor}', 'QuoteAuthorsController@show');
+	Route::get('{quoteauthor}', 'QuoteAuthorsController@show');
 	Route::post('authors', 'QuoteAuthorsController@store');
 });
