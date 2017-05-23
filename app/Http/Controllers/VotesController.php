@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class VotesController extends Controller
 {
+    protected $fillable = ['user_id'];
     /**
      * Display a listing of the resource.
      *
