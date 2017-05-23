@@ -16,19 +16,20 @@ class CreateTakeawaysTable extends Migration
         Schema::create('takeaways', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id')->index();
-            $table->unsignedInteger('content_type')->index();
-            $table->unsignedInteger('content_id')->index();
+            $table->unsignedInteger('takeawayable_type')->index();
+            $table->unsignedInteger('takeawayable_id')->index();
             $table->unsignedInteger('topic_id')->index()->default(1);
             $table->text('text');
             $table->boolean('active')->default(1);
             $table->boolean('archived')->default(0); //Use when recommendation edited & replaced
             $table->boolean('deleted')->default(0);
             $table->timestamps();
+
+            $table->unique(['user_id', 'takeawayable_type', 'takeawayable_id', 'topic_id']);
         });
 
         Schema::table('takeaways', function($table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
-            $table->foreign('content_type')->references('id')->on('content_types')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('topic_id')->references('id')->on('topics')->onDelete('restrict')->onUpdate('cascade');
         });
     }
@@ -42,7 +43,6 @@ class CreateTakeawaysTable extends Migration
     {
         Schema::table('takeaways', function ($table) {
             $table->dropForeign(['user_id']);
-            $table->dropForeign(['content_type']);
             $table->dropForeign(['topic_id']);
         });
         

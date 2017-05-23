@@ -16,8 +16,9 @@ class CreateCommentsTable extends Migration
         Schema::create('comments', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id')->index();
-            $table->unsignedInteger('content_type')->index();
-            $table->unsignedInteger('content_id')->index();
+            $table->unsignedInteger('commentable_type')->index();
+            $table->unsignedInteger('commentable_id')->index();
+            $table->unsignedInteger('section')->nullable()->index();
             $table->unsignedInteger('reply')->nullable()->index();
             $table->text('text');
             $table->boolean('active')->default(1);
@@ -28,7 +29,6 @@ class CreateCommentsTable extends Migration
 
         Schema::table('comments', function($table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
-            $table->foreign('content_type')->references('id')->on('content_types')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('reply')->references('id')->on('comments')->onDelete('restrict')->onUpdate('cascade');
         });
     }
@@ -42,7 +42,6 @@ class CreateCommentsTable extends Migration
     {
         Schema::table('comments', function ($table) {
             $table->dropForeign(['user_id']);
-            $table->dropForeign(['content_type']);
             $table->dropForeign(['reply']);
         });
 

@@ -17,8 +17,8 @@ class CreateGraphicsTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique()->index();
             $table->unsignedInteger('image_type')->index();
-            $table->unsignedInteger('content_type')->index();
-            $table->unsignedInteger('content_id')->index();
+            $table->unsignedInteger('graphicable_type')->index();
+            $table->unsignedInteger('graphicable_id')->index();
             $table->boolean('approved')->default(1);
             $table->boolean('deleted')->default(0);
             $table->unsignedInteger('created_by')->index();
@@ -28,7 +28,6 @@ class CreateGraphicsTable extends Migration
 
         Schema::table('graphics', function($table) {
             $table->foreign('image_type')->references('id')->on('image_types')->onDelete('restrict')->onUpdate('cascade');
-            $table->foreign('content_type')->references('id')->on('content_types')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('created_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('updated_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });
@@ -43,7 +42,6 @@ class CreateGraphicsTable extends Migration
     {
         Schema::table('graphics', function ($table) {
             $table->dropForeign(['image_type']);
-            $table->dropForeign(['content_type']);
             $table->dropForeign(['created_by']);
             $table->dropForeign(['updated_by']);
         });
