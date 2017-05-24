@@ -29,3 +29,16 @@ Route::group(['prefix' => 'quotes'], function () {
 	Route::get('{quoteauthor}', 'QuoteAuthorsController@show');
 	Route::post('authors', 'QuoteAuthorsController@store');
 });
+Route::get('books', 'BooksController@main');
+Route::group(['prefix' => 'books'], function () {
+    Route::get('titles', 'BooksController@index');
+    Route::get('titles/create', 'BooksController@create');
+	Route::get('titles/{book}', 'BooksController@show');
+	Route::post('titles', 'BooksController@store');
+});
+Route::group(['prefix' => 'books'], function () {
+    Route::get('authors', 'BookAuthorsController@index');
+    Route::get('authors/create', 'BookAuthorsController@create');
+	Route::get('{bookauthor}', 'BookAuthorsController@show');
+	Route::post('authors', 'BookAuthorsController@store');
+});

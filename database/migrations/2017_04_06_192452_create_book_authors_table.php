@@ -17,9 +17,11 @@ class CreateBookAuthorsTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('book_id')->index();
             $table->unsignedInteger('author_id')->index();
-            $table->unsignedInteger('contribution');
+            $table->unsignedInteger('contribution_id');
             $table->unsignedInteger('created_by');
             $table->timestamps();
+
+            $table->unique(['user_id', 'author_id']);
         });
         
         Schema::table('book_authors', function($table) {

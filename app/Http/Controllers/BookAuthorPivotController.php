@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\BookAuthor;
+use App\BookAuthorPivot;
 use Illuminate\Http\Request;
 
-class BookAuthorController extends Controller
+class BookAuthorPivotController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class BookAuthorController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\BookAuthor  $bookAuthor
+     * @param  \App\BookAuthorPivot  $bookAuthorPivot
      * @return \Illuminate\Http\Response
      */
-    public function show(BookAuthor $bookAuthor)
+    public function show(BookAuthorPivot $bookAuthorPivot)
     {
         //
     }
@@ -52,10 +52,10 @@ class BookAuthorController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\BookAuthor  $bookAuthor
+     * @param  \App\BookAuthorPivot  $bookAuthorPivot
      * @return \Illuminate\Http\Response
      */
-    public function edit(BookAuthor $bookAuthor)
+    public function edit(BookAuthorPivot $bookAuthorPivot)
     {
         //
     }
@@ -64,10 +64,10 @@ class BookAuthorController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\BookAuthor  $bookAuthor
+     * @param  \App\BookAuthorPivot  $bookAuthorPivot
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, BookAuthor $bookAuthor)
+    public function update(Request $request, BookAuthorPivot $bookAuthorPivot)
     {
         //
     }
@@ -75,10 +75,10 @@ class BookAuthorController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\BookAuthor  $bookAuthor
+     * @param  \App\BookAuthorPivot  $bookAuthorPivot
      * @return \Illuminate\Http\Response
      */
-    public function destroy(BookAuthor $bookAuthor)
+    public function destroy(BookAuthorPivot $bookAuthorPivot)
     {
         //
     }
