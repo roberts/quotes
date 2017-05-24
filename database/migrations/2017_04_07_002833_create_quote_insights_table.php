@@ -24,8 +24,8 @@ class CreateQuoteInsightsTable extends Migration
             $table->date('publish_date')->nullable();
             $table->boolean('active')->default(1);
             $table->boolean('archived')->default(0); //Use when insight edited & replaced
-            $table->boolean('deleted')->default(0);
             $table->timestamps();
+            $table->softDeletes();
         });
 
         Schema::table('quote_insights', function($table) {

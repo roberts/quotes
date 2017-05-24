@@ -23,8 +23,8 @@ class CreateRecommendationsTable extends Migration
             $table->tinyInteger('multiplier')->default(1);  // Up to 15x for staff
             $table->boolean('active')->default(1);
             $table->boolean('archived')->default(0); //Use when recommendation edited & replaced
-            $table->boolean('deleted')->default(0);
             $table->timestamps();
+            $table->softDeletes();
 
             $table->unique(['user_id', 'recommendable_type', 'recommendable_id', 'topic_id']);
         });

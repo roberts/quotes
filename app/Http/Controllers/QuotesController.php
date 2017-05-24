@@ -66,7 +66,7 @@ class QuotesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Quotes  $quotes
+     * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */
     public function show(Quote $quote)
@@ -77,7 +77,7 @@ class QuotesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Quotes  $quotes
+     * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */
     public function edit(Quote $quote)
@@ -89,7 +89,7 @@ class QuotesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Quotes  $quotes
+     * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Quote $quote)
@@ -100,7 +100,7 @@ class QuotesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Quotes  $quotes
+     * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */
     public function destroy(Quote $quote)

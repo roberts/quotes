@@ -18,7 +18,6 @@ class CreateBookAuthorsTable extends Migration
             $table->unsignedInteger('book_id')->index();
             $table->unsignedInteger('author_id')->index();
             $table->unsignedInteger('contribution');
-            $table->boolean('active')->default(1);
             $table->unsignedInteger('created_by');
             $table->timestamps();
         });

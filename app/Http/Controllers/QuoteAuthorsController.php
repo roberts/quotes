@@ -63,7 +63,7 @@ class QuoteAuthorsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Quotes  $quotes
+     * @param  \App\QuoteAuthor  $quoteauthor
      * @return \Illuminate\Http\Response
      */
     public function show(QuoteAuthor $quoteauthor)
@@ -74,7 +74,7 @@ class QuoteAuthorsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\QuoteAuthors  $quoteAuthors
+     * @param  \App\QuoteAuthor  $quoteauthor
      * @return \Illuminate\Http\Response
      */
     public function edit(QuoteAuthor $quoteauthor)
@@ -86,7 +86,7 @@ class QuoteAuthorsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\QuoteAuthors  $quoteAuthors
+     * @param  \App\QuoteAuthor  $quoteauthor
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, QuoteAuthor $quoteauthor)
@@ -97,7 +97,7 @@ class QuoteAuthorsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\QuoteAuthor  $quoteAuthor
+     * @param  \App\QuoteAuthor  $quoteauthor
      * @return \Illuminate\Http\Response
      */
     public function destroy(QuoteAuthor $quoteauthor)

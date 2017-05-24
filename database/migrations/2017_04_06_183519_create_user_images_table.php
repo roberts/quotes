@@ -20,10 +20,10 @@ class CreateUserImagesTable extends Migration
             $table->unsignedInteger('content_type')->index();
             $table->unsignedInteger('content_id')->index();
             $table->boolean('approved')->default(1);
-            $table->boolean('deleted')->default(0);
             $table->unsignedInteger('created_by')->index();
             $table->unsignedInteger('updated_by');
             $table->timestamps();
+            $table->softDeletes();
         });
 
         Schema::table('user_images', function($table) {

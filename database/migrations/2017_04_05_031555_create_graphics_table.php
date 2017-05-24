@@ -20,10 +20,10 @@ class CreateGraphicsTable extends Migration
             $table->unsignedInteger('graphicable_type')->index();
             $table->unsignedInteger('graphicable_id')->index();
             $table->boolean('approved')->default(1);
-            $table->boolean('deleted')->default(0);
             $table->unsignedInteger('created_by')->index();
             $table->unsignedInteger('updated_by');
             $table->timestamps();
+            $table->softDeletes();
         });
 
         Schema::table('graphics', function($table) {

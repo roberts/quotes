@@ -17,11 +17,11 @@ class CreateQuotesTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('author_id')->index();
             $table->text('quote_text', 700);
-            $table->boolean('active')->default(1);
             $table->unsignedInteger('created_by');
             $table->unsignedInteger('approved_by');
             $table->unsignedInteger('updated_by')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
         
         //then set autoincrement to 1,000,000

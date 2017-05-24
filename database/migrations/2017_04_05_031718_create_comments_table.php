@@ -23,8 +23,8 @@ class CreateCommentsTable extends Migration
             $table->text('text');
             $table->boolean('active')->default(1);
             $table->boolean('archived')->default(0); //Use when comment edited & replaced
-            $table->boolean('deleted')->default(0);
             $table->timestamps();
+            $table->softDeletes();
         });
 
         Schema::table('comments', function($table) {

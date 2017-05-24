@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Quote extends Model
 {
+    use Commentable;
+    use Recommendable;
+
     /**
      * Don't auto-apply mass assignment protection.
      *
@@ -24,7 +27,7 @@ class Quote extends Model
     }
 
     /**
-     * A quote is assigned an author.
+     * A quote is assigned to an author.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */

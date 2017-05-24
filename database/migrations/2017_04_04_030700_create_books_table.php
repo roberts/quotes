@@ -17,15 +17,15 @@ class CreateBooksTable extends Migration
             $table->increments('id');
             $table->string('title')->unique();
             $table->string('slug')->unique();
-            $table->string('amazon_id')->unique();
-            $table->string('google_id')->unique();
-            $table->string('audible_id')->unique();
-            $table->integer('isbn_13')->unique();
-            $table->unsignedInteger('book_cover');
-            $table->boolean('active')->default(1);
+            $table->string('amazon_id')->unique()->nullable();
+            $table->string('google_id')->unique()->nullable();
+            $table->string('audible_id')->unique()->nullable();
+            $table->string('isbn_13', 13)->unique();
+            $table->unsignedInteger('book_cover')->nullable();
             $table->unsignedInteger('created_by');
             $table->unsignedInteger('updated_by');
             $table->timestamps();
+            $table->softDeletes();
         });
 
         Schema::table('books', function($table) {

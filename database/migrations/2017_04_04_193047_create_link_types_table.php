@@ -18,8 +18,8 @@ class CreateLinkTypesTable extends Migration
             $table->string('slug')->unique()->index();
             $table->string('title')->unique();
             $table->string('description')->nullable();
-            $table->boolean('deleted')->default(0);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

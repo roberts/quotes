@@ -19,8 +19,8 @@ class CreateCollectionsTable extends Migration
             $table->string('slug')->index();
             $table->string('title');
             $table->string('description')->nullable();
-            $table->boolean('deleted')->default(0);
             $table->timestamps();
+            $table->softDeletes();
         });
 
         Schema::table('collections', function($table) {

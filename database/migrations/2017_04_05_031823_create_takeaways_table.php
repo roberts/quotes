@@ -22,10 +22,8 @@ class CreateTakeawaysTable extends Migration
             $table->text('text');
             $table->boolean('active')->default(1);
             $table->boolean('archived')->default(0); //Use when recommendation edited & replaced
-            $table->boolean('deleted')->default(0);
             $table->timestamps();
-
-            $table->unique(['user_id', 'takeawayable_type', 'takeawayable_id', 'topic_id']);
+            $table->softDeletes();
         });
 
         Schema::table('takeaways', function($table) {

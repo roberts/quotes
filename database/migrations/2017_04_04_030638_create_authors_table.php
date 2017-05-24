@@ -21,10 +21,10 @@ class CreateAuthorsTable extends Migration
             $table->string('bio_line')->nullable();
             $table->unsignedInteger('profile_pic')->nullable();
             $table->unsignedInteger('cover_image')->nullable();
-            $table->boolean('active')->default(1);
             $table->unsignedInteger('created_by');
             $table->unsignedInteger('updated_by')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

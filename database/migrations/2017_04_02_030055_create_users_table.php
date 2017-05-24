@@ -22,7 +22,6 @@ class CreateUsersTable extends Migration
             $table->string('tagline')->nullable();
             $table->unsignedInteger('profile_pic')->nullable(); 
             $table->unsignedInteger('cover_image')->nullable();
-            $table->boolean('active')->default(1);
             $table->string('provider')->nullable();
             $table->string('provider_id')->nullable();
             $table->string('password', 60);
@@ -50,6 +49,7 @@ class CreateUsersTable extends Migration
             $table->timestamp('trial_ends_at')->nullable();
             $table->timestamp('last_read_announcements_at')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
