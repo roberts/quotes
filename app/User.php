@@ -7,14 +7,37 @@ use Laravel\Spark\User as SparkUser;
 class User extends SparkUser
 {
     /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'username';
+    }
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name',
+        'username',
+        'first_name',
+        'last_name',
+        'display_name',
         'email',
     ];
+
+    /**
+     * Get a string path for the user.
+     *
+     * @return string
+     */
+    public function path()
+    {
+        return "/@{$this->username}";
+    }
 
     /**
      * The attributes excluded from the model's JSON form.
