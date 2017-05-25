@@ -6,12 +6,12 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <a href="{{ $quote->author->path() }}">Quote from {{ $quote->author->display_name }}</a>
+                        <a href="{{ $book->author->path() }}">Book from {{ $book->author->display_name }}</a>
                         
                     </div>
 
                     <div class="panel-body">
-                        {{ $quote->quote_text }}
+                        {{ $book->book_text }}
                     </div>
                 </div>
             </div>
@@ -20,7 +20,7 @@
         @if (auth()->check())
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <form method="POST" action="{{ $quote->path() . '/comments' }}">
+                    <form method="POST" action="{{ $book->path() . '/comments' }}">
                         {{ csrf_field() }}
 
                         <div class="form-group">

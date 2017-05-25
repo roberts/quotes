@@ -17,7 +17,6 @@ class RolesTableSeeder extends Seeder
             'slug'          => 'admin',
             'title'         => 'Admin',
             'description'   => 'Tipoff Administors with full access',
-            'deleted'       => 0,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -26,7 +25,6 @@ class RolesTableSeeder extends Seeder
             'slug'          => 'user',
             'title'         => 'User',
             'description'   => 'All general users not on staff or paid subscribers',
-            'deleted'       => 0,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -35,7 +33,6 @@ class RolesTableSeeder extends Seeder
             'slug'          => 'subscriber',
             'title'         => 'Subscriber',
             'description'   => 'Paid Subscribers',
-            'deleted'       => 0,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -44,7 +41,6 @@ class RolesTableSeeder extends Seeder
             'slug'          => 'designers',
             'title'         => 'Graphic Designers',
             'description'   => 'Tipoff contributors with access to upload graphics for quotes and other content',
-            'deleted'       => 0,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -53,7 +49,6 @@ class RolesTableSeeder extends Seeder
             'slug'          => 'quotes-editor',
             'title'         => 'Quotes Editor',
             'description'   => 'Tipoff contributors with access to create and edit quotes and authors',
-            'deleted'       => 0,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -62,7 +57,6 @@ class RolesTableSeeder extends Seeder
             'slug'          => 'books-editor',
             'title'         => 'Books Editor',
             'description'   => 'Tipoff contributors with access to create and edit books and authors',
-            'deleted'       => 0,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
