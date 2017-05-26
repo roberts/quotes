@@ -28,7 +28,6 @@ class CreateUserImagesTable extends Migration
 
         Schema::table('user_images', function($table) {
             $table->foreign('image_type')->references('id')->on('image_types')->onDelete('restrict')->onUpdate('cascade');
-            $table->foreign('content_type')->references('id')->on('content_types')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('created_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('updated_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });

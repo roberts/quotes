@@ -19,8 +19,10 @@ class CreateVotesTable extends Migration
             $table->integer('voteable_type');
             $table->integer('value'); // 1 or -1
             $table->timestamps();
-            
-            $table->unique(['user_id', 'voteable_id', 'voteable_type']);
+        });
+
+        Schema::table('votes', function($table) {
+            $table->unique(['user_id', 'voteable_id', 'voteable_type'], 'unique_vote');
         });
     }
 

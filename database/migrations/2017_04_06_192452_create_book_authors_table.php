@@ -21,13 +21,13 @@ class CreateBookAuthorsTable extends Migration
             $table->unsignedInteger('created_by');
             $table->timestamps();
 
-            $table->unique(['user_id', 'author_id']);
+            $table->unique(['book_id', 'author_id']);
         });
         
         Schema::table('book_authors', function($table) {
             $table->foreign('book_id')->references('id')->on('books')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('author_id')->references('id')->on('authors')->onDelete('restrict')->onUpdate('cascade');
-            $table->foreign('contribution')->references('id')->on('book_contributions')->onDelete('restrict')->onUpdate('cascade');
+            $table->foreign('contribution_id')->references('id')->on('book_contributions')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('created_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });
     }

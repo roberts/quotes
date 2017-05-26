@@ -25,13 +25,15 @@ class CreateRecommendationsTable extends Migration
             $table->boolean('archived')->default(0); //Use when recommendation edited & replaced
             $table->timestamps();
             $table->softDeletes();
-
-            $table->unique(['user_id', 'recommendable_type', 'recommendable_id', 'topic_id']);
         });
 
-        Schema::table('recommendations', function($table) {
+        Schema::table('recommendations', function ($table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('topic_id')->references('id')->on('topics')->onDelete('restrict')->onUpdate('cascade');
+        });
+
+        Schema::table('recommendations', function ($table) {
+            $table->unique(['user_id', 'recommendable_type', 'recommendable_id', 'topic_id'], 'unique_recommendation');
         });
     }
 
