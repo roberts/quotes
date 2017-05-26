@@ -27,8 +27,6 @@ Route::group(['prefix' => 'quotes'], function () {
     Route::get('quotations/create', 'QuotesController@create');
 	Route::get('quotations/{quote}', 'QuotesController@show')->name('quote.show');
 	Route::post('quotations', 'QuotesController@store');
-});
-Route::group(['prefix' => 'quotes'], function () {
     Route::get('authors', 'QuoteAuthorsController@index');
     Route::get('authors/create', 'QuoteAuthorsController@create');
 	Route::get('{quoteauthor}', 'QuoteAuthorsController@show');
@@ -40,8 +38,6 @@ Route::group(['prefix' => 'books'], function () {
     Route::get('titles/create', 'BooksController@create');
 	Route::get('titles/{book}', 'BooksController@show');
 	Route::post('titles', 'BooksController@store');
-});
-Route::group(['prefix' => 'books'], function () {
     Route::get('authors', 'BookAuthorsController@index');
     Route::get('authors/create', 'BookAuthorsController@create');
 	Route::get('{bookauthor}', 'BookAuthorsController@show');
