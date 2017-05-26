@@ -822,7 +822,7 @@ class AuthorsTableSeeder extends Seeder
         DB::table('authors')->insert([
             'slug'          => 'andrew-jackson',
             'display_name'  => 'Andrew Jackson',
-            'last_name'     => 'jackson',
+            'last_name'     => 'Jackson',
             'bio_line'      => null,
             'profile_pic'   => null,
             'cover_image'   => null,
@@ -835,7 +835,7 @@ class AuthorsTableSeeder extends Seeder
         DB::table('authors')->insert([
             'slug'          => 'martin-van-buren',
             'display_name'  => 'Martin Van Buren',
-            'last_name'     => 'Buren',
+            'last_name'     => 'Van Buren',
             'bio_line'      => null,
             'profile_pic'   => null,
             'cover_image'   => null,
@@ -1171,7 +1171,7 @@ class AuthorsTableSeeder extends Seeder
         ]);
         
         DB::table('authors')->insert([
-            'slug'          => 'john-f-kennedy',
+            'slug'          => 'jfk',
             'display_name'  => 'John F Kennedy',
             'last_name'     => 'Kennedy',
             'bio_line'      => null,
@@ -1223,8 +1223,8 @@ class AuthorsTableSeeder extends Seeder
         ]);
         
         DB::table('authors')->insert([
-            'slug'          => 'james-carter',
-            'display_name'  => 'James Carter',
+            'slug'          => 'jimmy-carter',
+            'display_name'  => 'Jimmy Carter',
             'last_name'     => 'Carter',
             'bio_line'      => null,
             'profile_pic'   => null,
