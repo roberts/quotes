@@ -30,7 +30,7 @@ class QuotesController extends Controller
     {
         $quotes = Quote::latest()->get();
 
-        return view('quotes.quotations.index', compact('quote'));
+        return view('quotes.quotations.index', compact('quotes'));
     }
 
     /**
@@ -66,10 +66,11 @@ class QuotesController extends Controller
     /**
      * Display the specified resource.
      *
+    * @param  $authorId
      * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */
-    public function show(Quote $quote)
+    public function show($authorId, Quote $quote)
     {
         return view('quotes.quotations.show', compact('quote'));
     }
