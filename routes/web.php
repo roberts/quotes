@@ -47,6 +47,6 @@ Route::group(['prefix' => 'books'], function () {
 
 
 Route::get('{quote}', function ($quote) {
-	$quoteauthor = 'granny';
+	$quoteauthor = 'elon-musk';
     return redirect()->route('quote.show', [$quoteauthor, $quote]);
 })->where('quote', '[0-9]{7,}');

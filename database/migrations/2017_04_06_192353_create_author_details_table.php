@@ -15,7 +15,26 @@ class CreateAuthorDetailsTable extends Migration
     {
         Schema::create('author_details', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->unsignedInteger('author_id')->index();
+            $table->date('birth')->nullable();
+            $table->date('death')->nullable();
+            $table->string('wikipedia_url')->nullable();
+            $table->string('twitter')->nullable();
+            $table->string('facebook')->nullable();
+            $table->string('instagram')->nullable();
+            $table->string('linkedin')->nullable();
+            $table->text('intro')->nullable();
+            $table->text('known_for')->nullable();
+            $table->text('bio')->nullable();
+            $table->text('quotes_summary')->nullable();
+            $table->text('books_summary')->nullable();
+            $table->unsignedInteger('created_by');
+            $table->timestamp('created_at'); // No updates allowed. Will only pull most recent author detail. Only one update per author by a user & deletes older entries.
+        });
+
+        Schema::table('author_details', function($table) {
+            $table->foreign('author_id')->references('id')->on('authors')->onDelete('restrict')->onUpdate('cascade');
+            $table->foreign('created_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });
     }
 
@@ -26,6 +45,13 @@ class CreateAuthorDetailsTable extends Migration
      */
     public function down()
     {
+        Schema::table('author_details', function ($table) {
+            $table->dropForeign(['author_id']);
+            $table->dropForeign(['created_by']);
+        });
+        
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('author_details');
+        Schema::enableForeignKeyConstraints();
     }
 }
