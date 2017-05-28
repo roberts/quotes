@@ -34,18 +34,19 @@ Route::group(['prefix' => 'quotes'], function () {
 });
 Route::get('books', 'BooksController@main');
 Route::group(['prefix' => 'books'], function () {
-    Route::get('titles', 'BooksController@index');
-    Route::get('titles/create', 'BooksController@create');
-	Route::get('titles/{book}', 'BooksController@show');
-	Route::post('titles', 'BooksController@store');
     Route::get('authors', 'BookAuthorsController@index');
     Route::get('authors/create', 'BookAuthorsController@create');
-	Route::get('{bookauthor}', 'BookAuthorsController@show');
+	Route::get('authors/{bookauthor}', 'BookAuthorsController@show');
 	Route::post('authors', 'BookAuthorsController@store');
+	Route::get('titles', 'BooksController@index');
+    Route::get('titles/create', 'BooksController@create');
+	Route::get('{book}', 'BooksController@show');
+	Route::post('titles', 'BooksController@store');
 });
 
 
 
-Route::get('{quote}', function ($id) {
-    return redirect()->route('quote.show', $id);
+Route::get('{quote}', function ($quote) {
+	$quoteauthor = 'granny';
+    return redirect()->route('quote.show', [$quoteauthor, $quote]);
 })->where('quote', '[0-9]{7,}');
