@@ -70,8 +70,12 @@ class QuotesController extends Controller
      * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */
-    public function show($authorId, Quote $quote)
+    public function show($quoteauthor, Quote $quote)
     {
+        if ($quoteauthor !== $quote->author->slug) {
+            return redirect()->to($quote->path());
+        }
+
         return view('quotes.quotations.show', compact('quote'));
     }
 
