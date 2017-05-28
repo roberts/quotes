@@ -1,4 +1,26 @@
 @extends('layouts.app')
+@section('breadcrumbs')
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+        "@id": "https://tipoff.com/quotes",
+        "name": "Quotes"
+        }
+    },{
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      "@id": "https://tipoff.com{{ $quote->author->path() }}",
+      "name": "{{ $quote->author->display_name }}",
+        }
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+      "@id": "https://tipoff.com{{ $quote->path() }}",
+      "name": "Quote #{{ $quote->id }}",
+        }
+@endsection
 
 @section('content')
     <div class="container">

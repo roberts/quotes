@@ -1,4 +1,12 @@
 @extends('layouts.app')
+@section('breadcrumbs')
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+        "@id": "https://tipoff.com/quotes",
+        "name": "Quotes"
+    }
+@endsection
 
 @section('content')
     <div class="container">

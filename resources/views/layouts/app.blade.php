@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ config('app.locale') }}">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,32 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Tipoff",
+      "alternateName": "Tipoff.com",
+      "url": "https://tipoff.com",
+      "sameAs": [
+        "http://www.facebook.com/Tipoff",
+        "http://instagram.com/Tipoff",
+        "http://www.linkedin.com/company/TipoffProject",
+        "http://plus.google.com/+Tipoff"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            @yield('breadcrumbs')
+        }]
+    }
+    </script>
 </head>
 <body>
     <div id="app">
@@ -48,7 +74,7 @@
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                    {{ Auth::user()->username }} <span class="caret"></span>
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
