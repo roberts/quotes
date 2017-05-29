@@ -19,8 +19,8 @@ class CreateRecommendationsTable extends Migration
             $table->unsignedInteger('recommendable_type')->index();
             $table->unsignedInteger('recommendable_id')->index();
             $table->unsignedInteger('topic_id')->index()->default(1);
-            $table->tinyInteger('rank')->default(6); // 1-10 value
-            $table->tinyInteger('multiplier')->default(1);  // Up to 15x for staff
+            $table->unsignedTinyInteger('rank')->default(6); // 1-10 value
+            $table->unsignedTinyInteger('multiplier')->default(1);  // Up to 15x for staff
             $table->boolean('active')->default(1);
             $table->boolean('archived')->default(0); //Use when recommendation edited & replaced
             $table->timestamps();

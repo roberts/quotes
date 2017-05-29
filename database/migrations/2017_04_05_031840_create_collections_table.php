@@ -26,6 +26,11 @@ class CreateCollectionsTable extends Migration
         Schema::table('collections', function($table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });
+
+        Schema::table('collections', function ($table) {
+            $table->unique(['user_id', 'slug'], 'unique_collection');
+            $table->unique(['user_id', 'title'], 'unique_name');
+        });
     }
 
     /**

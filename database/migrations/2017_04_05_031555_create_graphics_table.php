@@ -21,7 +21,7 @@ class CreateGraphicsTable extends Migration
             $table->unsignedInteger('graphicable_id')->index();
             $table->boolean('approved')->default(1);
             $table->unsignedInteger('created_by')->index();
-            $table->unsignedInteger('updated_by');
+            $table->unsignedInteger('updated_by')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

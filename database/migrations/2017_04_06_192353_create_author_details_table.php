@@ -16,6 +16,7 @@ class CreateAuthorDetailsTable extends Migration
         Schema::create('author_details', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('author_id')->index();
+            $table->string('full_name')->nullable();
             $table->date('birth')->nullable();
             $table->date('death')->nullable();
             $table->string('wikipedia_url')->nullable();

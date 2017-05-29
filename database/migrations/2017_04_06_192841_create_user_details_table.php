@@ -15,6 +15,13 @@ class CreateUserDetailsTable extends Migration
     {
         Schema::create('user_details', function (Blueprint $table) {
             $table->increments('id');
+            $table->date('birth')->nullable();
+            $table->string('twitter')->nullable();
+            $table->string('facebook')->nullable();
+            $table->string('instagram')->nullable();
+            $table->string('linkedin')->nullable();
+            $table->string('snapchat')->nullable();
+            $table->string('github')->nullable();
             $table->timestamps();
         });
     }

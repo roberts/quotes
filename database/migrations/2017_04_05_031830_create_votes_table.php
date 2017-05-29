@@ -14,11 +14,16 @@ class CreateVotesTable extends Migration
     public function up()
     {
         Schema::create('votes', function (Blueprint $table) {
-            $table->integer('user_id')->index();
-            $table->integer('voteable_id');
-            $table->integer('voteable_type');
-            $table->integer('value'); // 1 or -1
+            $table->increments('id');
+            $table->unsignedInteger('user_id')->index();
+            $table->unsignedInteger('voteable_id');
+            $table->unsignedInteger('voteable_type');
+            $table->tinyInteger('value'); // 1 or -1
             $table->timestamps();
+        });
+
+        Schema::table('votes', function ($table) {
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });
 
         Schema::table('votes', function($table) {
@@ -33,6 +38,12 @@ class CreateVotesTable extends Migration
      */
     public function down()
     {
+        Schema::table('votes', function ($table) {
+            $table->dropForeign(['user_id']);
+        });
+        
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('votes');
+        Schema::enableForeignKeyConstraints();
     }
 }
