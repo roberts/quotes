@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class BookContributionsTableSeeder extends Seeder
+class Book_ContributionsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

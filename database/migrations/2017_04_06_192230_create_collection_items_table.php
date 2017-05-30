@@ -15,9 +15,9 @@ class CreateCollectionItemsTable extends Migration
     {
         Schema::create('collection_items', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id')->index();
-            $table->integer('collectionable_id');
-            $table->integer('collectionable_type');
+            $table->unsignedInteger('user_id')->index();
+            $table->unsignedInteger('collectionable_id')->index();
+            $table->unsignedInteger('collectionable_type')->index();
             $table->timestamps();
         });
 

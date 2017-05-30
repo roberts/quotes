@@ -42,7 +42,6 @@ class CreateUserImagesTable extends Migration
     {
         Schema::table('user_images', function ($table) {
             $table->dropForeign(['image_type']);
-            $table->dropForeign(['content_type']);
             $table->dropForeign(['created_by']);
             $table->dropForeign(['updated_by']);
         });
