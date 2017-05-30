@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title', config('app.name'))</title>
+    <title>Tipoff Project</title>
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
@@ -71,22 +71,22 @@
 <body>
     <div class="full-height flex-column">
         <nav class="links">
-            <a href="/login" style="margin-right: 15px;">
+            <a href="/quotes" style="margin-right: 15px;">
                 <button>
-                    Login
+                    Quotes
                 </button>
             </a>
 
-            <a href="/register">
+            <a href="/books">
                 <button>
-                    Register
+                    Books
                 </button>
             </a>
         </nav>
 
         <div class="flex-fill flex-center">
             <h1 class="text-center">
-                <img src="/img/color-logo.png">
+                <img src="/img/tipoff_project.png">
             </h1>
         </div>
     </div>
