@@ -22,9 +22,10 @@
       "alternateName": "Tipoff.com",
       "url": "https://tipoff.com",
       "sameAs": [
-        "http://www.facebook.com/Tipoff",
-        "http://instagram.com/Tipoff",
-        "http://www.linkedin.com/company/TipoffProject",
+        "https://www.facebook.com/Tipoff",
+        "https://www.instagram.com/tipoff/",
+        "https://www.linkedin.com/company/TipoffProject",
+        "https://twitter.com/TipoffProject",
         "http://plus.google.com/+Tipoff"
       ]
     }
