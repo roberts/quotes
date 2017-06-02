@@ -8,6 +8,24 @@
 
     <title>Tipoff Project</title>
 
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Tipoff",
+      "alternateName": "Tipoff.com",
+      "url": "https://tipoff.com",
+      "sameAs": [
+        "https://www.facebook.com/Tipoff",
+        "https://www.instagram.com/tipoff/",
+        "https://www.linkedin.com/company/TipoffProject",
+        "https://twitter.com/TipoffProject",
+        "http://plus.google.com/+Tipoff"
+      ]
+    }
+    </script>
+
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
 
