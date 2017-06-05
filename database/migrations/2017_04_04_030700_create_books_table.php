@@ -23,7 +23,7 @@ class CreateBooksTable extends Migration
             $table->string('isbn_13', 13)->unique();
             $table->unsignedInteger('book_cover')->nullable();
             $table->unsignedInteger('created_by');
-            $table->unsignedInteger('updated_by');
+            $table->unsignedInteger('updated_by')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

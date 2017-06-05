@@ -33,7 +33,7 @@ class Books extends Model
      */
     public function author()
     {
-        return $this->belongsTo(BookAuthor::class, 'author_id');
+        return $this->ManyToMany(BookAuthor::class, 'author_id');
     }
 
     /**
