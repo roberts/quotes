@@ -2587,9 +2587,9 @@ class AuthorsTableSeeder extends Seeder
         ]);
 
         DB::table('authors')->insert([
-            'slug'          => 'derek-sivers',
-            'display_name'  => 'Derek Sivers',
-            'last_name'     => 'Sivers',
+            'slug'          => 'ruth-porat',
+            'display_name'  => 'Ruth Porat',
+            'last_name'     => 'Porat',
             'bio_line'      => null,
             'profile_pic'   => null,
             'cover_image'   => null,
@@ -2600,9 +2600,9 @@ class AuthorsTableSeeder extends Seeder
         ]);
 
         DB::table('authors')->insert([
-            'slug'          => 'ryan-holiday',
-            'display_name'  => 'Ryan Holiday',
-            'last_name'     => 'Holiday',
+            'slug'          => 'derek-sivers',
+            'display_name'  => 'Derek Sivers',
+            'last_name'     => 'Sivers',
             'bio_line'      => null,
             'profile_pic'   => null,
             'cover_image'   => null,

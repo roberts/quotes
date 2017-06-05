@@ -1804,6 +1804,24 @@ class QuotesTableSeeder extends Seeder
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 195,
+            'quote_text'    => 'Anchor every decision in data and the rest will follow.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 199,
+            'quote_text'    => 'The most valuable thing for leaders to have is clear data about everything they are doing, and then they can can make better decisions.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
 
 
     }
