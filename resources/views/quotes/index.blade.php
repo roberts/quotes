@@ -1,4 +1,7 @@
 @extends('layouts.app')
+
+@section('title', 'Tipoff Quotes')
+
 @section('breadcrumbs')
     "@type": "ListItem",
     "position": 1,

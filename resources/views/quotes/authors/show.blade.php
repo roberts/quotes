@@ -1,4 +1,7 @@
 @extends('layouts.app')
+
+@section('title', '{{ $quoteauthor->display_name }} Quotes | Tipoff')
+
 @section('breadcrumbs')
     "@type": "ListItem",
     "position": 1,

@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Business and Leadership Quote Authors | Tipoff')
+
 @section('content')
     <div class="container">
         <div class="row">
