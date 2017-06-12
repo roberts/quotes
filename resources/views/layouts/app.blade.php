@@ -26,7 +26,7 @@
         "https://www.instagram.com/tipoff/",
         "https://www.linkedin.com/company/TipoffProject",
         "https://twitter.com/TipoffProject",
-        "http://plus.google.com/+Tipoff"
+        "https://plus.google.com/+Tipoff"
       ]
     }
     </script>
