@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', $user->display_name .' | Tipoff')
+
 @section('content')
     <div class="container">
         <div class="row">

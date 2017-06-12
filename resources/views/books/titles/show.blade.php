@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', $book->title .' | Tipoff Books')
+
 @section('content')
     <div class="container">
         <div class="row">
@@ -11,7 +13,7 @@
                     </div>
 
                     <div class="panel-body">
-                        {{ $book->book_text }}
+                        {{ $book->title }}
                     </div>
                 </div>
             </div>

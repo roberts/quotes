@@ -1,5 +1,7 @@
 @extends('spark::layouts.app')
 
+@section('title', 'Tipoff Dashboard')
+
 @section('content')
 <home :user="user" inline-template>
     <div class="container">
