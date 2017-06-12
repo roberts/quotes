@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '{{ $quoteauthor->display_name }} Quotes | Tipoff')
+@section('title', {{ $quoteauthor->display_name }} . ' Quotes | Tipoff')
 
 @section('breadcrumbs')
     "@type": "ListItem",
