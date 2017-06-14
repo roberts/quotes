@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     @foreach ($users as $user)
         <url>
-            <loc>{{ $user->path() }}</loc>
+            <loc>https://tipoff.com{{ $user->path() }}</loc>
             <lastmod>{{ $user->updated_at->tz('UTC')->toAtomString() }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.7</priority>

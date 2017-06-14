@@ -13,15 +13,7 @@ class SitemapController extends Controller
 {
     public function index()
 	{
-		$quoteauthor = QuoteAuthor::active()->orderBy('updated_at', 'desc')->first();
-		$quote = Quote::active()->orderBy('updated_at', 'desc')->first();
-		$user = User::active()->orderBy('updated_at', 'desc')->first();
-
-		return response()->view('sitemap.index', [
-			'quoteauthor' => $quoteauthor,
-			'quote' => $quote,
-			'user' => $user,
-		])->header('Content-Type', 'text/xml');
+		return response()->view('sitemap.index')->header('Content-Type', 'text/xml');
 	}
 
 	public function main()
