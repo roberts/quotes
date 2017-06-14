@@ -14,14 +14,6 @@
         <lastmod>{{ $quote->updated_at->tz('UTC')->toAtomString() }}</lastmod>
     </sitemap>
     <sitemap>
-        <loc>https://tipoff.com/sitemap/bookauthors</loc>
-        <lastmod>{{ $bookauthor->updated_at->tz('UTC')->toAtomString() }}</lastmod>
-    </sitemap>
-    <sitemap>
-        <loc>https://tipoff.com/sitemap/books</loc>
-        <lastmod>{{ $book->updated_at->tz('UTC')->toAtomString() }}</lastmod>
-    </sitemap>
-    <sitemap>
         <loc>https://tipoff.com/sitemap/users</loc>
         <lastmod>{{ $user->updated_at->tz('UTC')->toAtomString() }}</lastmod>
     </sitemap>

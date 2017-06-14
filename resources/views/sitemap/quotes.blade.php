@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     @foreach ($quotes as $quote)
         <url>
-            <loc>https://tipoff.com/quotes/{{ $quote->slug }}</loc>
+            <loc>https://tipoff.com/quotes/{{ $quote->author->slug }}/{{ $quote->id }}</loc>
             <lastmod>{{ $quote->updated_at->tz('UTC')->toAtomString() }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
