@@ -28,6 +28,11 @@ class SitemapController extends Controller
 		])->header('Content-Type', 'text/xml');
 	}
 
+	public function main()
+	{
+		return response()->view('sitemap.main')->header('Content-Type', 'text/xml');
+	}
+
 	public function quoteauthors()
 	{
 		$quoteauthors = QuoteAuthor::latest()->get();

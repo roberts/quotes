@@ -43,6 +43,16 @@ Route::group(['prefix' => 'books'], function () {
 	Route::get('{book}', 'BooksController@show');
 	Route::post('titles', 'BooksController@store');
 });
+Route::get('/sitemap', 'SitemapController@index');
+Route::group(['prefix' => 'sitemap'], function () {
+	Route::get('main', 'SitemapController@main');
+	Route::get('quoteauthors', 'SitemapController@quoteauthors');
+    Route::get('quotes', 'SitemapController@quotes');
+    Route::get('bookauthors', 'SitemapController@bookauthors');
+    Route::get('books', 'SitemapController@books');
+    Route::get('users', 'SitemapController@users');
+});
+
 
 
 
