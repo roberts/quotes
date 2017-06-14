@@ -7,14 +7,12 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">books</div>
+                    <div class="panel-heading">Books</div>
 
                     <div class="panel-body">
                         @foreach ($books as $book)
                             <article>
-                                <h4>" {{ $book->title }} "</h4>
-                                <div class="body">- <a href="{{ $book->author->path() }}">{{ $book->author->display_name }}</a></div>
-                                <div class="body">- <a href="{{ $book->path() }}">Comments</a></div>
+                                <h4><a href="{{ $book->path() }}">{{ $book->title }}</a></h4>
                             </article>
 
                             <hr>
