@@ -57,7 +57,7 @@ class QuoteAuthorsController extends Controller
             'updated_by' => null
         ]);
 
-        return redirect($author->path());
+        return redirect($quoteauthor->path());
     }
 
     /**

@@ -8,13 +8,23 @@ use Illuminate\Http\Request;
 class BookAuthorsController extends Controller
 {
     /**
+     * QuoteAuthorsController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware('auth')->except(['index', 'show']);
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        //
+        $quotes = BookAuthor::latest()->get();
+
+        return view('books.authors.index', compact('bookauthor'));
     }
 
     /**
@@ -24,7 +34,7 @@ class BookAuthorsController extends Controller
      */
     public function create()
     {
-        //
+        return view('books.authors.create');
     }
 
     /**
@@ -35,7 +45,19 @@ class BookAuthorsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $bookauthor = BookAuthor::create([
+            'slug' => request('slug'),
+            'display_name' => request('display_name'),
+            'last_name' => request('last_name'),
+            'bio_line' => request('bio_line'),
+            'profile_pic' => null,
+            'cover_image' => null,
+            'active' => 1,
+            'created_by' => auth()->id(),
+            'updated_by' => null
+        ]);
+
+        return redirect($bookauthor->path());
     }
 
     /**
@@ -46,7 +68,7 @@ class BookAuthorsController extends Controller
      */
     public function show(BookAuthor $bookAuthor)
     {
-        //
+        return view('books.authors.show', compact('bookauthor'));
     }
 
     /**
