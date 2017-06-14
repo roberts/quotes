@@ -8,7 +8,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <a href="{{ $book->author->path() }}">Book from {{ $book->author->display_name }}</a>
+                        <a href="#">Book from Author</a>
                         
                     </div>
 

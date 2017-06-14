@@ -12,24 +12,18 @@ class BooksController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except(['main', 'index', 'show']);
+        $this->middleware('auth')->except(['index', 'show']);
     }
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function main()
-    {
-        $books = Book::latest()->get();
-
-        return view('books.index', compact('books'));
-    }
     public function index()
     {
         $books = Book::latest()->get();
 
-        return view('books.titles.index', compact('book'));
+        return view('books.index', compact('books'));
     }
 
     /**
@@ -39,7 +33,7 @@ class BooksController extends Controller
      */
     public function create()
     {
-        return view('books.titles.create');
+        return view('books.create');
     }
 
     /**
@@ -61,7 +55,7 @@ class BooksController extends Controller
      */
     public function show(Book $book)
     {
-        return view('books.titles.show', compact('book'));
+        return view('books.show', compact('book'));
     }
 
     /**
