@@ -8,6 +8,16 @@ class Book extends Model
 {
     use Commentable;
     use Recommendable;
+
+    /**
+     * Get the route key for the model.
+     *
+     * @return string
+     */
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
     
     /**
      * Don't auto-apply mass assignment protection.
@@ -23,7 +33,7 @@ class Book extends Model
      */
     public function path()
     {
-        return "/books/titles/{$this->id}";
+        return "/books/{$this->slug}";
     }
 
     /**
@@ -33,7 +43,7 @@ class Book extends Model
      */
     public function author()
     {
-        return $this->belongsToMany(BookAuthor::class, 'author_id');
+        /// ManyToMany
     }
 
     /**
