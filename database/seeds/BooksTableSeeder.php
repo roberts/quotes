@@ -27,12 +27,12 @@ class BooksTableSeeder extends Seeder
             'updated_at'    => $now,
         ]);
         DB::table('books')->insert([
-            'title'     => 'Second Book Title',
-            'slug'     => 'second-book-title',
-            'amazon_id'     => null,
-            'google_id'     => null,
-            'audible_id'     => null,
-            'isbn_13'     => '1234567890124',
+            'title'     => 'The Upstarts: How Uber, Airbnb, and the Killer Companies of the New Silicon Valley Are Changing the World',
+            'slug'     => 'upstarts',
+            'amazon_id'     => '0316396818',
+            'google_id'     => 'nGSfDAAAQBAJ',
+            'audible_id'     => 'B01MU30HTG',
+            'isbn_13'     => '9780316396813',
             'book_cover'     => null,
             'created_by'    => 1,
             'updated_by'    => null,
