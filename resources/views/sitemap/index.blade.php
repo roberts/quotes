@@ -17,6 +17,14 @@ $now = date('c',time());
         <lastmod><?php echo $now; ?></lastmod>
     </sitemap>
     <sitemap>
+        <loc>https://tipoff.com/sitemap/bookauthors</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://tipoff.com/sitemap/books</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+    </sitemap>
+    <sitemap>
         <loc>https://tipoff.com/sitemap/users</loc>
         <lastmod><?php echo $now; ?></lastmod>
     </sitemap>
