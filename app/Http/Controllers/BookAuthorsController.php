@@ -22,9 +22,9 @@ class BookAuthorsController extends Controller
      */
     public function index()
     {
-        $quotes = BookAuthor::latest()->get();
+        $bookauthors = BookAuthor::latest()->get();
 
-        return view('books.authors.index', compact('bookauthor'));
+        return view('books.authors.index', compact('bookauthors'));
     }
 
     /**
@@ -66,7 +66,7 @@ class BookAuthorsController extends Controller
      * @param  \App\BookAuthor  $bookAuthor
      * @return \Illuminate\Http\Response
      */
-    public function show(BookAuthor $bookAuthor)
+    public function show(BookAuthor $bookauthor)
     {
         return view('books.authors.show', compact('bookauthor'));
     }

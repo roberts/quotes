@@ -22,9 +22,9 @@ class QuoteAuthorsController extends Controller
      */
     public function index()
     {
-        $quotes = QuoteAuthor::latest()->get();
+        $quoteauthors = QuoteAuthor::latest()->get();
 
-        return view('quotes.authors.index', compact('quoteauthor'));
+        return view('quotes.authors.index', compact('quoteauthors'));
     }
 
     /**

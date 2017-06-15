@@ -8,13 +8,10 @@
                     <div class="panel-heading">Books</div>
 
                     <div class="panel-body">
-                        @foreach ($books as $book)
+                        @foreach ($bookauthors as $bookauthor)
                             <article>
-                                <h4>" {{ $book->book_text }} "</h4>
-                                <div class="body">- <a href="{{ $book->author->path() }}">{{ $book->author->display_name }}</a></div>
-                                <div class="body">- <a href="{{ $book->path() }}">Comments</a></div>
+                                <div class="body"><a href="{{ $bookauthor->path() }}">{{ $bookauthor->display_name }}</a></div>
                             </article>
-
                             <hr>
                         @endforeach
                     </div>

@@ -32,7 +32,7 @@ class BookAuthor extends Model
      */
     public function path()
     {
-        return "/books/{$this->slug}";
+        return "/books/authors/{$this->slug}";
     }
 
     /**
@@ -42,9 +42,7 @@ class BookAuthor extends Model
      */
     public function books()
     {
-    	return $this->hasManyThrough('App\Book', 'App\BookAuthorPivot'
-            'author_id', 'book_id', 'id'
-		);
+    	//
     }
 
     //How to add a book to an author?
