@@ -30,7 +30,7 @@ class Collection extends Model
      */
     public function path()
     {
-        return "{$this->creator->path}/collections/{$this->slug}";
+        return "/@{$this->creator->slug}/collections/{$this->slug}";
     }
 
     /**
