@@ -56,7 +56,7 @@ class CollectionsController extends Controller
      */
     public function show($user, Collection $collection)
     {
-        if ($user !== $collection->creator->slug) {
+        if ($user !== $collection->creator->username) {
             return redirect()->to($collection->path());
         }
 
