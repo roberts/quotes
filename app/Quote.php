@@ -23,7 +23,7 @@ class Quote extends Model
      */
     public function path()
     {
-        return "/quotes/{$this->author->slug}/{$this->id}";
+        return "{$this->author->path}/{$this->id}";
     }
 
     /**
