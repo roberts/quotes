@@ -18,9 +18,9 @@ Auth::routes();
 Route::get('home', 'HomeController@index')->name('home');
 Route::get('company', 'CompanyController@index')->name('about');
 Route::get('company/team', 'UsersController@index');
-Route::get('/@{user}', 'UsersController@show');
 Route::get('/@{user}/collections', 'CollectionsController@index');
 Route::get('/@{user}/collections/{collection}', 'CollectionsController@show');
+Route::get('/@{user}', 'UsersController@show');
 Route::get('quotes', 'QuotesController@main');
 Route::group(['prefix' => 'quotes'], function () {
     Route::get('topics', 'QuoteTopicsController@index');
