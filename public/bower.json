@@ -1,0 +1,33 @@
+{
+  "name": "DrewRoberts",
+  "homepage": "https://github.com/triple-crown/tipoff",
+  "authors": [
+    "DrewRoberts <drew@roberts.email>"
+  ],
+  "description": "Tipoff",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-ajax": "PolymerElements/iron-ajax#^2.0.2",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.10",
+    "gold-elements": "PolymerElements/gold-elements#^1.0.1",
+    "app-elements": "PolymerElements/app-elements#^1.0.0",
+    "iron-input-elements": "PolymerElements/iron-input-elements",
+    "app-layout": "PolymerElements/app-layout#^2.0.0",
+    "paper-ui-elements": "PolymerElements/paper-ui-elements"
+  },
+  "resolutions": {
+    "webcomponentsjs": "^v1.0.0",
+    "iron-ajax": "^2.0.2",
+    "app-layout": "^2.0.0"
+  }
+}
