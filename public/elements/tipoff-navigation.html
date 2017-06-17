@@ -209,11 +209,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         pattern="/:slug"
         data="{{slugData}}"></app-route>
 
-    <!-- manages page's scroll position -->
-    <app-scrollpos-control
-        selected="[[categoryData.category]]/[[pageData.page]]"
-        reset="[[_equal(pageData.page, 'detail')]]"></app-scrollpos-control>
-
     <app-drawer-layout force-narrow drawer-width="288px">
       <!-- nav panel -->
       <app-drawer align="end" id="drawer">
@@ -276,7 +271,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
               <paper-tabs class="secondary" selected="{{selected}}" attr-for-selected="name">
-                  <paper-tab class="secondary" name="authors"><a href="/quotes/authors" tabindex="-1">Quote Authors</a></paper-tab>
+                  <paper-tab class="secondary" name="authors"><a href="/quotes/authors" tabindex="-1">Authors</a></paper-tab>
                   <paper-tab class="secondary" name="topics"><a href="/quotes/topics" tabindex="-1">Topics</a></paper-tab>
               </paper-tabs>
               <span style="flex: 1;"></span> <!-- Centers tabs -->
@@ -286,7 +281,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
               <paper-tabs class="secondary" selected="{{selected}}" attr-for-selected="name">
-                  <paper-tab class="secondary" name="authors"><a href="/books/authors" tabindex="-1">Book Authors</a></paper-tab>
+                  <paper-tab class="secondary" name="authors"><a href="/books/authors" tabindex="-1">Authors</a></paper-tab>
                   <paper-tab class="secondary" name="topics"><a href="/books/topics" tabindex="-1">Topics</a></paper-tab>
               </paper-tabs>
               <span style="flex: 1;"></span> <!-- Centers tabs -->
