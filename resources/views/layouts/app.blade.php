@@ -18,28 +18,28 @@
     <link rel="manifest" href="/manifest.json">
     
     <!-- Javascript libraries -->
-    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     
     <!-- Polymer Elements -->
-    <link rel="import" href="../bower_components/polymer/polymer.html">
-    <link rel="import" href="../bower_components/app-layout/app-drawer/app-drawer.html">
-    <link rel="import" href="../bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
-    <link rel="import" href="../bower_components/app-layout/app-header/app-header.html">
-    <link rel="import" href="../bower_components/app-layout/app-header-layout/app-header-layout.html">
-    <link rel="import" href="../bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
-    <link rel="import" href="../bower_components/app-layout/app-toolbar/app-toolbar.html">
-    <link rel="import" href="../bower_components/app-route/app-location.html">
-    <link rel="import" href="../bower_components/app-route/app-route.html">
-    <link rel="import" href="../bower_components/iron-pages/iron-pages.html">
-    <link rel="import" href="../bower_components/iron-selector/iron-selector.html">
-    <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
-    <link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
-    <link rel="import" href="../bower_components/paper-card/paper-card.html">
-    <link rel="import" href="../bower_components/app-layout/app-scroll-effects/effects/waterfall.html">
-    <link rel="import" href="../bower_components/app-layout/app-grid/app-grid-style.html">
+    <link rel="import" href="/bower_components/polymer/polymer.html">
+    <link rel="import" href="/bower_components/app-layout/app-drawer/app-drawer.html">
+    <link rel="import" href="/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
+    <link rel="import" href="/bower_components/app-layout/app-header/app-header.html">
+    <link rel="import" href="/bower_components/app-layout/app-header-layout/app-header-layout.html">
+    <link rel="import" href="/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+    <link rel="import" href="/bower_components/app-layout/app-toolbar/app-toolbar.html">
+    <link rel="import" href="/bower_components/app-route/app-location.html">
+    <link rel="import" href="/bower_components/app-route/app-route.html">
+    <link rel="import" href="/bower_components/iron-pages/iron-pages.html">
+    <link rel="import" href="/bower_components/iron-selector/iron-selector.html">
+    <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
+    <link rel="import" href="/bower_components/paper-card/paper-card.html">
+    <link rel="import" href="/bower_components/app-layout/app-scroll-effects/effects/waterfall.html">
+    <link rel="import" href="/bower_components/app-layout/app-grid/app-grid-style.html">
     
     <!-- Tipoff Web Components -->
-    <link rel="import" href="../elements/tipoff-navigation.html">
+    <link rel="import" href="/elements/tipoff-navigation.html">
     
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css">
