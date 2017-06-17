@@ -270,7 +270,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <app-toolbar name="quotes" class="secondary" hidden$="{{!wideLayout}}">
               <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
-              <paper-tabs class="secondary" selected="{{selected}}" attr-for-selected="name">
+              <paper-tabs class="secondary" selected="[[pageData.page]]" attr-for-selected="name">
                   <paper-tab class="secondary" name="authors"><a href="/quotes/authors" tabindex="-1">Authors</a></paper-tab>
                   <paper-tab class="secondary" name="topics"><a href="/quotes/topics" tabindex="-1">Topics</a></paper-tab>
               </paper-tabs>
@@ -280,7 +280,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <app-toolbar name="books" class="secondary" hidden$="{{!wideLayout}}">
               <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
-              <paper-tabs class="secondary" selected="{{selected}}" attr-for-selected="name">
+              <paper-tabs class="secondary" selected="[[pageData.page]]" attr-for-selected="name">
                   <paper-tab class="secondary" name="authors"><a href="/books/authors" tabindex="-1">Authors</a></paper-tab>
                   <paper-tab class="secondary" name="topics"><a href="/books/topics" tabindex="-1">Topics</a></paper-tab>
               </paper-tabs>
@@ -290,7 +290,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <app-toolbar name="company" class="secondary" hidden$="{{!wideLayout}}">
               <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
-              <paper-tabs class="secondary" selected="{{selected}}" attr-for-selected="name">
+              <paper-tabs class="secondary" selected="[[pageData.page]]" attr-for-selected="name">
                   <paper-tab class="secondary" name="staff"><a href="/company/staff" tabindex="-1">Staff</a></paper-tab>
                   <paper-tab class="secondary" name="team"><a href="/company/team" tabindex="-1">Team</a></paper-tab>
                   <paper-tab class="secondary" name="advertising"><a href="/company/advertising" tabindex="-1">Advertising</a></paper-tab>
