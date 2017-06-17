@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class QuoteTopic extends Model
+class BookTopic extends Model
 {
     public $table = "topics";
 
@@ -26,21 +26,21 @@ class QuoteTopic extends Model
     protected $guarded = [];
 
     /**
-     * Get a string path for the quote topic.
+     * Get a string path for the book topic.
      *
      * @return string
      */
     public function path()
     {
-        return "/quotes/topics/{$this->slug}";
+        return "/books/topics/{$this->slug}";
     }
 
     /**
-     * A topic may have many quotes.
+     * A topic may have many books.
      *
      * @return \Illuminate\Database\Eloquent\Relations\ManyToMany
      */
-    public function quotes()
+    public function books()
     {
         //
     }
