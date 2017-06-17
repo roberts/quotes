@@ -14,7 +14,7 @@ class CollectionsTableSeeder extends Seeder
         $now = date('Y-m-d H:i:s');
         
         DB::table('collections')->insert([
-            'user_id'          => 1,
+            'user_id'       => 1,
             'slug'          => 'featured',
             'title'         => 'Featured Content',
             'description'   => 'Featured content for Tipoff social media pushes.',
