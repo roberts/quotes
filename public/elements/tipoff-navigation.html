@@ -296,10 +296,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
               <paper-tabs class="secondary" selected="{{selected}}" attr-for-selected="name">
-                  <paper-tab class="secondary" name="authors"><a href="../company/staff" tabindex="-1">Staff</a></paper-tab>
-                  <paper-tab class="secondary" name="topics"><a href="../company/team" tabindex="-1">Team</a></paper-tab>
-                  <paper-tab class="secondary" name="quotations"><a href="../company/advertising" tabindex="-1">Advertising</a></paper-tab>
-                  <paper-tab class="secondary" name="submit"><a href="../company/contact" tabindex="-1">Contact</a></paper-tab>
+                  <paper-tab class="secondary" name="staff"><a href="../company/staff" tabindex="-1">Staff</a></paper-tab>
+                  <paper-tab class="secondary" name="team"><a href="../company/team" tabindex="-1">Team</a></paper-tab>
+                  <paper-tab class="secondary" name="advertising"><a href="../company/advertising" tabindex="-1">Advertising</a></paper-tab>
+                  <paper-tab class="secondary" name="contact"><a href="../company/contact" tabindex="-1">Contact</a></paper-tab>
               </paper-tabs>
               <span style="flex: 1;"></span> <!-- Centers tabs -->
             </app-toolbar>
@@ -322,32 +322,58 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       properties: {
 
-        selected: {
-          type: String,
-          value: 'Item One'
-        },
+        /**
+         * Articles data.
+         */
+        articles: Object,
 
-        wideLayout: {
-          type: Boolean,
-          value: false,
-          observer: 'onLayoutChange',
-        },
+        route: Object,
 
-        items: {
-          type: Array,
-          value: function() {
-            return ['Quotes', 'Books', 'About'];
+        subRoute: Object,
+
+        subsubRoute: Object,
+
+        categoryData: Object,
+
+        pageData: Object,
+
+        slugData: Object
+
+      },
+
+      observers: [
+        '_updateArticle(articles, categoryData.category, slugData.slug)'
+      ],
+
+      attached: function() {
+        this.async(function() {
+          if (!this.route.path) {
+            this.set('route.path', '/art/list');
+          }
+        });
+      },
+
+      _equal: function(value1, value2) {
+        return value1 === value2;
+      },
+
+      _updateArticle: function(articles, category, slug) {
+        for (var i=0, cat; cat=articles[i]; i++) {
+          if (cat.name === category) {
+            for (var j=0, article; article=cat.items[j]; j++) {
+              if (article.slug === slug) {
+                this.article = article;
+                return;
+              }
+            }
           }
         }
       },
 
-      onLayoutChange: function(wide) {
-        var drawer = this.$.drawer;
-
-        if (wide && drawer.opened) {
-          drawer.opened = false;
-        }
+      _drawerSelected: function() {
+        if (!this.$.drawer.persistent) this.$.drawer.close();
       }
+
     });
 
   </script>
