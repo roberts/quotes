@@ -9,7 +9,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">{{ $collection->title }}</div>
                     <div class="panel-body">
-                        Created by {{ $collection->owner->display_name }}
+                        Created by {{ $collection->creator->display_name }}
                     </div>
                 </div>
             </div>
