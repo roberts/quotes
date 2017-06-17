@@ -23,6 +23,10 @@ Route::get('/@{user}/collections', 'CollectionsController@index');
 Route::get('/@{user}/collections/{collection}', 'CollectionsController@show');
 Route::get('quotes', 'QuotesController@main');
 Route::group(['prefix' => 'quotes'], function () {
+    Route::get('topics', 'QuoteTopicsController@index');
+    Route::get('topics/create', 'QuoteTopicsController@create');
+    Route::get('topics/{quotetopic}', 'QuoteTopicsController@show');
+    Route::post('topics', 'QuoteTopicsController@store');
     Route::get('quotations', 'QuotesController@index');
     Route::get('quotations/create', 'QuotesController@create');
 	Route::get('{quoteauthor}/{quote}', 'QuotesController@show')->name('quote.show');
@@ -39,6 +43,10 @@ Route::group(['prefix' => 'books'], function () {
     Route::get('authors/create', 'BookAuthorsController@create');
 	Route::get('authors/{bookauthor}', 'BookAuthorsController@show');
 	Route::post('authors', 'BookAuthorsController@store');
+    Route::get('topics', 'QuoteTopicsController@index');
+    Route::get('topics/create', 'QuoteTopicsController@create');
+    Route::get('topics/{quotetopic}', 'QuoteTopicsController@show');
+    Route::post('topics', 'QuoteTopicsController@store');
     Route::get('create', 'BooksController@create');
 	Route::get('{book}', 'BooksController@show');
 });
