@@ -192,27 +192,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     </style>
 
-    <!-- setup routes -->
-    <app-location route="{{route}}"></app-location>
-    <app-route
-        route="{{route}}"
-        pattern="/:category"
-        data="{{categoryData}}"
-        tail="{{subRoute}}"></app-route>
-    <app-route
-        route="{{subRoute}}"
-        pattern="/:page"
-        data="{{pageData}}"
-        tail="{{subsubRoute}}"></app-route>
-    <app-route
-        route="{{subsubRoute}}"
-        pattern="/:slug"
-        data="{{slugData}}"></app-route>
-
-    <!-- manages page's scroll position -->
-    <app-scrollpos-control
-        selected="[[categoryData.category]]/[[pageData.page]]"
-        reset="[[_equal(pageData.page, 'detail')]]"></app-scrollpos-control>
     <app-drawer-layout force-narrow drawer-width="288px">
       <!-- nav panel -->
       <app-drawer align="end" id="drawer">
