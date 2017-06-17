@@ -8,13 +8,22 @@ use Illuminate\Http\Request;
 class CollectionsController extends Controller
 {
     /**
+     * QuotesController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware('auth')->except(['index', 'show']);
+    }
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        //
+        $collections = Collection::latest()->get();
+
+        return view('users.collections.index', compact('collections'));
     }
 
     /**
@@ -44,9 +53,13 @@ class CollectionsController extends Controller
      * @param  \App\Collection  $collection
      * @return \Illuminate\Http\Response
      */
-    public function show(Collection $collection)
+    public function show($user, Collection $collection)
     {
-        //
+        if ($user !== $collection->creator->slug) {
+            return redirect()->to($collection->path());
+        }
+
+        return view('users.collections.show', compact('collection'));
     }
 
     /**
