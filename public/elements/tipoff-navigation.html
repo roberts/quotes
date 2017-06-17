@@ -209,7 +209,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               attr-for-selected="name"
               on-iron-activate="_drawerSelected">
             <template is="dom-repeat" items="[[articles]]">
-              <a name="[[item.name]]" href="#/[[item.name]]/list">{{item.title}}</a>
+              <a name="[[item.name]]" href="../[[item.name]]">{{item.title}}</a>
             </template>
           </iron-selector>
 
