@@ -43,10 +43,10 @@ Route::group(['prefix' => 'books'], function () {
     Route::get('authors/create', 'BookAuthorsController@create');
 	Route::get('authors/{bookauthor}', 'BookAuthorsController@show');
 	Route::post('authors', 'BookAuthorsController@store');
-    Route::get('topics', 'QuoteTopicsController@index');
-    Route::get('topics/create', 'QuoteTopicsController@create');
-    Route::get('topics/{quotetopic}', 'QuoteTopicsController@show');
-    Route::post('topics', 'QuoteTopicsController@store');
+    Route::get('topics', 'BookTopicsController@index');
+    Route::get('topics/create', 'BookTopicsController@create');
+    Route::get('topics/{booktopic}', 'BookTopicsController@show');
+    Route::post('topics', 'BookTopicsController@store');
     Route::get('create', 'BooksController@create');
 	Route::get('{book}', 'BooksController@show');
 });
