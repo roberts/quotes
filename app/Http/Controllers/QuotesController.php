@@ -66,7 +66,7 @@ class QuotesController extends Controller
     /**
      * Display the specified resource.
      *
-    * @param  $authorId
+    * @param  $quoteauthor
      * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */

@@ -50,6 +50,7 @@ class CollectionsController extends Controller
     /**
      * Display the specified resource.
      *
+     * @param  $user
      * @param  \App\Collection  $collection
      * @return \Illuminate\Http\Response
      */
