@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <meta name="theme-color" content="#fafafa">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -22,6 +23,7 @@
     
     <!-- Polymer Elements -->
     <link rel="import" href="/bower_components/polymer/polymer.html">
+    <link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
     <link rel="import" href="/bower_components/app-layout/app-drawer/app-drawer.html">
     <link rel="import" href="/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
     <link rel="import" href="/bower_components/app-layout/app-header/app-header.html">
@@ -79,7 +81,7 @@
     </script>
 
   </head>
-  <body>
+  <body unresolved>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
