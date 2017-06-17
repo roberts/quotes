@@ -14,10 +14,11 @@ class CreateCollectionsTable extends Migration
     public function up()
     {
         Schema::create('collections', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->index();
             $table->unsignedInteger('user_id')->index();
             $table->string('slug')->index();
             $table->string('title');
+            $table->tinyInteger('public')->default(1);
             $table->string('description')->nullable();
             $table->timestamps();
             $table->softDeletes();
