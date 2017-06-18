@@ -5,7 +5,7 @@
 
     <div class="pre">
       <div>Business and Leadership</div>
-      <div class="title">Books</div>
+      <div class="title">Book Authors</div>
       <div>Published: June 2017</div>
     </div>
 
@@ -14,7 +14,6 @@
             <article>
                 <div class="body"><a href="{{ $bookauthor->path() }}">{{ $bookauthor->display_name }}</a></div>
             </article>
-            <hr>
         @endforeach
     </section>
 
