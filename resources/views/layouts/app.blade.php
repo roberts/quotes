@@ -56,7 +56,7 @@
           }
 
         .content-paper {
-            max-width: 970px;
+            max-width: 95px;
             margin: 64px auto;
             background-color:#F5F5F5;
             @apply(--shadow-elevation-2dp);
