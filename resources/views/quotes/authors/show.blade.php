@@ -28,7 +28,7 @@
         background-size: contain;
       }
 
-      .header {
+      .pre {
         padding: 24px 0;
         text-align: center;
         font-size: 14px;
@@ -60,7 +60,7 @@
 
     <div class="image" style="background-color:#eeeeee; background-image: url('https://g-design.storage.googleapis.com/production/v5/assets/pixate-and-form-1-3-header-2061f19f.svg')"></div>
 
-    <div class="header">
+    <div class="pre">
       <div>Business and Leadership</div>
       <div class="title">{{ $quoteauthor->display_name }} Quotes</div>
       <div>Published: June 2017</div>
