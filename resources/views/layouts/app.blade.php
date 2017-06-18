@@ -52,8 +52,23 @@
     
     <style>
         body {
-        background-color: #9E9E9E;
-      }
+            background-color: #9E9E9E;
+          }
+
+        .content-paper {
+            max-width: 970px;
+            margin: 64px auto;
+            background-color:#F5F5F5;
+            @apply(--shadow-elevation-2dp);
+          }
+
+        /* narrow layout */
+        @media (max-width: 970px) {
+            .content-paper {
+              max-width: none;
+              margin: 0;
+            }
+        }
     </style>
 
     <!-- Structured Data -->
@@ -97,7 +112,7 @@
 
         <div style="height:150px;"></div>
       
-        <div style="max-width:970px;margin:auto;display:block;background-color:#F5F5F5;">
+        <div class="content-paper">
             @yield('content')
         </div>
 
