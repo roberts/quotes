@@ -26,21 +26,18 @@
 @endsection
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="{{ $quote->author->path() }}">Quote from {{ $quote->author->display_name }}</a>
-                        
-                    </div>
+    <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
-                    <div class="panel-body">
-                        {{ $quote->quote_text }}
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="pre">
+      <div>Business and Leadership</div>
+      <div class="title"><a href="{{ $quote->author->path() }}">Quote from {{ $quote->author->display_name }}</a></div>
+      <div>Published: June 2017</div>
+    </div>
+
+    <section class="main">
+        <article>
+            <h4>"{{ $quote->quote_text }}"</h4>
+        </article>
 
         @if (auth()->check())
             <div class="row">
@@ -59,5 +56,5 @@
         @else
             <p class="text-center">Please <a href="{{ route('login') }}">sign in</a> to participate in this discussion.</p>
         @endif
-    </div>
+    </section>
 @endsection
