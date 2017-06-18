@@ -58,7 +58,7 @@
 
     </style>
 
-    <div class="image" style="background-color:#eeeeee; background-image: url('https://g-design.storage.googleapis.com/production/v5/assets/pixate-and-form-1-3-header-2061f19f.svg')"></div>
+    <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
     <div class="pre">
       <div>Business and Leadership</div>
