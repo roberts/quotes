@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-        <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
+    <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
     <div class="pre">
       <div>Business and Leadership</div>

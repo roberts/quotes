@@ -3,22 +3,19 @@
 @section('title', 'Business and Leadership Quote Authors | Tipoff')
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Authors</div>
+    <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
-                    <div class="panel-body">
-                        @foreach ($quoteauthors as $quoteauthor)
-                            <article>
-                                <div class="body"><a href="{{ $quoteauthor->path() }}">{{ $quoteauthor->display_name }}</a></div>
-                            </article>
-                            <hr>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="pre">
+      <div>Business and Leadership</div>
+      <div class="title">Quote Authors</div>
+      <div>Published: June 2017</div>
     </div>
+
+    <section class="main">
+        @foreach ($quoteauthors as $quoteauthor)
+            <article>
+                <div class="body"><a href="{{ $quoteauthor->path() }}">{{ $quoteauthor->display_name }}</a></div>
+            </article>
+        @endforeach
+    </section>
 @endsection
