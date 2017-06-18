@@ -94,7 +94,7 @@
         <tipoff-navigation></tipoff-navigation>
         <div style="height:70px;"></div>
       
-        <paper-card style="max-width:970px;margin:auto;display:block;">
+        <paper-card style="max-width:970px;margin:auto;">
             @yield('content')
         </paper-card>
 
