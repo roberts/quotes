@@ -135,14 +135,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         @apply(--shadow-elevation-2dp);
       }
 
-      [threshold-triggered] paper-tabs {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1;
-      }
-
       @media (max-width: 970px) {
 
         /* make title smaller to fit on screen */
@@ -221,8 +213,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         data="{{slugData}}"></app-route>
 
       <!-- main panel -->
-      <app-header waterfall class="main-header" threshold="84">
-
+      <app-header fixed condenses effects="waterfall" class="main-header">
           <!-- top toolbar -->
           <app-toolbar class="primary" style="max-width:970px;margin:auto;">
             <!-- Nav on desktop: tabs -->
