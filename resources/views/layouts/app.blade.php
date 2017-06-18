@@ -39,6 +39,7 @@
     <link rel="import" href="/bower_components/paper-card/paper-card.html">
     <link rel="import" href="/bower_components/app-layout/app-scroll-effects/effects/waterfall.html">
     <link rel="import" href="/bower_components/app-layout/app-grid/app-grid-style.html">
+    <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
     
     <!-- Tipoff Web Components -->
     <link rel="import" href="/elements/tipoff-navigation.html">
