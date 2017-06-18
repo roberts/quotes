@@ -23,6 +23,7 @@
     
     <!-- Polymer Elements -->
     <link rel="import" href="/bower_components/polymer/polymer.html">
+    <link rel="import" href="/bower_components/paper-styles/shadow.html">
     <link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
     <link rel="import" href="/bower_components/app-layout/app-drawer/app-drawer.html">
     <link rel="import" href="/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
@@ -56,7 +57,7 @@
           }
 
         .content-paper {
-            max-width: 95px;
+            max-width: 970px;
             margin: 64px auto;
             background-color:#F5F5F5;
             @apply(--shadow-elevation-2dp);
