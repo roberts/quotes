@@ -33,12 +33,13 @@
     <link rel="import" href="/bower_components/app-route/app-location.html">
     <link rel="import" href="/bower_components/app-route/app-route.html">
     <link rel="import" href="/bower_components/iron-pages/iron-pages.html">
+    <link rel="import" href="/bower_components/iron-image/iron-image.html">
+    <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
     <link rel="import" href="/bower_components/iron-selector/iron-selector.html">
     <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
     <link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
     <link rel="import" href="/bower_components/paper-card/paper-card.html">
     <link rel="import" href="/bower_components/paper-fab/paper-fab.html">
-    <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
     <link rel="import" href="/bower_components/app-layout/app-grid/app-grid-style.html">
     <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
     

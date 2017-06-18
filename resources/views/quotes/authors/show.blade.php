@@ -43,12 +43,6 @@
         font-weight: 600;
       }
 
-      paper-fab {
-        position: absolute;
-        top: -28px;;
-        right: 40px;
-      }
-
       .main {
         padding: 24px 80px;
         border-top: 1px solid #ddd;
@@ -71,7 +65,6 @@
       <div>Business and Leadership</div>
       <div class="title">{{ $quoteauthor->display_name }} Quotes</div>
       <div>Published: June 2017</div>
-      <paper-fab icon="app:googleplus-reshare"></paper-fab>
     </div>
 
     <section class="main">
