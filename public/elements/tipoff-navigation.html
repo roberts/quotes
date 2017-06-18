@@ -210,6 +210,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         pattern="/:slug"
         data="{{slugData}}"></app-route>
 
+    <app-drawer-layout id="drawerLayout" drawer-width="288px" responsive-width="1280px" on-iron-resize="_positionNavTitle">
+
+      <!-- nav panel -->
+      <app-header-layout drawer has-scrolling-region>
+
+  <app-drawer id="drawer" align="right" swipe-open>
+    <div style="height:70px;"></div>
+    <iron-selector
+      class="nav-menu"
+      selected="[[categoryData.category]]"
+      attr-for-selected="name"
+      on-iron-activate="_drawerSelected">
+      <a name="quotes" href="/quotes">Quotes</a>
+      <a name="books" href="/books">Books</a>
+      <a name="company" href="/company">About</a>
+    </iron-selector>
+  </app-drawer>
+
       <!-- main panel -->
       <app-header fixed waterfall class="main-header">
 
@@ -268,19 +286,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </iron pages>
     </app-header>
 
-  <app-drawer id="drawer" align="right" swipe-open>
-    <div style="height:70px;"></div>
-    <iron-selector
-      class="nav-menu"
-      selected="[[categoryData.category]]"
-      attr-for-selected="name"
-      on-iron-activate="_drawerSelected">
-      <a name="quotes" href="/quotes">Quotes</a>
-      <a name="books" href="/books">Books</a>
-      <a name="company" href="/company">About</a>
-    </iron-selector>
-  </app-drawer>
 
+      </app-header-layout>
+
+    </app-drawer-layout>
 
 
     <iron-media-query query="min-width: 600px" query-matches="{{wideLayout}}"></iron-media-query>
