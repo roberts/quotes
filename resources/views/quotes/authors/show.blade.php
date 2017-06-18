@@ -19,25 +19,24 @@
 @endsection
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">{{ $quoteauthor->display_name }} Quotes</div>
+    <div class="image" style="#eeeeee; background-image: url('https://g-design.storage.googleapis.com/production/v5/assets/pixate-and-form-1-3-header-2061f19f.svg')"></div>
 
-                    <div class="panel-body">
-                        @foreach ($quoteauthor->quotes as $quote)
-                            <article>
-                                <h4>" {{ $quote->quote_text }} "</h4>
-                                <div class="body">- {{ $quoteauthor->display_name }}</div>
-                                <div class="body">- <a href="{{ $quote->path() }}">Comments</a></div>
-                            </article>
-
-                            <hr>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="header">
+      <div>Business and Leadership</div>
+      <div class="title" style="color: #eeeeee;">{{ $quoteauthor->display_name }} Quotes</div>
+      <div>Published: June 2017</div>
+      <paper-fab icon="app:googleplus-reshare"></paper-fab>
     </div>
+
+    <section class="main">
+      @foreach ($quoteauthor->quotes as $quote)
+            <article>
+                <h3>"{{ $quote->quote_text }}"</h3>
+                <p>- {{ $quoteauthor->display_name }}<br>
+                <a href="{{ $quote->path() }}">Comments</a></p>
+            </article>
+            <hr>
+        @endforeach
+    </section>
+    
 @endsection

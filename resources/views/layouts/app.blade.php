@@ -13,7 +13,7 @@
     <meta name="description" content="Tipoff Website">
 
     <!-- Styles -->
-
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
@@ -37,7 +37,8 @@
     <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
     <link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
     <link rel="import" href="/bower_components/paper-card/paper-card.html">
-    <link rel="import" href="/bower_components/app-layout/app-scroll-effects/effects/waterfall.html">
+    <link rel="import" href="/bower_components/paper-fab/paper-fab.html">
+    <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
     <link rel="import" href="/bower_components/app-layout/app-grid/app-grid-style.html">
     <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
     
