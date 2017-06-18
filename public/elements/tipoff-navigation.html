@@ -210,20 +210,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         pattern="/:slug"
         data="{{slugData}}"></app-route>
 
-      <app-drawer id="drawer" align="right" swipe-open>
-        <app-header-layout has-scrolling-region>
-          <div style="height:70px;"></div>
-          <iron-selector
-              class="nav-menu"
-              selected="[[categoryData.category]]"
-              attr-for-selected="name"
-              on-iron-activate="_drawerSelected">
-              <a name="quotes" href="/quotes">Quotes</a>
-              <a name="books" href="/books">Books</a>
-              <a name="company" href="/company">About</a>
-          </iron-selector>
-      </app-drawer>
-
       <!-- main panel -->
       <app-header fixed effects="waterfall" class="main-header">
 
@@ -281,6 +267,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </app-toolbar>
           </iron pages>
     </app-header>
+
+  <app-drawer id="drawer" align="right" swipe-open>
+    <div style="height:70px;"></div>
+    <iron-selector
+      class="nav-menu"
+      selected="[[categoryData.category]]"
+      attr-for-selected="name"
+      on-iron-activate="_drawerSelected">
+      <a name="quotes" href="/quotes">Quotes</a>
+      <a name="books" href="/books">Books</a>
+      <a name="company" href="/company">About</a>
+    </iron-selector>
+  </app-drawer>
 
 
 
