@@ -95,7 +95,7 @@
         </script>
         <tipoff-navigation></tipoff-navigation>
 
-        <div style="height:70px;"></div>
+        <div style="height:150px;"></div>
       
         <div style="max-width:970px;margin:auto;display:block;background-color:#F5F5F5;">
             @yield('content')
