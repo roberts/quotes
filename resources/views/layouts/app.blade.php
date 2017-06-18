@@ -13,7 +13,7 @@
     <meta name="description" content="Tipoff Website">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
@@ -94,7 +94,7 @@
         <tipoff-navigation></tipoff-navigation>
         <div style="height:70px;"></div>
       
-        <paper-card style="max-width:970px;margin:auto;">
+        <paper-card style="max-width:970px;margin:auto;display:block;">
             @yield('content')
         </paper-card>
 
