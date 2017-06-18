@@ -235,7 +235,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       <!-- main panel -->
       <app-header-layout>
-        <app-header sticky effects="waterfall" class="main-header">
+        <app-header fixed effects="waterfall" class="main-header">
 
           <!-- top toolbar -->
           <app-toolbar class="primary" style="max-width:970px;margin:auto;">
@@ -253,13 +253,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <span style="flex: 1;"></span> <!-- Centers tabs -->
             <paper-icon-button class="menu-button" icon="search" hidden$="{{!wideLayout}}"></paper-icon-button>
             <a href="../login"><paper-button raised class="login">Login</paper-button></a>
-            
-            <!-- menu button -->
-            <paper-icon-button
-                drawer-toggle
-                icon="app:menu"
-                hidden$="{{wideLayout}}"></paper-icon-button>
-            
+            <paper-icon-button icon="menu" onclick="drawer.toggle()" hidden$="{{wideLayout}}"></paper-icon-button>   
           </app-toolbar>
           
           
