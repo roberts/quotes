@@ -210,8 +210,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         data="{{slugData}}"></app-route>
 
     <app-drawer-layout force-narrow drawer-width="288px">
-    <app-drawer id="drawer" align="right" swipe-open>
-      <div class="drawer-contents">
+      <!-- nav panel -->
+      <app-drawer id="drawer" align="right" swipe-open>
+        <app-header-layout has-scrolling-region>
+          <app-header fixed>
+            <!-- bottom toolbar -->
+            <app-toolbar class="title-toolbar nav-title-toolbar">
+            </app-toolbar>
+          </app-header>
+
+          <!-- nav menu -->
           <iron-selector
               class="nav-menu"
               selected="[[categoryData.category]]"
@@ -221,7 +229,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <a name="books" href="/books">Books</a>
               <a name="company" href="/company">About</a>
           </iron-selector>
-        </div>
+
+        </app-header-layout>
       </app-drawer>
 
       <!-- main panel -->
