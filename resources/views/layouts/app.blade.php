@@ -13,7 +13,7 @@
     <meta name="description" content="Tipoff Website">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
@@ -50,27 +50,6 @@
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    
-    <style>
-        body {
-            background-color: #9E9E9E;
-          }
-
-        .content-paper {
-            max-width: 970px;
-            margin: 64px auto;
-            background-color:#F5F5F5;
-            @apply(--shadow-elevation-2dp);
-          }
-
-        /* narrow layout */
-        @media (max-width: 970px) {
-            .content-paper {
-              max-width: none;
-              margin: 0;
-            }
-        }
-    </style>
 
     <!-- Structured Data -->
     <script type="application/ld+json">

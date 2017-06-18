@@ -19,45 +19,6 @@
 @endsection
 
 @section('content')
-    <style>
-
-      .image {
-        height: 240px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
-      }
-
-      .pre {
-        padding: 24px 0;
-        text-align: center;
-        font-size: 14px;
-        letter-spacing: 1px;
-        color: #999;
-      }
-
-      .title {
-        padding: 16px 0;
-        font-size: 30px;
-        font-weight: 600;
-      }
-
-      .main {
-        padding: 24px 80px;
-        border-top: 1px solid #ddd;
-        font-size: 18px;
-        line-height: 32px;
-        letter-spacing: 1px;
-      }
-
-      h3 {
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 32px;
-      }
-
-    </style>
-
     <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
     <div class="pre">
