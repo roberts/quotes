@@ -96,9 +96,9 @@
         <tipoff-navigation></tipoff-navigation>
         <div style="height:70px;"></div>
       
-        <paper-card style="max-width:970px;margin:auto;display:block;">
+        <div style="max-width:970px;margin:auto;display:block;">
             @yield('content')
-        </paper-card>
+        </div>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>

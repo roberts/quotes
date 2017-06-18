@@ -74,7 +74,7 @@
                 <p>- {{ $quoteauthor->display_name }}<br>
                 <a href="{{ $quote->path() }}">Comments</a></p>
             </article>
-            <hr>
+            <br><br>
         @endforeach
     </section>
 
