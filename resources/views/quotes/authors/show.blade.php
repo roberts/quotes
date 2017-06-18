@@ -21,10 +21,6 @@
 @section('content')
     <style>
 
-      :host {
-        display: block;
-      }
-
       .image {
         height: 240px;
         background-repeat: no-repeat;
@@ -51,7 +47,6 @@
         position: absolute;
         top: -28px;;
         right: 40px;
-        background-color: var(--app-primary-color);
       }
 
       .main {
@@ -68,30 +63,13 @@
         line-height: 32px;
       }
 
-      /* narrow layout */
-      @media (max-width: 970px) {
-
-        .main {
-          padding: 24px;
-        }
-
-        /* position fab to the bottom right corner of the screen */
-        paper-fab {
-          position: fixed;
-          top: auto;
-          right: 24px;
-          bottom: 24px;
-        }
-
-      }
-
     </style>
-    
-    <div class="image" style="#eeeeee; background-image: url('https://g-design.storage.googleapis.com/production/v5/assets/pixate-and-form-1-3-header-2061f19f.svg')"></div>
+
+    <div class="image" style="background-color:#eeeeee; background-image: url('https://g-design.storage.googleapis.com/production/v5/assets/pixate-and-form-1-3-header-2061f19f.svg')"></div>
 
     <div class="header">
       <div>Business and Leadership</div>
-      <div class="title" style="color: #eeeeee;">{{ $quoteauthor->display_name }} Quotes</div>
+      <div class="title">{{ $quoteauthor->display_name }} Quotes</div>
       <div>Published: June 2017</div>
       <paper-fab icon="app:googleplus-reshare"></paper-fab>
     </div>
