@@ -209,8 +209,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         pattern="/:slug"
         data="{{slugData}}"></app-route>
 
-    <app-drawer-layout force-narrow drawer-width="288px">
-      <!-- nav panel -->
       <app-drawer id="drawer" align="right" swipe-open>
         <app-header-layout has-scrolling-region>
           <app-header fixed>
@@ -218,7 +216,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <app-toolbar class="title-toolbar nav-title-toolbar">
             </app-toolbar>
           </app-header>
-
           <!-- nav menu -->
           <iron-selector
               class="nav-menu"
@@ -229,8 +226,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <a name="books" href="/books">Books</a>
               <a name="company" href="/company">About</a>
           </iron-selector>
-
-        </app-header-layout>
       </app-drawer>
 
       <!-- main panel -->
