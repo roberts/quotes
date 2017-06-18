@@ -75,10 +75,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         };
       }
 
-      app-drawer app-header {
-        background-color: var(--app-primary-color);
-      }
-
       .nav-menu {
         background-color: var(--app-primary-color);
         color: #fff;
@@ -180,9 +176,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
       
       app-toolbar.secondary {
-        position: fixed;
         background-color: #F5F5F5;
         height: 40px;
+        width: 100%;
       }
       paper-tabs.secondary {
         --paper-tabs-selection-bar-color: black;
@@ -216,7 +212,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         data="{{slugData}}"></app-route>
 
       <!-- main panel -->
-      <app-header fixed effects="waterfall" class="main-header">
+      <app-header fixed effects="waterfall">
           <!-- top toolbar -->
           <app-toolbar class="primary" style="max-width:970px;margin:auto;">
             <!-- Nav on desktop: tabs -->
@@ -235,11 +231,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <paper-icon-button icon="menu" onclick="drawer.toggle()" hidden$="{{wideLayout}}"></paper-icon-button>   
           </app-toolbar>
           
-          
           <iron-pages selected="[[categoryData.category]]" attr-for-selected="name">
-            
+            <!-- Nav on desktop: quotes -->
             <app-toolbar name="quotes" class="secondary" hidden$="{{!wideLayout}}">
-              <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
               <paper-tabs class="secondary" selected="[[pageData.page]]" attr-for-selected="name">
                   <paper-tab class="secondary" name="authors"><a href="/quotes/authors" tabindex="-1">Authors</a></paper-tab>
@@ -247,9 +241,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               </paper-tabs>
               <span style="flex: 1;"></span> <!-- Centers tabs -->
             </app-toolbar>
-            
+            <!-- Nav on desktop: books -->
             <app-toolbar name="books" class="secondary" hidden$="{{!wideLayout}}">
-              <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
               <paper-tabs class="secondary" selected="[[pageData.page]]" attr-for-selected="name">
                   <paper-tab class="secondary" name="authors"><a href="/books/authors" tabindex="-1">Authors</a></paper-tab>
@@ -257,9 +250,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               </paper-tabs>
               <span style="flex: 1;"></span> <!-- Centers tabs -->
             </app-toolbar>
-            
+            <!-- Nav on desktop: about -->
             <app-toolbar name="company" class="secondary" hidden$="{{!wideLayout}}">
-              <!-- Nav on desktop: tabs -->
               <span style="flex: 1;"></span> <!-- Centers tabs -->
               <paper-tabs class="secondary" selected="[[pageData.page]]" attr-for-selected="name">
                   <paper-tab class="secondary" name="staff"><a href="/company/staff" tabindex="-1">Staff</a></paper-tab>
