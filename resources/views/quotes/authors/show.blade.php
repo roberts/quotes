@@ -19,6 +19,74 @@
 @endsection
 
 @section('content')
+    <style>
+
+      :host {
+        display: block;
+      }
+
+      .image {
+        height: 240px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+      }
+
+      .header {
+        position: relative;
+        padding: 24px 0;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #999;
+      }
+
+      .title {
+        padding: 16px 0;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      paper-fab {
+        position: absolute;
+        top: -28px;;
+        right: 40px;
+        background-color: var(--app-primary-color);
+      }
+
+      .main {
+        padding: 24px 80px;
+        border-top: 1px solid #ddd;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 1px;
+      }
+
+      h3 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+      }
+
+      /* narrow layout */
+      @media (max-width: 970px) {
+
+        .main {
+          padding: 24px;
+        }
+
+        /* position fab to the bottom right corner of the screen */
+        paper-fab {
+          position: fixed;
+          top: auto;
+          right: 24px;
+          bottom: 24px;
+        }
+
+      }
+
+    </style>
+    
     <div class="image" style="#eeeeee; background-image: url('https://g-design.storage.googleapis.com/production/v5/assets/pixate-and-form-1-3-header-2061f19f.svg')"></div>
 
     <div class="header">
@@ -38,5 +106,5 @@
             <hr>
         @endforeach
     </section>
-    
+
 @endsection
