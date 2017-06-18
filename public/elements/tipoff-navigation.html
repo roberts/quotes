@@ -58,12 +58,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         bottom: 0;
       }
 
-      app-header {
-        position: fixed;
-        width: 100%;
-        transform: none !important;
-      }
-
       app-drawer {
         --app-drawer-content-container: {
           background-color: var(--app-primary-color);
@@ -98,6 +92,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
 
       .main-header {
+        position: fixed;
         border-bottom: 1px solid #ddd;
         background-color: #fff;
         color: #444;
@@ -138,6 +133,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         margin: 64px auto;
         background-color: #fff;
         @apply(--shadow-elevation-2dp);
+      }
+
+      [threshold-triggered] paper-tabs {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
       }
 
       @media (max-width: 970px) {
@@ -218,7 +221,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         data="{{slugData}}"></app-route>
 
       <!-- main panel -->
-      <app-header waterfall class="main-header">
+      <app-header waterfall class="main-header" threshold="84">
 
           <!-- top toolbar -->
           <app-toolbar class="primary" style="max-width:970px;margin:auto;">
