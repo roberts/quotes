@@ -212,12 +212,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       <app-drawer id="drawer" align="right" swipe-open>
         <app-header-layout has-scrolling-region>
-          <app-header fixed>
-            <!-- bottom toolbar -->
-            <app-toolbar class="title-toolbar nav-title-toolbar">
-            </app-toolbar>
-          </app-header>
-          <!-- nav menu -->
+          <div style="height:70px;"></div>
           <iron-selector
               class="nav-menu"
               selected="[[categoryData.category]]"
@@ -230,12 +225,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </app-drawer>
 
       <!-- main panel -->
-      <app-header-layout>
-        <app-header fixed effects="waterfall" class="main-header">
+      <app-header fixed effects="waterfall" class="main-header">
 
           <!-- top toolbar -->
           <app-toolbar class="primary" style="max-width:970px;margin:auto;">
-            
             <!-- Nav on desktop: tabs -->
             <a href="https://tipoff.com">
               <img src="../tipoff_logo.png" height="50" width="119"></img>
@@ -287,14 +280,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <span style="flex: 1;"></span> <!-- Centers tabs -->
             </app-toolbar>
           </iron pages>
+    </app-header>
 
-        </app-header>
-      </app-header-layout>
 
-    </app-drawer-layout>
 
     <iron-media-query query="min-width: 600px" query-matches="{{wideLayout}}"></iron-media-query>
-
   </template>
 
   <script>
