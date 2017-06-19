@@ -89,13 +89,10 @@
           ga('send', 'pageview');
         </script>
         <tipoff-navigation></tipoff-navigation>
-
         <div style="height:150px;"></div>
-      
         <div class="content-paper">
             @yield('content')
         </div>
-
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

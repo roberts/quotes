@@ -1,15 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">{{ $booktopic->title }} Books</div>
+    <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="pre">
+      <div>Tipoff Project</div>
+      <div class="title">{{ $booktopic->title }} Books</div>
+      <div>Topic</div>
     </div>
+
+    <section class="main">
+        <article>
+            <h4>{{ $booktopic->title }} books will be listed here.</h4>
+        </article>
+    </section>
 @endsection
