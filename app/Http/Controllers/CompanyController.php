@@ -17,7 +17,7 @@ class CompanyController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * Show the company about page.
      *
      * @return \Illuminate\Http\Response
      */
@@ -27,13 +27,33 @@ class CompanyController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * Show the company staff page.
      *
      * @return \Illuminate\Http\Response
      */
     public function show()
     {
         return view('company.show');
+    }
+
+    /**
+     * Show the company advertising page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        return view('company.advertising');
+    }
+
+    /**
+     * Show the company contact page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function show()
+    {
+        return view('company.contact');
     }
 
 }
