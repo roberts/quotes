@@ -17,6 +17,7 @@ Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 Route::get('company', 'CompanyController@index')->name('about');
+Route::get('company/staff', 'CompanyController@show');
 Route::get('company/team', 'UsersController@index');
 Route::get('/@{user}/collections', 'CollectionsController@index');
 Route::get('/@{user}/collections/{collection}', 'CollectionsController@show');
