@@ -24,14 +24,24 @@
       "@type": "WebSite",
       "name": "Tipoff",
       "alternateName": "Tipoff.com",
+      "url": "https://tipoff.com"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Tipoff",
+      "logo": "https://tipoff.com/logo.png",
+      "founder": "Drew Roberts",
       "url": "https://tipoff.com",
-      "sameAs": [
-        "https://www.facebook.com/Tipoff",
-        "https://www.instagram.com/tipoff/",
-        "https://www.linkedin.com/company/TipoffProject",
-        "https://twitter.com/TipoffProject",
-        "http://plus.google.com/+Tipoff"
-      ]
+          "sameAs": [
+            "https://www.facebook.com/Tipoff",
+            "https://www.instagram.com/tipoff/",
+            "https://www.linkedin.com/company/TipoffProject",
+            "https://twitter.com/TipoffProject",
+            "https://plus.google.com/+Tipoff"
+          ]
     }
     </script>
 
