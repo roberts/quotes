@@ -21,13 +21,43 @@ $now = date('c',time());
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
-        <url>
+    <url>
+        <loc>https://tipoff.com/company</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://tipoff.com/company/advertising</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://tipoff.com/company/contact</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://tipoff.com/company/staff</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://tipoff.com/company/team</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://tipoff.com/login</loc>
         <lastmod><?php echo $now; ?></lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-        <url>
+    <url>
         <loc>https://tipoff.com/register</loc>
         <lastmod><?php echo $now; ?></lastmod>
         <changefreq>weekly</changefreq>
