@@ -24,7 +24,7 @@ class UsersController extends Controller
     {
         $users = User::latest()->get();
 
-        return view('users.index', compact('user'));
+        return view('users.index', compact('users'));
     }
 
     /**

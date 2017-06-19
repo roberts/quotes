@@ -3,23 +3,21 @@
 @section('title', 'Collections | Tipoff')
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Collections</div>
-                    <div class="panel-body">
-                        @foreach ($collections as $collection)
-                            <article>
-                                <h4><a href="{{ $collection->path() }}">{{ $collection->title }}</a></h4>
-                            </article>
+    <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
-                            <hr>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
-
+    <div class="pre">
+      <div>Tipoff Project</div>
+      <div class="title">Collections</div>
+      <div>Published: June 2017</div>
     </div>
+
+    <section class="main">
+        @foreach ($collections as $collection)
+            <article>
+                <h4><a href="{{ $collection->path() }}">{{ $collection->title }}</a></h4>
+            </article>
+
+            <hr>
+        @endforeach
+    </section>
 @endsection

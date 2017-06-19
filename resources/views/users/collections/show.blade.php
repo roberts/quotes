@@ -3,17 +3,18 @@
 @section('title', $collection->title .' | Tipoff')
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">{{ $collection->title }}</div>
-                    <div class="panel-body">
-                        Created by {{ $collection->creator->display_name }}
-                    </div>
-                </div>
-            </div>
-        </div>
+@foreach ($collections as $collection)
+    <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
+    <div class="pre">
+      <div>Tipoff Project Collection</div>
+      <div class="title">{{ $collection->title }}</div>
+      <div>Created by {{ $collection->creator->display_name }}</div>
     </div>
+
+    <section class="main">
+            <article>
+                <h4>Collection items will go here.</h4>
+            </article>
+    </section>
 @endsection
