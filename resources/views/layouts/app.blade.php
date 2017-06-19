@@ -90,7 +90,7 @@
         </script>
         <tipoff-navigation></tipoff-navigation>
         <div style="height:150px;"></div>
-        <div class="content-paper">
+        <div class="content-paper shadow-4dp">
             @yield('content')
         </div>
     <!-- Scripts -->
