@@ -3,13 +3,12 @@
 @section('title', $collection->title .' | Tipoff')
 
 @section('content')
-@foreach ($collections as $collection)
     <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
     <div class="pre">
       <div>Tipoff Project Collection</div>
       <div class="title">{{ $collection->title }}</div>
-      <div>Created by {{ $collection->creator->display_name }}</div>
+      <div>Created by </div>
     </div>
 
     <section class="main">
