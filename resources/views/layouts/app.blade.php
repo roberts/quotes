@@ -13,7 +13,7 @@
     <meta name="description" content="Tipoff Website">
 
     <!-- Styles -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/tipoff.css') }}" rel="stylesheet">
 
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
