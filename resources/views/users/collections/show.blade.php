@@ -8,7 +8,7 @@
     <div class="pre">
       <div>Tipoff Project Collection</div>
       <div class="title">{{ $collection->title }}</div>
-      <div>Created by </div>
+      <div>Created by {{ $collection->creator->display_name }}</div>
     </div>
 
     <section class="main">
