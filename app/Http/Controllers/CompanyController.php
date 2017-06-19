@@ -13,7 +13,7 @@ class CompanyController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except(['main', 'index', 'show']);
+        $this->middleware('auth')->except('index', 'show', 'advertising', 'contact']);
     }
 
     /**
@@ -41,7 +41,7 @@ class CompanyController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function advertising()
     {
         return view('company.advertising');
     }
@@ -51,7 +51,7 @@ class CompanyController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function contact()
     {
         return view('company.contact');
     }
