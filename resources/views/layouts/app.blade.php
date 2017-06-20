@@ -13,12 +13,12 @@
     <meta property="og:title" content="Google Design">
     <meta name="twitter:title" content="">
     <meta name="description" content=@yield('description', 'Tipoff Project')>
-    <meta property="og:description" content=@yield('description', 'Tipoff Project')>
+    <meta property="og:description" content="@yield('description', 'Tipoff Project')">
     <meta name="twitter:description" content=@yield('description', 'Tipoff Project')>
     <meta property="og:site_name" content="Tipoff">
     <meta name="twitter:image" content=@yield('featured_image', 'https://tipoff.com/logo.png')>
-    <meta property="og:image" content=@yield('featured_image', 'https://tipoff.com/logo.png')>
-    <meta property="og:url" content="https://tipoff.com<? php echo $_SERVER["REQUEST_URI"]; ?>">
+    <meta property="og:image" content="@yield('featured_image', 'https://tipoff.com/logo.png')">
+    <meta property="og:url" content="https://tipoff.com{{ $_SERVER['REQUEST_URI'] }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@TipoffProject">
 
