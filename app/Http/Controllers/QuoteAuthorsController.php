@@ -22,7 +22,7 @@ class QuoteAuthorsController extends Controller
      */
     public function index()
     {
-        $quoteauthors = QuoteAuthor::latest()->get();
+        $quoteauthors = QuoteAuthor::has('quotes', '>=', 5)->get();
 
         return view('quotes.authors.index', compact('quoteauthors'));
     }
