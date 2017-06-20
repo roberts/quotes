@@ -10,22 +10,29 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title', 'Tipoff Project')</title>
-    <meta name="description" content="Tipoff Website">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/tipoff.css') }}" rel="stylesheet">
+    <meta property="og:title" content="Google Design">
+    <meta name="twitter:title" content="">
+    <meta name="description" content=@yield('description', 'Tipoff Project')>
+    <meta property="og:description" content=@yield('description', 'Tipoff Project')>
+    <meta name="twitter:description" content=@yield('description', 'Tipoff Project')>
+    <meta property="og:site_name" content="Tipoff">
+    <meta name="twitter:image" content=@yield('featured_image', 'https://tipoff.com/logo.png')>
+    <meta property="og:image" content=@yield('featured_image', 'https://tipoff.com/logo.png')>
+    <meta property="og:url" content="https://tipoff.com<? php echo $_SERVER["REQUEST_URI"]; ?>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@TipoffProject">
 
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=Tipoff">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=Tipoff">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=Tipoff">
-    <link rel="manifest" href="/manifest.json?v=Tipoff">
     <link rel="mask-icon" href="/safari-pinned-tab.svg?v=Tipoff" color="#d32f2f">
     <link rel="shortcut icon" href="/favicon.ico?v=Tipoff">
     <meta name="apple-mobile-web-app-title" content="Tipoff">
     <meta name="application-name" content="Tipoff">
     <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="/manifest.json?v=Tipoff">
     
     <!-- Javascript libraries -->
     <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
@@ -59,6 +66,9 @@
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Styles -->
+    <link href="{{ asset('css/tipoff.css') }}" rel="stylesheet">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
