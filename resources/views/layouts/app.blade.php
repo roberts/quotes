@@ -4,23 +4,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-    <meta name="theme-color" content="#fafafa">
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title', 'Tipoff Project')</title>
-    <meta property="og:title" content="Google Design">
-    <meta name="twitter:title" content="">
-    <meta name="description" content=@yield('description', 'Tipoff Project')>
-    <meta property="og:description" content="@yield('description', 'Tipoff Project')">
-    <meta name="twitter:description" content=@yield('description', 'Tipoff Project')>
-    <meta property="og:site_name" content="Tipoff">
-    <meta name="twitter:image" content=@yield('featured_image', 'https://tipoff.com/logo.png')>
-    <meta property="og:image" content="@yield('featured_image', 'https://tipoff.com/logo.png')">
+    <meta name="description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
+
+    <meta property=”og:type” content=”article”>
     <meta property="og:url" content="https://tipoff.com{{ $_SERVER['REQUEST_URI'] }}">
+    <meta property="og:site_name" content="Tipoff">
+    <meta property="og:image" content="@yield('featured_image', 'https://tipoff.com/logo.png')">
+    <meta property="og:title" content="@yield('title', 'Tipoff Project')">
+    <meta property="og:description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
+    <meta property=”article:publisher” content=”https://www.facebook.com/Tipoff”>
+    <meta property="article:published_time" content="@yield('created_at', '2017-06-19T13:30:00-04:00')">
+    <meta property="article:modified_time" content="@yield('updated_at', '2017-06-19T13:30:00-04:00')">
+    <meta property="article:section" content="Business">
+    <meta property=”article:author” content=”@yield('fbauthor', 'https://www.facebook.com/DrewRoberts')”>
+    <meta property="article:tag" content="Business">
+    <meta property="fb:pages" content="153199288166906">
+
+    <meta name=”twitter:url” content="https://tipoff.com{{ $_SERVER['REQUEST_URI'] }}">
+    <meta name="twitter:title" content="@yield('title', 'Tipoff Project')">
+    <meta name="twitter:description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
+    <meta name="twitter:image" content="@yield('featured_image', 'https://tipoff.com/logo.png')">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@TipoffProject">
+    <meta name="twitter:creator" content="@DrewRoberts">
 
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
@@ -69,6 +77,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/tipoff.css') }}" rel="stylesheet">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
