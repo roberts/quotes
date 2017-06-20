@@ -16,6 +16,33 @@
     <meta name="apple-mobile-web-app-title" content="Tipoff">
     <meta name="application-name" content="Tipoff">
     <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
+
+    <meta property=”og:type” content=”article”>
+    <meta property="og:url" content="https://tipoff.com{{ $_SERVER['REQUEST_URI'] }}">
+    <meta property="og:site_name" content="Tipoff">
+    <meta property="og:image" content="@yield('featured_image', 'https://tipoff.com/ogimage.jpg')">
+    <meta property="og:image:secure_url" content="@yield('featured_image', 'https://tipoff.com/ogimage.jpg')">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:title" content="@yield('title', 'Tipoff Project')">
+    <meta property="og:description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
+    <meta property=”article:publisher” content=”https://www.facebook.com/Tipoff”>
+    <meta property="article:published_time" content="@yield('created_at', '2017-06-19T13:30:00-04:00')">
+    <meta property="article:modified_time" content="@yield('updated_at', '2017-06-19T13:30:00-04:00')">
+    <meta property="article:section" content="Business">
+    <meta property=”article:author” content=”@yield('fbauthor', 'https://www.facebook.com/DrewRoberts')”>
+    <meta property="article:tag" content="Business">
+    <meta property="fb:pages" content="153199288166906">
+
+    <meta name=”twitter:url” content="https://tipoff.com{{ $_SERVER['REQUEST_URI'] }}">
+    <meta name="twitter:title" content="@yield('title', 'Tipoff Project')">
+    <meta name="twitter:description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
+    <meta name="twitter:image" content="@yield('featured_image', 'https://tipoff.com/ogimage.jpg')">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@TipoffProject">
+    <meta name="twitter:creator" content="@DrewRoberts">
 
     <!-- Structured Data -->
     <script type="application/ld+json">

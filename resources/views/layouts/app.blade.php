@@ -11,7 +11,11 @@
     <meta property=”og:type” content=”article”>
     <meta property="og:url" content="https://tipoff.com{{ $_SERVER['REQUEST_URI'] }}">
     <meta property="og:site_name" content="Tipoff">
-    <meta property="og:image" content="@yield('featured_image', 'https://tipoff.com/logo.png')">
+    <meta property="og:image" content="@yield('featured_image', 'https://tipoff.com/ogimage.jpg')">
+    <meta property="og:image:secure_url" content="@yield('featured_image', 'https://tipoff.com/ogimage.jpg')">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:title" content="@yield('title', 'Tipoff Project')">
     <meta property="og:description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
     <meta property=”article:publisher” content=”https://www.facebook.com/Tipoff”>
@@ -25,7 +29,7 @@
     <meta name=”twitter:url” content="https://tipoff.com{{ $_SERVER['REQUEST_URI'] }}">
     <meta name="twitter:title" content="@yield('title', 'Tipoff Project')">
     <meta name="twitter:description" content="@yield('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')">
-    <meta name="twitter:image" content="@yield('featured_image', 'https://tipoff.com/logo.png')">
+    <meta name="twitter:image" content="@yield('featured_image', 'https://tipoff.com/ogimage.jpg')">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@TipoffProject">
     <meta name="twitter:creator" content="@DrewRoberts">
