@@ -80,7 +80,7 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- Styles -->
-    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/stylesb.css') }}" rel="stylesheet">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -138,6 +138,9 @@
         <div class="content-paper">
             @yield('content')
         </div>
+
+        <div style="height:60px;"></div>
+
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}"></script>
     </div>
