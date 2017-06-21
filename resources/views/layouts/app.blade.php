@@ -132,7 +132,7 @@
       ga('create', 'UA-100525006-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <div class="full">
+    <div class="full" style="background-color: #9E9E9E;">
         <tipoff-navigation></tipoff-navigation>
         <div style="height:120px;"></div>
         <div class="content-paper">
