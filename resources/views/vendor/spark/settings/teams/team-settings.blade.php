@@ -8,6 +8,10 @@
     @endif
 @endsection
 
+@section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
+
+@section('featured_image', 'https://tipoff.com/ogimage.jpg')
+
 @section('content')
 <spark-team-settings :user="user" :team-id="{{ $team->id }}" inline-template>
     <div class="spark-screen container">

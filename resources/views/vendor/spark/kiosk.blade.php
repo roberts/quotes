@@ -5,6 +5,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 @endsection
 
+@section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
+
+@section('featured_image', 'https://tipoff.com/ogimage.jpg')
+
 @section('content')
 <spark-kiosk :user="user" inline-template>
     <div class="container-fluid">

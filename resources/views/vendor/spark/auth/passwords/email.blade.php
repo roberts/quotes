@@ -1,6 +1,10 @@
 @extends('spark::layouts.app')
 
 <!-- Main Content -->
+@section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
+
+@section('featured_image', 'https://tipoff.com/ogimage.jpg')
+
 @section('content')
 <div class="container">
     <div class="row">

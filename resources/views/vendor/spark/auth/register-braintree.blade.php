@@ -4,6 +4,10 @@
     <script src="https://js.braintreegateway.com/v2/braintree.js"></script>
 @endsection
 
+@section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
+
+@section('featured_image', 'https://tipoff.com/ogimage.jpg')
+
 @section('content')
 <spark-register-braintree inline-template>
     <div>
