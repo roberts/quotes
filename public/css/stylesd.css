@@ -68,3 +68,5 @@ h3 {
 .mdl-mega-footer {
   background-color: #FFFFFF;
 }
+
+@media screen and (min-width:1024px){.first{width:52%;}}
