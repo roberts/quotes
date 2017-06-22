@@ -37,10 +37,12 @@
               {{ csrf_field() }}
               <input type="hidden" name="author_id" value="{{ $quoteauthor->id }}">
               <input type="hidden" name="author_name" value="{{ $quoteauthor->display_name }}">
-              <div class="form-group">
-                  <textarea name="quote_text" id="quote_text" class="form-control" placeholder="What is a quote from {{ $quoteauthor->display_name }}?" rows="5"></textarea>
+              <div class="mdl-textfield mdl-js-textfield">
+                <textarea class="mdl-textfield__input" type="text" rows= "5" name="quote_text" id="quote_text"></textarea>
+                <label class="mdl-textfield__label" for="sample5">New {{ $quoteauthor->display_name }} quote</label>
               </div>
-              <button type="submit">Submit</button>
+              <br>
+              <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Submit</button>
           </form>
     </div>
     @else

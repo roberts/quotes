@@ -60,3 +60,11 @@ h3 {
   font-weight: 400;
   line-height: 32px;
 }
+
+.footer-shadow {
+  box-shadow: 0 -0.1875rem 0.125rem rgba(0, 0, 0, 0.14);
+}
+
+.mdl-mega-footer {
+  background-color: #FFFFFF;
+}

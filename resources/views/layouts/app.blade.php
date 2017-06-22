@@ -80,7 +80,7 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- Styles -->
-    <link href="{{ asset('css/stylesb.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/stylesc.css') }}" rel="stylesheet">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -141,8 +141,68 @@
 
         <div style="height:60px;"></div>
 
+    </div>
+        <footer class="mdl-mega-footer footer-shadow">
+          <div class="mdl-mega-footer__middle-section" style="max-width: 970px;margin:auto;">
+
+            <div class="mdl-mega-footer__drop-down-section">
+              <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer__heading">Quotes</h1>
+              <ul class="mdl-mega-footer__link-list">
+                <li><a href="/quotes">Index</a></li>
+                <li><a href="/quotes/authors">Authors</a></li>
+                <li><a href="/quotes/topics">Topics</a></li>
+              </ul>
+            </div>
+
+            <div class="mdl-mega-footer__drop-down-section">
+              <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer__heading">Books</h1>
+              <ul class="mdl-mega-footer__link-list">
+                <li><a href="/books">Titles</a></li>
+                <li><a href="/books/authors">Authors</a></li>
+                <li><a href="/books/topics">Topics</a></li>
+              </ul>
+            </div>
+
+            <div class="mdl-mega-footer__drop-down-section">
+              <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer__heading">About</h1>
+              <ul class="mdl-mega-footer__link-list">
+                <li><a href="/company">Company Intro</a></li>
+                <li><a href="/company/advertising">Advertising</a></li>
+                <li><a href="/company/contact">Contact</a></li>
+                <li><a href="/company/staff">Staff</a></li>
+                <li><a href="/company/team">Team</a></li>
+              </ul>
+            </div>
+
+            <div class="mdl-mega-footer__drop-down-section">
+              <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer__heading">Social</h1>
+              <ul class="mdl-mega-footer__link-list">
+                <li><a href="https://www.facebook.com/Tipoff">Facebook</a></li>
+                <li><a href="https://www.instagram.com/tipoff/">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/company/TipoffProject">LinkedIn</a></li>
+                <li><a href="https://twitter.com/TipoffProject">Twitter</a></li>
+                <li><a href="https://www.pinterest.com/tipoff/">Pinterest</a></li>
+                <li><a href="https://plus.google.com/+Tipoff">Google+</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="mdl-mega-footer__bottom-section" style="max-width: 970px;margin:auto;">
+            <div class="mdl-logo">Tipoff</div>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="/company/privacy">Privacy</a></li>
+              <li><a href="/company/terms">Terms</a></li>
+            </ul>
+          </div>
+
+        </footer>
+
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}"></script>
-    </div>
 </body>
 </html>
