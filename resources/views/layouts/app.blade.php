@@ -179,25 +179,29 @@
 
             <div class="mdl-mega-footer__drop-down-section">
               <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-              <h1 class="mdl-mega-footer__heading">Social</h1>
-              <ul class="mdl-mega-footer__link-list">
+              <h1 class="mdl-mega-footer__heading">Connect</h1>
+              <ul class="mdl-mega-footer__link-list" style="width: 100px; float: left;">
                 <li><a href="https://www.facebook.com/Tipoff">Facebook</a></li>
                 <li><a href="https://www.instagram.com/tipoff/">Instagram</a></li>
-                <li><a href="https://www.linkedin.com/company/TipoffProject">LinkedIn</a></li>
-                <li><a href="https://twitter.com/TipoffProject">Twitter</a></li>
                 <li><a href="https://www.pinterest.com/tipoff/">Pinterest</a></li>
+                <li><a href="https://twitter.com/TipoffProject">Twitter</a></li>
+
+              </ul>
+              <ul class="mdl-mega-footer__link-list" style="width: 100px; float: left;">
+                <li><a href="https://www.linkedin.com/company/TipoffProject">LinkedIn</a></li>
+                <li><a href="https://medium.com/tipoff">Medium</a></li>
                 <li><a href="https://plus.google.com/+Tipoff">Google+</a></li>
+                <li><a href="https://www.youtube.com/channel/UCwUvC89oicerZiU0JB9T_fA">YouTube</a></li>
               </ul>
             </div>
 
           </div>
 
           <div class="mdl-mega-footer__bottom-section" style="max-width: 970px;margin:auto;">
-            <div class="mdl-logo">Tipoff</div>
-            <ul class="mdl-mega-footer__link-list">
-              <li><a href="/company/privacy">Privacy</a></li>
-              <li><a href="/company/terms">Terms</a></li>
-            </ul>
+            <div class="mdl-logo"><a href="https://tipoff.com"><img src="/logo.png" height="32" width="32"></img></a></div>
+            <aside style="float: right; line-height: 2rem;">
+                <a href="/company/privacy">Privacy</a> & <a href="/company/terms">Terms</a>
+            </aside>
           </div>
 
         </footer>
