@@ -55,7 +55,7 @@ class QuotesController extends Controller
             'author_id' => request('author_id'),
             'quote_text' => request('quote_text'),
             'active' => 1,
-            'created_by' => auth()->id(),
+            'created_by' => request('created_by'),
             'approved_by' => auth()->id(),
             'updated_by' => null
         ]);

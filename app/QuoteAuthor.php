@@ -56,6 +56,16 @@ class QuoteAuthor extends Model
     }
 
     /**
+     * An author may have many quote submissions.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function quotesubmissions()
+    {
+        return $this->hasMany(QuoteSubmission::class, 'author_id');
+    }
+
+    /**
      * Add a quote to the author.
      *
      * @param $reply

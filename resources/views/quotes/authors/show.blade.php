@@ -2,7 +2,7 @@
 
 @section('title', $quoteauthor->display_name .' Quotes | Tipoff')
 
-@section('description', 'The top quotes on leadership and business from '. $quoteauthor->display_name .' are listed on this profile page.')
+@section('description', 'The top quotes from '. $quoteauthor->display_name .' on leadership and business topics from are listed on this profile page.')
 
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
@@ -30,6 +30,21 @@
       <div class="title">{{ $quoteauthor->display_name }} Quotes</div>
       <div>Published: June 2017</div>
     </div>
+
+    @if (auth()->check())
+    <div class="pre">
+          <form method="POST" action="/quotes/submissions">
+              {{ csrf_field() }}
+              <input type="hidden" name="author_id" value="{{ $quoteauthor->id }}">
+              <input type="hidden" name="author_name" value="{{ $quoteauthor->display_name }}">
+              <div class="form-group">
+                  <textarea name="quote_text" id="quote_text" class="form-control" placeholder="What is a quote from {{ $quoteauthor->display_name }}?" rows="5"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+          </form>
+    </div>
+    @else
+    @endif
 
     <section class="main">
       @foreach ($quoteauthor->quotes as $quote)

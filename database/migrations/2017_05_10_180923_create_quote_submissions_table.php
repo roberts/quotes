@@ -16,13 +16,13 @@ class CreateQuoteSubmissionsTable extends Migration
         Schema::create('quote_submissions', function (Blueprint $table) {
             $table->increments('id');
             $table->text('quote_text', 700);
-            $table->string('author_name')->unique();
-            $table->string('book_name')->unique();
-            $table->integer('likes')->unique();
-            $table->integer('isbn_10')->unique();
-            $table->integer('isbn_13')->unique();
-            $table->unsignedInteger('author_id')->index();
-            $table->unsignedInteger('book_id')->index();
+            $table->string('author_name');
+            $table->string('book_name')->nullable();
+            $table->integer('likes')->nullable();
+            $table->integer('isbn_10')->nullable();
+            $table->integer('isbn_13')->nullable();
+            $table->unsignedInteger('author_id')->index()->nullable();
+            $table->unsignedInteger('book_id')->index()->nullable();
             $table->unsignedInteger('created_by');
             $table->timestamp('created_at');
         });

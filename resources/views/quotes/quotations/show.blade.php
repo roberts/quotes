@@ -25,7 +25,7 @@
         }
 @endsection
 
-@section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
+@section('description', $quote->author->display_name .' Quote with identification number of '. $quote->id .' is '. $quote->quote_text .' - Leave a comment.')
 
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
