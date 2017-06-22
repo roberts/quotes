@@ -13,7 +13,7 @@ class CompanyController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except(['index', 'show', 'advertising', 'contact']);
+        $this->middleware('auth')->except(['index', 'show', 'advertising', 'contact', 'privacy', 'terms']);
     }
 
     /**
