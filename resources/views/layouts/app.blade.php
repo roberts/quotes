@@ -143,7 +143,7 @@
 
     </div>
         <footer class="mdl-mega-footer footer-shadow">
-          <div class="mdl-mega-footer__middle-section" style="max-width: 970px;margin:auto;">
+          <div class="mdl-mega-footer__middle-section" style="max-width: 970px;margin:auto;padding: 0px 0px 24px 0px;">
 
             <div class="mdl-mega-footer__drop-down-section">
               <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
@@ -197,10 +197,10 @@
 
           </div>
 
-          <div class="mdl-mega-footer__bottom-section" style="max-width: 970px;margin:auto;">
-            <div class="mdl-logo"><a href="https://tipoff.com"><img src="/logo.png" height="32" width="32"></img></a></div>
+          <div class="mdl-mega-footer__bottom-section" style="max-width: 970px; margin: auto; padding: 36px 0px; border-top: 1px solid #ddd;">
+            <a href="https://tipoff.com"><img src="/logo.png" height="32" width="32"></img></a>
             <aside style="float: right; line-height: 2rem;">
-                <a href="/company/privacy">Privacy</a> & <a href="/company/terms">Terms</a>
+                <a href="/company/privacy" style="color: inherit; text-decoration: none;">Privacy</a> & <a href="/company/terms" style="color: inherit; text-decoration: none;">Terms</a>
             </aside>
           </div>
 
