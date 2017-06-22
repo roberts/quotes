@@ -46,6 +46,18 @@ $now = date('c',time());
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://tipoff.com/company/privacy</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://tipoff.com/company/terms</loc>
+        <lastmod><?php echo $now; ?></lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://tipoff.com/company/team</loc>
         <lastmod><?php echo $now; ?></lastmod>
         <changefreq>weekly</changefreq>

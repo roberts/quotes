@@ -61,7 +61,7 @@ class CompanyController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function contact()
+    public function privacy()
     {
         return view('company.privacy');
     }
@@ -71,7 +71,7 @@ class CompanyController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function contact()
+    public function terms()
     {
         return view('company.terms');
     }
