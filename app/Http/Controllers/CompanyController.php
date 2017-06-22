@@ -56,4 +56,24 @@ class CompanyController extends Controller
         return view('company.contact');
     }
 
+    /**
+     * Show the company privacy policy page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contact()
+    {
+        return view('company.privacy');
+    }
+
+    /**
+     * Show the company terms of use policy page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contact()
+    {
+        return view('company.terms');
+    }
+
 }

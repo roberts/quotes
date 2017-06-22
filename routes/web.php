@@ -20,6 +20,8 @@ Route::get('company', 'CompanyController@index')->name('about');
 Route::get('company/staff', 'CompanyController@show');
 Route::get('company/advertising', 'CompanyController@advertising');
 Route::get('company/contact', 'CompanyController@contact');
+Route::get('company/privacy', 'CompanyController@privacy');
+Route::get('company/terms', 'CompanyController@terms');
 Route::get('company/team', 'UsersController@index');
 Route::get('/@{user}/collections', 'CollectionsController@index');
 Route::get('/@{user}/collections/{collection}', 'CollectionsController@show');
