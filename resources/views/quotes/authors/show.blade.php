@@ -2,6 +2,10 @@
 
 @section('title', $quoteauthor->display_name .' Quotes | Tipoff')
 
+@section('description', 'The top quotes on leadership and business from '. $quoteauthor->display_name .' are listed on this profile page.')
+
+@section('featured_image', 'https://tipoff.com/ogimage.jpg')
+
 @section('breadcrumbs')
     "@type": "ListItem",
     "position": 1,
@@ -17,10 +21,6 @@
       "name": "{{ $quoteauthor->display_name }}",
         }
 @endsection
-
-@section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
-
-@section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
 @section('content')
     <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
