@@ -1457,9 +1457,9 @@ class AuthorsTableSeeder extends Seeder
         ]);
         
         DB::table('authors')->insert([
-            'slug'          => 'volitare',
-            'display_name'  => 'volitare',
-            'last_name'     => 'Volitare',
+            'slug'          => 'voltaire',
+            'display_name'  => 'Voltaire',
+            'last_name'     => 'Voltaire',
             'bio_line'      => null,
             'profile_pic'   => null,
             'cover_image'   => null,
