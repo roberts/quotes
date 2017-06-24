@@ -36,15 +36,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <div class="quote-content">
         <paper-icon-button icon="image:photo-library"></paper-icon-button>
         <paper-icon-button icon="more-vert" style="float: right;""></paper-icon-button>
-        <p class="quote">"<content select='.quote'></content>"</p>
+        <p class="quote">"<slot name='quote'></slot>"</p>
       </div>
       <div class="author-content">
-        <p class="author">-<content select='.author'></content></p>
+        <p class="author">-<slot name='author'></slot></p>
         <p class="author">+76 more quotes</p>
       </div>
       <div class="card-actions">
           <paper-icon-button icon="star"></paper-icon-button>
-          <a href="https://tipoff.com/<content select='.id'></content>"
+          <a href="https://tipoff.com/<slot name='id'></slot>"
           <paper-icon-button icon="communication:comment"></paper-icon-button>
           <paper-icon-button icon="bookmark"></paper-icon-button>
           <paper-icon-button icon="social:share"></paper-icon-button>
