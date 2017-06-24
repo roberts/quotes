@@ -29,9 +29,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         paper-icon-button:hover {
           color: red;
         }
-        .container {
-          display: flex;
-          justify-content: space-between;
+        #container {
+          height: 125px;
+          text-align: justify;
+          border: 10px solid black;
+          font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
+          min-width: 300px;
+        }
+        #container paper-icon-button {
+          width: 150px;
+          height: 125px;
+          display: inline-block;
+          background: red;
+        }
+        #container:after {
+          content: '';
+          width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+          display: inline-block;
         }
       </style>
     </custom-style>
@@ -47,7 +61,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <p class="author">+76 more quotes</p>
       </div>
       <div class="card-actions">
-        <div class="horizontal justified container">
+        <div class="horizontal justified" id="container">
           <paper-icon-button icon="star"></paper-icon-button>
           <paper-icon-button icon="communication:comment"></paper-icon-button>
           <paper-icon-button icon="bookmark"></paper-icon-button>
