@@ -17,6 +17,7 @@
 
     <section class="main">
             <article>
+                <quote-card></quote-card>
                 <h4>Advertising opportunities will go here.</h4>
             </article>
     </section>

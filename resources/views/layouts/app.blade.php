@@ -74,6 +74,7 @@
     
     <!-- Tipoff Web Components -->
     <link rel="import" href="/elements/tipoff-navigation.html">
+    <link rel="import" href="/elements/quote-card.html">
     
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">

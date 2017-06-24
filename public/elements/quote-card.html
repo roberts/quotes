@@ -1,0 +1,69 @@
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+    <link rel="import" href="/bower_components/paper-card/paper-card.html">
+    <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
+    <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="/bower_components/paper-button/paper-button.html">
+    
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<dom-module id="quote-card">
+
+  <template>
+
+    <paper-card>
+      <div class="quote-content">
+        <paper-icon-button icon="image:photo-library"></paper-icon-button>
+        <paper-icon-button icon="image:photo-library"></paper-icon-button>
+        <p class="quote">"Here is the quote about business or leadership."</p>
+      </div>
+      <div class="author-content">
+        <p class="author">-Author Name</p>
+        <p class="author">+76 more quotes</p>
+      </div>
+      <div class="card-actions">
+        <div class="horizontal justified">
+          <paper-icon-button icon="icons:star"></paper-icon-button>
+          <paper-icon-button icon="communication:comment"></paper-icon-button>
+          <paper-icon-button icon="icons:boomark"></paper-icon-button>
+          <paper-icon-button icon="social:share"></paper-icon-button>
+        </div>
+      </div>
+    </paper-card>
+
+  </template>
+
+  <script>
+
+    Polymer({
+
+      is: 'quote-card',
+
+      properties: {
+
+        /**
+         * Quote data.
+         */
+
+      },
+
+      observers: [
+        
+      ],
+
+    });
+
+  </script>
+
+</dom-module>
