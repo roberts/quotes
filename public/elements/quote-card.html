@@ -26,8 +26,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <template>
     <custom-style>
       <style is="custom-style">
+        paper-card {
+          max-width: 400px;
+        }
         paper-icon-button:hover {
-          color: red;
+          color: var(--paper-red-500);
         }
       </style>
     </custom-style>
@@ -44,7 +47,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </div>
       <div class="card-actions">
           <paper-icon-button icon="star"></paper-icon-button>
-          <a href="https://tipoff.com/<slot name='id'></slot>"
           <paper-icon-button icon="communication:comment"></paper-icon-button>
           <paper-icon-button icon="bookmark"></paper-icon-button>
           <paper-icon-button icon="social:share"></paper-icon-button>

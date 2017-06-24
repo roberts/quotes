@@ -11,7 +11,7 @@
 
     <div class="pre">
       <div>Tipoff Project</div>
-      <div class="title">Advertsising</div>
+      <div class="title">Advertising</div>
       <div>Published: June 2017</div>
     </div>
 
