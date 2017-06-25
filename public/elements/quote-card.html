@@ -28,10 +28,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <style is="custom-style">
         paper-card {
           max-width: 400px;
+          margin: 10px 10px 10px 0;
         }
         paper-icon-button:hover {
           color: var(--paper-red-500);
         }
+        .quote { margin: 0 10px 0 10px; }
+        .author-content { margin: 10px 10px 10px 20px; }
+        .author { margin: 0px; }
+        .more { color: var(--paper-grey-600); margin: 0 0 10px 0; }
       </style>
     </custom-style>
 
@@ -43,7 +48,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </div>
       <div class="author-content">
         <p class="author">-<slot name='author'></slot></p>
-        <p class="author">+76 more quotes</p>
+        <p class="more">+76 more quotes</p>
       </div>
       <div class="card-actions">
           <paper-icon-button icon="star"></paper-icon-button>
