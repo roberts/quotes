@@ -33,24 +33,45 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         paper-icon-button:hover {
           color: var(--paper-red-500);
         }
-        .quote { margin: 0 30px 0 10px; }
-        .author-content { margin: 10px 10px 10px 20px; }
+        .graphics {
+          display:inline-block; 
+          margin: auto; 
+          background-color: #fff;
+        }
+        .quote { 
+          margin: -20px 40px 0 10px; 
+          padding: 15px;
+          border: 2px solid #55acee;
+          border-radius: 4px;
+        }
+        .author-content { margin: 5px 10px 10px 20px; }
         .author { margin: 0px; }
-        .more { color: var(--paper-grey-600); margin: 0 0 10px 0; }
+        .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; }
+        .attribution { margin: 0 0 10px 0;}
+        .quote-tail { float: left; margin: -9px 0 0 7px; }
+        .author-avatar { float: left; }
+        .author-content { width: 100%; }
       </style>
     </custom-style>
 
     <paper-card>
       <div class="quote-content">
         <div style="width:100%; text-align:center;">
-        <paper-icon-button style="display:inline-block; margin: auto;" icon="image:photo-library"></paper-icon-button>
-        <paper-icon-button icon="more-vert" style="float: right;""></paper-icon-button>
+        <paper-icon-button class="graphics" icon="image:photo-library"></paper-icon-button>
+        <paper-icon-button icon="more-vert" style="float: right;"></paper-icon-button>
         </div>
         <p class="quote">"<slot name='quote'></slot>"</p>
       </div>
-      <div class="author-content">
-        <p class="author">-<slot name='author'></slot></p>
-        <p class="more">+76 more quotes</p>
+      <div class="attribution">
+          <div class="quote-tail">
+              <img src="/quote-tail.gif" height="38px" width="38px">
+          </div>
+          <div class="author-avatar">
+          </div>
+          <div class="author-content">
+            <p class="author">-<slot name='author'></slot></p>
+            <p class="more">+76 more quotes</p>
+          </div>
       </div>
       <div class="card-actions">
           <paper-icon-button icon="star"></paper-icon-button>
