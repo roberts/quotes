@@ -17,11 +17,8 @@
 
     <section class="main">
             <article>
-                <quote-card>
-                  <span slot="quote">Here is our quote passed to the element through a content span slot. What else can we say?</span>
-                  <span slot="author">Drew Roberts</span>
-                  <span slot="title">1000000</span>
-                </quote-card>
+                <tipoff-quote quote="Here is our quote passed to the element through a content span slot. What else can we say?"></tipoff-quote>
+                
                 <h4>Advertising opportunities will go here.</h4>
             </article>
     </section>

@@ -21,11 +21,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-<dom-module id="quote-card">
+<dom-module id="tipoff-quote">
 
   <template>
     <custom-style>
-      <style is="custom-style">
+      <style>
         paper-card {
           max-width: 500px;
           margin: 10px 10px 10px 0;
@@ -60,7 +60,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <paper-icon-button class="graphics" icon="image:photo-library"></paper-icon-button>
         <paper-icon-button icon="more-vert" style="float: right;"></paper-icon-button>
         </div>
-        <p class="quote">"<slot name='quote'></slot>"</p>
+        <p class="quote">"testing"</p>
       </div>
       <div class="attribution">
           <div class="quote-tail">
@@ -69,8 +69,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="author-avatar">
           </div>
           <div class="author-content">
-            <p class="author">-<slot name='author'></slot></p>
-            <p class="more">+76 more quotes</p>
+            <p class="author">-Test</p>
+            <p class="more">+75 more quotes</p>
           </div>
       </div>
       <div class="card-actions">
@@ -84,25 +84,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </template>
 
   <script>
+    class TipoffQuote extends Polymer.Element {
+      static get is() {return 'tipoff-quote'}
+      static get properties() {
+        return {
+          quote: String
+        }
+      }
+    }
 
-    Polymer({
-
-      is: 'quote-card',
-
-      properties: {
-
-        /**
-         * Quote data.
-         */
-
-      },
-
-      observers: [
-        
-      ],
-
-    });
-
+    customElements.define(TipoffQuote.is, TipoffQuote);
   </script>
 
 </dom-module>

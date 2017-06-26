@@ -46,35 +46,17 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="/manifest.json?v=Tipoff">
     
-    <!-- Javascript libraries -->
+    <!-- Tipoff Web Components -->
     <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    
-    <!-- Polymer Elements -->
     <link rel="import" href="/bower_components/polymer/polymer.html">
-    <link rel="import" href="/bower_components/paper-styles/shadow.html">
-    <link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
-    <link rel="import" href="/bower_components/app-layout/app-drawer/app-drawer.html">
-    <link rel="import" href="/bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
-    <link rel="import" href="/bower_components/app-layout/app-header/app-header.html">
-    <link rel="import" href="/bower_components/app-layout/app-header-layout/app-header-layout.html">
-    <link rel="import" href="/bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
-    <link rel="import" href="/bower_components/app-layout/app-toolbar/app-toolbar.html">
+    <link rel="import" href="/bower_components/paper-fab/paper-fab.html">
+    <link rel="import" href="/bower_components/iron-image/iron-image.html">
+    <link rel="import" href="/bower_components/app-layout/app-grid/app-grid-style.html">
+    <link rel="import" href="/bower_components/iron-pages/iron-pages.html">
     <link rel="import" href="/bower_components/app-route/app-location.html">
     <link rel="import" href="/bower_components/app-route/app-route.html">
-    <link rel="import" href="/bower_components/iron-pages/iron-pages.html">
-    <link rel="import" href="/bower_components/iron-image/iron-image.html">
-    <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
-    <link rel="import" href="/bower_components/iron-selector/iron-selector.html">
-    <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
-    <link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
-    <link rel="import" href="/bower_components/paper-card/paper-card.html">
-    <link rel="import" href="/bower_components/paper-fab/paper-fab.html">
-    <link rel="import" href="/bower_components/app-layout/app-grid/app-grid-style.html">
-    <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
-    
-    <!-- Tipoff Web Components -->
     <link rel="import" href="/elements/tipoff-navigation.html">
-    <link rel="import" href="/elements/quote-card.html">
+    <link rel="import" href="/elements/tipoff-quote.html">
     
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
