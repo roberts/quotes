@@ -22,7 +22,7 @@ class QuotesController extends Controller
      */
     public function main()
     {
-        $quotes = Quote::latest()->get();
+        $quotes = Quote::inRandomOrder()->limit(5)->get();
 
         return view('quotes.index', compact('quotes'));
     }
