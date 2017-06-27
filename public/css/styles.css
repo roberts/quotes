@@ -48,7 +48,7 @@ div#full {
 }
 
 .main {
-  padding: 24px 80px;
+  padding: 24px 24px 80px 24px;
   border-top: 1px solid #ddd;
   font-size: 18px;
   line-height: 32px;
