@@ -23,11 +23,22 @@
     "app-elements": "PolymerElements/app-elements#^1.0.0",
     "iron-input-elements": "PolymerElements/iron-input-elements",
     "app-layout": "PolymerElements/app-layout#^2.0.0",
-    "paper-ui-elements": "PolymerElements/paper-ui-elements"
+    "paper-ui-elements": "PolymerElements/paper-ui-elements",
+    "polymer": "Polymer/polymer#^2.0.0",
+    "promise-polyfill": "polymerlabs/promise-polyfill#^2.0.0",
+    "data-elements": "PolymerElements/data-elements",
+    "platinum-elements": "PolymerElements/platinum-elements#^2.0.0",
+    "layout-elements": "PolymerElements/layout-elements",
+    "paper-overlay-elements": "PolymerElements/paper-overlay-elements",
+    "molecules": "PolymerElements/molecules#^1.0.0",
+    "iron-form": "PolymerElements/iron-form#^2.0.0"
   },
   "resolutions": {
     "webcomponentsjs": "^v1.0.0",
     "iron-ajax": "^2.0.2",
-    "app-layout": "^2.0.0"
+    "app-layout": "^2.0.0",
+    "polymer": "^2.0.0",
+    "promise-polyfill": "^2.0.0",
+    "iron-form": "^2.0.0"
   }
 }

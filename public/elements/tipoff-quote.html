@@ -22,60 +22,69 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
 <dom-module id="tipoff-quote">
-
   <template>
-    <custom-style>
-      <style>
-        paper-card {
-          max-width: 500px;
-          margin: 10px 10px 10px 0;
-        }
-        paper-icon-button:hover {
+    <style>
+      paper-card {
+        max-width: 500px;
+        margin: 10px 10px 10px 0;
+      }
+      paper-icon-button:hover {
+        color: var(--paper-red-500);
+      }
+      .graphics {
+        display:inline-block; 
+        margin: auto; 
+        background-color: #fff;
+      }
+      .quote { 
+        margin: -20px 40px 0 20px; 
+        padding: 15px;
+        border: 2px solid #55acee;
+        border-radius: 4px;
+      }
+      .author-content { margin: 5px 10px 10px 20px; }
+      .author { color: #000000; margin: 0px; }
+      .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; }
+      .attribution { margin: 0 0 10px 0; }
+      .quote-tail { float: left; margin: -9px 0 0 18px; }
+      .author-avatar { float: left; }
+      .author-content { width: 100%; }
+      a:link {
+          color: #000000;
+          text-decoration: none;
+      }
+      a {
+          color: #000000;
+      }
+      a:hover {
           color: var(--paper-red-500);
-        }
-        .graphics {
-          display:inline-block; 
-          margin: auto; 
-          background-color: #fff;
-        }
-        .quote { 
-          margin: -20px 40px 0 20px; 
-          padding: 15px;
-          border: 2px solid #55acee;
-          border-radius: 4px;
-        }
-        .author-content { margin: 5px 10px 10px 20px; }
-        .author { margin: 0px; }
-        .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; }
-        .attribution { margin: 0 0 10px 0;}
-        .quote-tail { float: left; margin: -9px 0 0 18px; }
-        .author-avatar { float: left; }
-        .author-content { width: 100%; }
-      </style>
-    </custom-style>
+      }
+    </style>
 
     <paper-card>
       <div class="quote-content">
         <div style="width:100%; text-align:center;">
-        <paper-icon-button class="graphics" icon="image:photo-library"></paper-icon-button>
+        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]#graphics"><paper-icon-button class="graphics" icon="image:photo-library"></paper-icon-button></a>
         <paper-icon-button icon="more-vert" style="float: right;"></paper-icon-button>
         </div>
-        <p class="quote">"testing"</p>
+        <p class="quote">"[[quote]]"</p>
       </div>
       <div class="attribution">
           <div class="quote-tail">
               <img src="/quote.gif" height="37px" width="37px">
           </div>
-          <div class="author-avatar">
-          </div>
-          <div class="author-content">
-            <p class="author">-Test</p>
-            <p class="more">+75 more quotes</p>
-          </div>
+          <a href="https://tipoff.com/quotes/[[slug]]">
+            <div class="author-avatar">
+            </div>
+            <div class="author-content">
+              <p class="author">-[[author]]</p>
+              <p class="more">+[[more]] more quotes</p>
+            </div>
+          </a>
       </div>
       <div class="card-actions">
           <paper-icon-button icon="star"></paper-icon-button>
-          <paper-icon-button icon="communication:comment"></paper-icon-button>
+          <a href="https://tipoff.com/quotes/[[slug]]/[[id]]#comments"><paper-icon-button icon="communication:comment"></paper-icon-button></a>
           <paper-icon-button icon="bookmark"></paper-icon-button>
           <paper-icon-button icon="social:share"></paper-icon-button>
       </div>
@@ -84,16 +93,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </template>
 
   <script>
-    class TipoffQuote extends Polymer.Element {
-      static get is() {return 'tipoff-quote'}
-      static get properties() {
-        return {
-          quote: String
-        }
+    Polymer({
+    /* this is the element's prototype */
+    is: 'tipoff-quote',
+    properties: {
+      id: Number,
+      quote: String,
+      author: String,
+      slug: String,
+      more: Number,
+      images: {
+        type: Boolean
       }
     }
-
-    customElements.define(TipoffQuote.is, TipoffQuote);
+  });
   </script>
 
 </dom-module>

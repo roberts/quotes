@@ -26,11 +26,8 @@
 
     <section class="main">
         @foreach ($quotes as $quote)
-            <article>
-                <h4>" {{ $quote->quote_text }} "</h4>
-                <div class="body">- <a href="{{ $quote->author->path() }}">{{ $quote->author->display_name }}</a></div>
-                <div class="body">- <a href="{{ $quote->path() }}">Comments</a></div>
-            </article>
+            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" images></tipoff-quote>
+            <br>
         @endforeach
     </section>
 @endsection

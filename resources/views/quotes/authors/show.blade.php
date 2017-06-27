@@ -50,11 +50,7 @@
 
     <section class="main">
       @foreach ($quoteauthor->quotes as $quote)
-            <article>
-                <h3>"{{ $quote->quote_text }}"</h3>
-                <p>- {{ $quoteauthor->display_name }}<br>
-                <a href="{{ $quote->path() }}">Comments</a></p>
-            </article>
+            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" images></tipoff-quote>
             <br>
         @endforeach
     </section>
