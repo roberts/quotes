@@ -22,7 +22,7 @@ class BookAuthorsController extends Controller
      */
     public function index()
     {
-        $bookauthors = BookAuthor::latest()->get();
+        $bookauthors = BookAuthor::latest()->orderBy('last_name', 'asc')->get();
 
         return view('books.authors.index', compact('bookauthors'));
     }
