@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Quote;
+use App\QuoteAuthor;
 use Illuminate\Http\Request;
 
 class QuotesController extends Controller
@@ -22,8 +23,8 @@ class QuotesController extends Controller
      */
     public function main()
     {
-        $jfkquotes = Quote::where('author_id', '=', 90)->limit(2)->get();
-        $quotes = Quote::inRandomOrder()->limit(5)->get();
+        $jfkquotes = Quote::where('author_id', '=', 90)->inRandomOrder()->limit(1)->get();
+        $quotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99, 100])->inRandomOrder()->limit(15)->get();
 
         return view('quotes.index', compact('quotes','jfkquotes'));
     }
