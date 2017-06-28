@@ -31,10 +31,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       paper-icon-button:hover {
         color: var(--paper-red-700);
       }
-      .graphics {
+      .top-quote {
+        width:100%;
+        text-align:center;
+        height:40px;
+      }
+      .graphicstrue {
         display:inline-block; 
         margin: auto; 
         background-color: #fff;
+      }
+      .graphicsfalse {
+        display:none;
       }
       .quote { 
         margin: -20px 40px 0 20px; 
@@ -47,10 +55,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; }
       .attribution { margin: 0 0 10px 0; }
       .quote-tail { float: left; margin: -9px 0 0 18px; }
-      .author-avatar { float: left; margin: 2px 0 -5px -20px; }
-      /*
-       * ==== hexagon
-       */
+      .author-avatar { float: left; margin: 1px 0 -5px -10px; }
       .hexa, .hexa div {
         margin: 0 auto;
         transform-origin: 50% 50%;
@@ -77,13 +82,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
       .hexa img {
         position: relative;
-        top: -10px;
-        left: 1px;
+        top: -3px;
+        left: 7px;
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
       }
-
-
-
-
+      a:hover .hexa img {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+      }
       .author-content { width: 100%; }
       a:link {
           color: #000000;
@@ -92,29 +100,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       a {
           color: #000000;
       }
-      a:hover {
+      a:hover .author {
           color: var(--paper-red-700);
       }
     </style>
 
     <paper-card>
       <div class="quote-content">
-        <div style="width:100%; text-align:center;">
-        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button class="graphics" icon="image:photo-library"></paper-icon-button></a>
+        <div class="top-quote">
+        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button class$="graphics[[images]]" icon="image:photo-library"></paper-icon-button></a>
         <paper-icon-button icon="more-vert" style="float: right;"></paper-icon-button>
         </div>
         <p class="quote">"[[quote]]"</p>
       </div>
       <div class="attribution">
           <div class="quote-tail">
-              <img src="/quote.gif" height="37px" width="37px">
+              <img src="/img/quote.gif" height="37px" width="37px">
           </div>
           <a href="https://tipoff.com/quotes/[[slug]]">
             <div class="author-avatar">
               <div class="hexa">
                   <div class="hex1">
                       <div class="hex2">
-                          <img src="[[avatar]]" height="63" width="63">
+                          <img src="[[avatar]]" height="50" width="50">
                       </div>
                   </div>
               </div>
@@ -144,10 +152,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       quote: String,
       author: String,
       slug: String,
-      avatar: String,
+      avatar: {
+        type: String,
+        value: '/img/author.gif'
+      },
       more: Number,
       images: {
-        type: Boolean
+        type: Boolean,
+        value: false
       }
     }
   });

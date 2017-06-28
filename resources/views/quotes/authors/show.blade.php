@@ -50,9 +50,7 @@
 
     <section class="main">
       @foreach ($quoteauthor->quotes as $quote)
-            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @php
-              echo 'avatar="https://via.placeholder.com/500/D32F2F/000000.jpg?text=' . str_replace(' ', '+', $quoteauthor->display_name) . '" images>'
-            @endphp</tipoff-quote>
+            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($quoteauthor->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) images @endif ></tipoff-quote>
             <br>
         @endforeach
     </section>
