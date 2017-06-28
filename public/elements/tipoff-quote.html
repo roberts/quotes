@@ -14,7 +14,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link rel="import" href="/bower_components/iron-icons/social-icons.html">
     <link rel="import" href="/bower_components/iron-icons/communication-icons.html">
     <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="/bower_components/paper-menu-button/paper-menu-button.html">
     <link rel="import" href="/bower_components/paper-button/paper-button.html">
+    <link rel="import" href="/bower_components/paper-tooltip/paper-tooltip.html">
+    <link rel="import" href="/bower_components/iron-icon/iron-icon.html">
+    <link rel="import" href="/bower_components/iron-image/iron-image.html">
+    <link rel="import" href="/bower_components/paper-listbox/paper-listbox.html">
+    <link rel="import" href="/bower_components/paper-item/paper-item.html">
+    <link rel="import" href="/bower_components/paper-button/paper-button.html">
+    <link rel="import" href="/bower_components/neon-animation/web-animations.html">
     
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -31,6 +39,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       paper-icon-button:hover {
         color: var(--paper-red-700);
       }
+      paper-menu-button {
+        float: right;
+        padding: 0;
+      }
+      a:hover paper-item  {
+          color: var(--paper-red-700);
+      }
       .top-quote {
         width:100%;
         text-align:center;
@@ -45,8 +60,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         display:none;
       }
       .quote { 
-        margin: -20px 40px 0 20px; 
-        padding: 15px;
+        margin: -20px 38px 0 20px; 
+        padding: 15px 12px 15px 15px;
         border: 2px solid #55acee;
         border-radius: 4px;
       }
@@ -55,6 +70,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; }
       .attribution { margin: 0 0 10px 0; }
       .quote-tail { float: left; margin: -18px 0 0 18px; }
+      .quote-id { position: relative; float: right; font-size:x-small; margin: -41px 38px 0 0; padding: 15px 4px 4px 150px; }
+      a .quote-id  {
+          color: #FFF;
+          text-decoration: none;
+      }
+       a:hover .quote-id  {
+          color: var(--paper-red-700);
+      }
       .author-avatar { float: left; margin: 0 5px -1px -15px; }
       .hexa, .hexa div {
         margin: 0 auto;
@@ -108,10 +131,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <paper-card>
       <div class="quote-content">
         <div class="top-quote">
-        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button class$="graphics[[images]]" icon="image:photo-library"></paper-icon-button></a>
-        <paper-icon-button icon="more-vert" style="float: right;"></paper-icon-button>
+        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button id="graphics" class$="graphics[[images]]" icon="image:photo-library"></paper-icon-button></a>
+        <paper-tooltip for="graphics" offset="0">View Quote Graphics</paper-tooltip>
+        <paper-menu-button horizontal-align="right">
+            <paper-icon-button id="menu" icon="more-vert" class="dropdown-trigger"></paper-icon-button>
+            <paper-menu class="dropdown-content">
+                <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Embed Quote</paper-item></a>
+                <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Cite Quote</paper-item></a>
+                <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Context</paper-item></a>
+                <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Attribution</paper-item></a>
+            </paper-menu>
+        </paper-menu-button>
+        <paper-tooltip for="menu" offset="0">Quote Features</paper-tooltip>
         </div>
-        <p class="quote">"[[quote]]"</p>
+        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]">
+            <p class="quote">"[[quote]]"</p>
+            <div class="quote-id">Tipoff.com/[[id]]</div>
+        </a>
       </div>
       <div class="attribution">
           <div class="quote-tail">
@@ -134,10 +170,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </a>
       </div>
       <div class="card-actions">
-          <paper-icon-button icon="star"></paper-icon-button>
-          <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button icon="communication:comment"></paper-icon-button></a>
-          <paper-icon-button icon="bookmark"></paper-icon-button>
-          <paper-icon-button icon="social:share"></paper-icon-button>
+          <paper-icon-button id="recommend" icon="star"></paper-icon-button>
+          <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button id="comment" icon="communication:comment"></paper-icon-button></a>
+          <paper-icon-button id="collection" icon="bookmark"></paper-icon-button>
+          <paper-icon-button id="share" icon="social:share"></paper-icon-button>
+          <paper-tooltip for="recommend" offset="0">Recommend</paper-tooltip>
+          <paper-tooltip for="comment" offset="0">Comment</paper-tooltip>
+          <paper-tooltip for="collection" offset="0">Add to Collection</paper-tooltip>
+          <paper-tooltip for="share" offset="0">Share Quote</paper-tooltip>
       </div>
     </paper-card>
 
