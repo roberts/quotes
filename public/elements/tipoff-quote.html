@@ -29,7 +29,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         margin: 10px 10px 10px 0;
       }
       paper-icon-button:hover {
-        color: var(--paper-red-500);
+        color: var(--paper-red-700);
       }
       .graphics {
         display:inline-block; 
@@ -47,7 +47,43 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; }
       .attribution { margin: 0 0 10px 0; }
       .quote-tail { float: left; margin: -9px 0 0 18px; }
-      .author-avatar { float: left; }
+      .author-avatar { float: left; margin: 2px 0 -5px -20px; }
+      /*
+       * ==== hexagon
+       */
+      .hexa, .hexa div {
+        margin: 0 auto;
+        transform-origin: 50% 50%;
+        overflow: hidden;
+        width: 59px;
+        height: 59px;
+      }
+      .hexa {
+        width: 64px;
+        height: 45px;
+      }
+      .hexa div {
+        width: 100%;
+        height: 100%;
+      }
+      .hexa {
+        transform: rotate(120deg);
+      }
+      .hex1 {
+        transform: rotate(-60deg);
+      }
+      .hex2 {
+        transform: rotate(-60deg);
+      }
+      .hexa img {
+        position: relative;
+        top: -10px;
+        left: 1px;
+      }
+
+
+
+
       .author-content { width: 100%; }
       a:link {
           color: #000000;
@@ -57,7 +93,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           color: #000000;
       }
       a:hover {
-          color: var(--paper-red-500);
+          color: var(--paper-red-700);
       }
     </style>
 
@@ -75,9 +111,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </div>
           <a href="https://tipoff.com/quotes/[[slug]]">
             <div class="author-avatar">
+              <div class="hexa">
+                  <div class="hex1">
+                      <div class="hex2">
+                          <img src="[[avatar]]" height="63" width="63">
+                      </div>
+                  </div>
+              </div>
             </div>
             <div class="author-content">
-              <p class="author">-[[author]]</p>
+              <p class="author">[[author]]</p>
               <p class="more">+[[more]] more quotes</p>
             </div>
           </a>
@@ -101,6 +144,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       quote: String,
       author: String,
       slug: String,
+      avatar: String,
       more: Number,
       images: {
         type: Boolean

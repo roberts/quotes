@@ -26,7 +26,9 @@
 
     <section class="main">
         @foreach ($quotes as $quote)
-            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" images></tipoff-quote>
+            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" @php
+              echo 'avatar="https://via.placeholder.com/500x500/D32F2F/000000?text=' . str_replace(' ', '+', $quote->author->display_name) . '" images>'
+            @endphp</tipoff-quote>
             <br>
         @endforeach
     </section>
