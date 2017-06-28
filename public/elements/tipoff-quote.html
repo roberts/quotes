@@ -35,6 +35,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       paper-card {
         max-width: 500px;
         margin: 10px 10px 10px 0;
+        width: 100%;
       }
       paper-icon-button:hover {
         color: var(--paper-red-700);
@@ -138,8 +139,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <paper-menu class="dropdown-content">
                 <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Embed Quote</paper-item></a>
                 <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Cite Quote</paper-item></a>
-                <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Context</paper-item></a>
                 <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Attribution</paper-item></a>
+                <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-item>Context</paper-item></a>
             </paper-menu>
         </paper-menu-button>
         <paper-tooltip for="menu" offset="0">Quote Features</paper-tooltip>
@@ -153,7 +154,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="quote-tail">
               <img src="/img/quote.gif" height="37px" width="37px">
           </div>
-          <a href="https://tipoff.com/quotes/[[slug]]">
+          <a id="author" href="https://tipoff.com/quotes/[[slug]]">
             <div class="author-avatar">
               <div class="hexa">
                   <div class="hex1">
@@ -168,6 +169,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <p class="more">+[[more]] more quotes</p>
             </div>
           </a>
+          <paper-tooltip for="author" offset="0">More [[author]] Quotes</paper-tooltip>
       </div>
       <div class="card-actions">
           <paper-icon-button id="recommend" icon="star"></paper-icon-button>
