@@ -52,12 +52,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         text-align:center;
         height:40px;
       }
-      .graphicstrue {
+      .graphics {
         display:inline-block; 
         margin: auto; 
         background-color: #fff;
       }
-      .graphicsfalse {
+      .false {
+        display:none;
+      }
+      .nottrue {
         display:none;
       }
       .quote { 
@@ -66,12 +69,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         border: 2px solid #55acee;
         border-radius: 4px;
       }
-      .author-content { margin: 14px 10px 12px 20px; width: 90%; }
-      .author { color: #000000; margin: 0px; width: 90%; }
-      .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; width: 90%; }
-      .attribution { margin: 0 0 10px 0; width: 90%; }
-      .quote-tail { float: left; margin: -18px 0 0 18px; }
-      .quote-id { position: relative; float: right; font-size:x-small; margin: -41px 38px 0 0; padding: 15px 4px 4px 150px; }
+      .quote-tail { float: left; margin: -4px 0 0 18px; }
+      .quote-id { position: relative; width: 100%; height: 0px; }
+      .quote-id span { float:right; font-size:x-small; padding: 0 44px 4px 10px; margin: -25px 0 0 0; }
       a .quote-id  {
           color: #FFF;
           text-decoration: none;
@@ -79,6 +79,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
        a:hover .quote-id  {
           color: var(--paper-red-700);
       }
+      .author-content { margin: 14px 10px 12px 20px; width: 100%; }
+      .author-only { margin: 7px 10px 12px 20px; width: 100%; font-weight: bold; }
+      .author { color: #000000; margin: 0px; }
+      .more { color: var(--paper-grey-600); margin: -4px 0 10px 0; }
+      .attribution { margin: 0 0 10px 0; width: 90%; }
       .author-avatar { float: left; margin: 0 5px -1px -15px; }
       .hexa, .hexa div {
         margin: 0 auto;
@@ -116,7 +121,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         filter: none;
         -webkit-filter: grayscale(0%);
       }
-      .author-content { width: 100%; }
       a:link {
           color: #000000;
           text-decoration: none;
@@ -132,7 +136,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <paper-card>
       <div class="quote-content">
         <div class="top-quote">
-        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button id="graphics" class$="graphics[[images]]" icon="image:photo-library"></paper-icon-button></a>
+        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]"><paper-icon-button id="graphics" class$="graphics [[graphics]]" icon="image:photo-library"></paper-icon-button></a>
         <paper-tooltip for="graphics" offset="0">View Quote Graphics</paper-tooltip>
         <paper-menu-button horizontal-align="right">
             <paper-icon-button id="menu" icon="more-vert" class="dropdown-trigger"></paper-icon-button>
@@ -145,15 +149,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         </paper-menu-button>
         <paper-tooltip for="menu" offset="0">Quote Features</paper-tooltip>
         </div>
-        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]">
+        <a href="https://tipoff.com/quotes/[[slug]]/[[id]]" >
             <p class="quote">"[[quote]]"</p>
-            <div class="quote-id">Tipoff.com/[[id]]</div>
+            <div class="quote-id"><span>Tipoff.com/[[id]]</span></div>
         </a>
-      </div>
-      <div class="attribution">
-          <div class="quote-tail">
+        <div class="quote-tail">
               <img src="/img/quote.gif" height="37px" width="37px">
           </div>
+      </div>
+      <div class$="attribution not[[condense]]">
           <a id="author" href="https://tipoff.com/quotes/[[slug]]">
             <div class="author-avatar">
               <div class="hexa">
@@ -170,6 +174,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </div>
           </a>
           <paper-tooltip for="author" offset="0">More Quotes by [[author]]</paper-tooltip>
+      </div>
+      <div class$="attribution [[condense]]">
+          <div class="author-only">
+              <p class="author">- [[author]]</p>
+            </div>
       </div>
       <div class="card-actions">
           <paper-icon-button id="recommend" icon="star"></paper-icon-button>
@@ -199,7 +208,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         value: '/img/author.gif'
       },
       more: Number,
-      images: {
+      graphics: {
+        type: Boolean,
+        value: false
+      },
+      condense: {
         type: Boolean,
         value: false
       }
