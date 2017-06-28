@@ -50,7 +50,7 @@
 
     <section class="main">
       @foreach ($quoteauthor->quotes as $quote)
-            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($quoteauthor->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) images @endif condense ></tipoff-quote>
+            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($quoteauthor->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) graphics @endif condense ></tipoff-quote>
             <br>
         @endforeach
     </section>
