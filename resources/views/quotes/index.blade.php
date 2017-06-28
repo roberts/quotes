@@ -25,6 +25,10 @@
     </div>
 
     <section class="main">
+        @foreach ($jfkquotes as $jfkquote)
+            <tipoff-quote id="{{ $jfkquote->id }}" quote="{{ $jfkquote->quote_text }}" author="{{ $jfkquote->author->display_name }}" slug="{{ $jfkquote->author->slug }}" more="70" @if ($jfkquote->author->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) images @endif ></tipoff-quote>
+            <br>
+        @endforeach
         @foreach ($quotes as $quote)
             <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" @if ($quote->author->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) images @endif ></tipoff-quote>
             <br>
