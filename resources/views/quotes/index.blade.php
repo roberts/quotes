@@ -25,12 +25,11 @@
     </div>
 
     <section class="main">
-        @foreach ($jfkquotes as $jfkquote)
-            <tipoff-quote id="{{ $jfkquote->id }}" quote="{{ $jfkquote->quote_text }}" author="{{ $jfkquote->author->display_name }}" slug="{{ $jfkquote->author->slug }}" more="70" @if ($jfkquote->author->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) graphics @endif ></tipoff-quote>
-            <br>
-        @endforeach
+        @php
+            $avatars = array(4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 90, 95, 99, 100);
+        @endphp
         @foreach ($quotes as $quote)
-            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" @if ($quote->author->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) graphics @endif ></tipoff-quote>
+            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" @if (in_array($quote->author->id, $avatars )) avatar="/img/{{ $quote->author->slug }}.jpg" @endif @if ($loop->first) graphics @endif ></tipoff-quote>
             <br>
         @endforeach
     </section>

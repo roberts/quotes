@@ -92,7 +92,7 @@ class AuthorsTableSeeder extends Seeder
         ]);
         
         DB::table('authors')->insert([
-            'slug'          => 'warrern-buffet',
+            'slug'          => 'warren-buffet',
             'display_name'  => 'Warren Buffet',
             'last_name'     => 'Buffet',
             'bio_line'      => null,

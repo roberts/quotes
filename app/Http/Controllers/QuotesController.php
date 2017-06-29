@@ -23,10 +23,9 @@ class QuotesController extends Controller
      */
     public function main()
     {
-        $jfkquotes = Quote::where('author_id', '=', 90)->inRandomOrder()->limit(1)->get();
-        $quotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99, 100])->inRandomOrder()->limit(15)->get();
+        $quotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 90, 95, 99, 100])->inRandomOrder()->limit(20)->get();
 
-        return view('quotes.index', compact('quotes','jfkquotes'));
+        return view('quotes.index', compact('quotes'));
     }
     public function index()
     {
