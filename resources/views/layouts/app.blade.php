@@ -118,7 +118,6 @@
     </script>
     <div class="full" style="background-color: #9E9E9E;">
         <tipoff-navigation></tipoff-navigation>
-        <div style="height:120px;"></div>
         <div class="content-paper">
             @yield('content')
         </div>

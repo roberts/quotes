@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\QuoteSubmission;
+use App\QuoteAuthor;
 use Illuminate\Http\Request;
 
 class QuoteSubmissionsController extends Controller
@@ -43,7 +44,7 @@ class QuoteSubmissionsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, QuoteAuthor $quoteauthor)
     {
         $quotesubmission = QuoteSubmission::create([
             'quote_text' => request('quote_text'),
@@ -58,7 +59,7 @@ class QuoteSubmissionsController extends Controller
             'created_at' => date('Y-m-d H:i:s')
         ]);
 
-        return redirect($quotesubmission->author->path());
+        return back();
     }
 
     /**

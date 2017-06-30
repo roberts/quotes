@@ -14431,6 +14431,42 @@ class QuotesTableSeeder extends Seeder
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 135,
+            'quote_text'    => 'The most important quality of leadership is a belief that we can do better.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 135,
+            'quote_text'    => 'The essence of leadership is not a defense of the status quo - a contentment with things as they are. Leadership, genuine and true leadership, requires a willingness to push beyond what is convenient to what is necessary.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 135,
+            'quote_text'    => 'As we enter the information age, we are changing the way we conduct business, the way we manufacture goods, the way we think about work. We are changing the kinds of services we provide; the way we entertain ourselves; the way we communicate.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 135,
+            'quote_text'    => 'Business and industries examine a state\'s schools as they decide where to build new facilities - as they decide which states or communities will get new jobs.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
 
     }
 }
