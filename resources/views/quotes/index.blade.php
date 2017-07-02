@@ -24,13 +24,21 @@
       <div>Published: June 2017</div>
     </div>
 
-    <section class="main">
-        @php
-            $avatars = array(4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 90, 95, 99, 100);
-        @endphp
-        @foreach ($quotes as $quote)
-            <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" @if (in_array($quote->author->id, $avatars )) avatar="/img/{{ $quote->author->slug }}.jpg" @endif @if ($loop->first) graphics @endif ></tipoff-quote>
-            <br>
-        @endforeach
+    <section class="main mdl-grid">
+        <div class="content mdl-cell mdl-cell--4-col-phone">
+            @php
+                $avatars = array(4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 90, 95, 99, 100);
+            @endphp
+            @foreach ($quotes as $quote)
+                <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" @if (in_array($quote->author->id, $avatars )) avatar="/img/{{ $quote->author->slug }}.jpg" @endif @if ($loop->first) graphics @endif ></tipoff-quote>
+                <br>
+            @endforeach
+        </div>
+        <div class="sidebar mdl-cell mdl-cell--4-col-phone">
+            @foreach ($sidequotes as $quote)
+                <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="70" @if (in_array($quote->author->id, $avatars )) avatar="/img/{{ $quote->author->slug }}.jpg" @endif @if ($loop->first) graphics @endif ></tipoff-quote>
+                <br>
+            @endforeach
+        </div>
     </section>
 @endsection

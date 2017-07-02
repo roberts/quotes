@@ -48,11 +48,41 @@ div#full {
 }
 
 .main {
-  padding: 24px 24px 80px 24px;
+  padding: 24px 16px 80px 16px;
   border-top: 1px solid #ddd;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 1px;
+}
+
+.content {
+  max-width:596px;
+  min-width:300px;
+}
+
+/* Bigger than 679px */
+@media (min-width: 679px) {
+    .content {
+      width:calc(100% - 340px);
+      width: -moz-calc(100% - 340px);
+      width: -webkit-calc(100% - 340px);
+      width: -o-calc(100% - 340px);
+    }
+    .sidebar {
+      width:300px;
+      margin-left: 16px;
+    }
+}
+
+/* tablet & smaller */
+@media (max-width: 679px) {
+    .content {
+      width:100%;
+    }
+    .sidebar {
+      min-width:300px; 
+      width:100%;
+    }
 }
 
 h3 {
