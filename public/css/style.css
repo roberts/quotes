@@ -74,6 +74,23 @@ div#full {
     }
 }
 
+.sidebar paper-card {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.sidebar paper-card:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+a paper-icon-button iron-icon img {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+}
+
+a:hover paper-icon-button iron-icon img {
+    -webkit-filter: none;
+    filter: none;
+}
+
 /* tablet & smaller */
 @media (max-width: 679px) {
     .content {
@@ -90,6 +107,16 @@ h3 {
   font-weight: 400;
   line-height: 32px;
 }
+
+.sidebar-connect { 
+  font-size: 18px;
+  line-height: 24px; }
+.sidebar-connect-p { 
+  color: rgba(0,0,0,0.54);
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 8px;
+  }
 
 .footer-shadow {
   box-shadow: 0 -0.1875rem 0.125rem rgba(0, 0, 0, 0.14);
