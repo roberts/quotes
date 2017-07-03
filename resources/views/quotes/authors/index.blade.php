@@ -15,11 +15,14 @@
       <div>Published: June 2017</div>
     </div>
 
-    <section class="main">
+    <section class="main mdl-grid">
+        <div class="content mdl-cell mdl-cell--4-col-phone">
         @foreach ($quoteauthors as $quoteauthor)
             <article>
                 <div class="body"><a href="{{ $quoteauthor->path() }}">{{ $quoteauthor->display_name }}</a></div>
             </article>
         @endforeach
+        </div>
+        @include('layouts.sidebar-quotes')
     </section>
 @endsection

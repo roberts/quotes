@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\QuoteAuthor;
+use App\Quote;
 use Illuminate\Http\Request;
 
 class QuoteAuthorsController extends Controller
@@ -23,8 +24,10 @@ class QuoteAuthorsController extends Controller
     public function index()
     {
         $quoteauthors = QuoteAuthor::has('quotes', '>=', 5)->orderBy('last_name', 'asc')->get();
+        $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11])->inRandomOrder()->limit(5)->get();
+        $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 72, 99, 100])->inRandomOrder()->limit(10)->get();
 
-        return view('quotes.authors.index', compact('quoteauthors'));
+        return view('quotes.authors.index', compact('quoteauthors','sidequotes','sideauthors'));
     }
 
     /**
@@ -68,7 +71,10 @@ class QuoteAuthorsController extends Controller
      */
     public function show(QuoteAuthor $quoteauthor)
     {
-        return view('quotes.authors.show', compact('quoteauthor'));
+        $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11])->inRandomOrder()->limit(5)->get();
+        $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 72, 99, 100])->inRandomOrder()->limit(10)->get();
+
+        return view('quotes.authors.show', compact('quoteauthor','sidequotes','sideauthors'));
     }
 
     /**

@@ -75,6 +75,7 @@ div#full {
 }
 
 .sidebar paper-card {
+    margin: 5px 0 5px 0;
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -108,15 +109,59 @@ h3 {
   line-height: 32px;
 }
 
+.sidebar-title {
+    padding: 16px 0 0 16px;
+    font: 400 14px/20px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
 .sidebar-connect { 
   font-size: 18px;
-  line-height: 24px; }
+  line-height: 24px; 
+}
+
 .sidebar-connect-p { 
   color: rgba(0,0,0,0.54);
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 8px;
   }
+
+.trending { 
+    padding: 16px;
+    min-width: 268px;
+}
+
+.trend { 
+    width: 100%;
+    display: block;
+    margin: 0 0 8px 0;
+}
+
+a .trending-item { 
+    font: 400 14px/20px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    border: 1px solid #e0e0e0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px 8px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+.trending:hover .trend a .trending-item { 
+    color: #D32F2F;
+}
+
+a:hover .trending-item, a:focus .trending-item {
+    border: 1px solid #D32F2F;
+}
 
 .footer-shadow {
   box-shadow: 0 -0.1875rem 0.125rem rgba(0, 0, 0, 0.14);
