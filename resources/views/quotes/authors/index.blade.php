@@ -16,12 +16,30 @@
     </div>
 
     <section class="main mdl-grid">
+        <div class="featured-list mdl-grid">
+            @foreach ($featuredauthors as $author)
+                <a href="{{ $author->path() }}" class="featured-authors mdl-cell mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                    <div class="author-avatar">
+                        <div class="hexa">
+                            <div class="hex1">
+                                <div class="hex2">
+                                    <img src="/img/{{ $author->slug }}.jpg" height="50" width="50">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-author">{{ $author->display_name }}</div>
+                </a>
+            @endforeach
+        </div>
+
         <div class="content mdl-cell mdl-cell--4-col-phone">
-        @foreach ($quoteauthors as $quoteauthor)
-            <article>
-                <div class="body"><a href="{{ $quoteauthor->path() }}">{{ $quoteauthor->display_name }}</a></div>
-            </article>
-        @endforeach
+            <h2>Additional Quote Authors</h2>
+            <div class="secondary-list mdl-grid">
+                @foreach ($secondaryauthors as $author)
+                    <a href="{{ $author->path() }}" class="mdl-cell mdl-cell--4-col-tablet mdl-cell--4-col-phone"><div class="secondary-author">{{ $author->display_name }}</div></a>
+                @endforeach
+            </div>
         </div>
         @include('layouts.sidebar-quotes')
     </section>
