@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', '{{ $quotetopic->title }} Quotes | Tipoff.com')
+
 @section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
 
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')

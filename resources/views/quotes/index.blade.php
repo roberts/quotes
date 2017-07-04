@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Tipoff Quotes')
+@section('title', 'Quotes | Tipoff.com')
 
 @section('breadcrumbs')
     "@type": "ListItem",

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $quoteauthor->display_name .' Quotes | Tipoff')
+@section('title', $quoteauthor->display_name .' Quotes | Tipoff.com')
 
 @section('description', 'The top quotes from '. $quoteauthor->display_name .' on leadership and business topics from are listed on this profile page.')
 

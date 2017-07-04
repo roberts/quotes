@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Business and Leadership Quote Authors | Tipoff')
+@section('title', 'Authors of Business and Leadership Quote | Tipoff.com')
 
 @section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
 
@@ -11,7 +11,7 @@
 
     <div class="pre">
       <div>Business and Leadership</div>
-      <div class="title">Quote Authors</div>
+      <div class="title">Authors of Business & Leadership Quotes</div>
       <div>Published: June 2017</div>
     </div>
 
