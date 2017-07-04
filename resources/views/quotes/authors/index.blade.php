@@ -37,7 +37,7 @@
             <h2>Additional Quote Authors</h2>
             <div class="secondary-list mdl-grid">
                 @foreach ($secondaryauthors as $author)
-                    <a href="{{ $author->path() }}" class="mdl-cell mdl-cell--4-col-tablet mdl-cell--4-col-phone"><div class="secondary-author">{{ $author->display_name }}</div></a>
+                    <a href="{{ $author->path() }}" class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style="min-width:210px;"><div class="secondary-author">{{ $author->display_name }}</div></a>
                 @endforeach
             </div>
         </div>
