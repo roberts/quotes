@@ -18,7 +18,7 @@
     <section class="main mdl-grid">
         <div class="featured-list mdl-grid">
             @foreach ($featuredauthors as $author)
-                <a href="{{ $author->path() }}" class="featured-authors mdl-cell mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <a href="{{ $author->path() }}" class="featured-authors mdl-cell mdl-cell--4-col-tablet mdl-cell--4-col-phone" style="min-width:280px;">
                     <div class="author-avatar">
                         <div class="hexa">
                             <div class="hex1">
