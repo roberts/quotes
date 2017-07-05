@@ -2458,7 +2458,7 @@ class AuthorsTableSeeder extends Seeder
         
         DB::table('authors')->insert([
             'slug'          => 'peter-thiel',
-            'display_name'  => 'Peter Theil',
+            'display_name'  => 'Peter Thiel',
             'last_name'     => 'Thiel',
             'bio_line'      => null,
             'profile_pic'   => null,
@@ -2603,6 +2603,71 @@ class AuthorsTableSeeder extends Seeder
             'slug'          => 'derek-sivers',
             'display_name'  => 'Derek Sivers',
             'last_name'     => 'Sivers',
+            'bio_line'      => null,
+            'profile_pic'   => null,
+            'cover_image'   => null,
+            'created_by'    => 1,
+            'updated_by'    => 2,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+
+        DB::table('authors')->insert([
+            'slug'          => 'brad-stone',
+            'display_name'  => 'Brad Stone',
+            'last_name'     => 'Stone',
+            'bio_line'      => null,
+            'profile_pic'   => null,
+            'cover_image'   => null,
+            'created_by'    => 1,
+            'updated_by'    => 2,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+
+        DB::table('authors')->insert([
+            'slug'          => 'steven-levy',
+            'display_name'  => 'Steven Levy',
+            'last_name'     => 'Levy',
+            'bio_line'      => null,
+            'profile_pic'   => null,
+            'cover_image'   => null,
+            'created_by'    => 1,
+            'updated_by'    => 2,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+
+        DB::table('authors')->insert([
+            'slug'          => 'walter-isaacson',
+            'display_name'  => 'Walter Isaacson',
+            'last_name'     => 'Isaacson',
+            'bio_line'      => null,
+            'profile_pic'   => null,
+            'cover_image'   => null,
+            'created_by'    => 1,
+            'updated_by'    => 2,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+
+        DB::table('authors')->insert([
+            'slug'          => 'adam-lashinsky',
+            'display_name'  => 'Adam Lashinsky',
+            'last_name'     => 'Lashinsky',
+            'bio_line'      => null,
+            'profile_pic'   => null,
+            'cover_image'   => null,
+            'created_by'    => 1,
+            'updated_by'    => 2,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+
+        DB::table('authors')->insert([
+            'slug'          => 'ryan-holiday',
+            'display_name'  => 'Ryan Holiday',
+            'last_name'     => 'Holiday',
             'bio_line'      => null,
             'profile_pic'   => null,
             'cover_image'   => null,
