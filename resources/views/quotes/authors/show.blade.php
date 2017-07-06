@@ -31,22 +31,29 @@
       <div>Published: June 2017</div>
     </div>
 
+    <section class="details mdl-grid">
+        <div class="content mdl-cell mdl-cell--4-col-phone">
+
+        </div>
     @if (auth()->check())
-    <div class="pre">
-          <form method="POST" action="/quotes/submissions">
-              {{ csrf_field() }}
-              <input type="hidden" name="author_id" value="{{ $quoteauthor->id }}">
-              <input type="hidden" name="author_name" value="{{ $quoteauthor->display_name }}">
-              <div class="mdl-textfield mdl-js-textfield">
-                <textarea class="mdl-textfield__input" type="text" rows= "5" name="quote_text" id="quote_text"></textarea>
-                <label class="mdl-textfield__label" for="sample5">New {{ $quoteauthor->display_name }} quote</label>
-              </div>
-              <br>
-              <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Submit</button>
-          </form>
-    </div>
+        <div class="sidebar mdl-cell mdl-cell--4-col-phone">
+          <paper-card>
+            <form method="POST" action="/quotes/submissions">
+                {{ csrf_field() }}
+                <input type="hidden" name="author_id" value="{{ $quoteauthor->id }}">
+                <input type="hidden" name="author_name" value="{{ $quoteauthor->display_name }}">
+                <div class="mdl-textfield mdl-js-textfield">
+                  <textarea class="mdl-textfield__input" type="text" rows= "5" name="quote_text" id="quote_text"></textarea>
+                  <label class="mdl-textfield__label" for="sample5">New {{ $quoteauthor->display_name }} quote</label>
+                </div>
+                <br>
+                <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Submit</button>
+            </form>
+          </paper-card>
+        </div>
     @else
     @endif
+    </section>
 
     <section class="main mdl-grid">
         <div class="content mdl-cell mdl-cell--4-col-phone">
