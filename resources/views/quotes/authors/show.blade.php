@@ -33,21 +33,26 @@
 
     <section class="details mdl-grid">
         <div class="content mdl-cell mdl-cell--4-col-phone">
-
+            <paper-card>
+                
+            </paper-card>
         </div>
     @if (auth()->check())
         <div class="sidebar mdl-cell mdl-cell--4-col-phone">
           <paper-card>
-            <form method="POST" action="/quotes/submissions">
-                {{ csrf_field() }}
-                <input type="hidden" name="author_id" value="{{ $quoteauthor->id }}">
-                <input type="hidden" name="author_name" value="{{ $quoteauthor->display_name }}">
-                <div class="mdl-textfield mdl-js-textfield">
-                  <textarea class="mdl-textfield__input" type="text" rows= "5" name="quote_text" id="quote_text"></textarea>
-                  <label class="mdl-textfield__label" for="sample5">New {{ $quoteauthor->display_name }} quote</label>
+            <form method="POST" action="/quotes/submissions" style="max-width:300px;">
+                <div class="card-content">
+                    {{ csrf_field() }}
+                    <input type="hidden" name="author_id" value="{{ $quoteauthor->id }}">
+                    <input type="hidden" name="author_name" value="{{ $quoteauthor->display_name }}">
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <textarea class="mdl-textfield__input" type="text" style="max-width:268px;" rows= "5" name="quote_text" id="quote_text"></textarea>
+                      <label class="mdl-textfield__label" for="sample5">New {{ $quoteauthor->display_name }} quote</label>
+                    </div>
                 </div>
-                <br>
-                <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Submit</button>
+                <div class="card-actions">
+                    <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Submit</button>
+                </div>
             </form>
           </paper-card>
         </div>
