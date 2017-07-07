@@ -690,7 +690,7 @@ class QuotesTableSeeder extends Seeder
         ]);
         DB::table('quotes')->insert([
             'author_id'     => 7,
-            'quote_text'    => ' insist on a lot of time being spent, almost every day, to just sit and think. That is very uncommon in American business. I read and think. So I do more reading and thinking, and make less impulse decisions than most people in business.',
+            'quote_text'    => 'I insist on a lot of time being spent, almost every day, to just sit and think. That is very uncommon in American business. I read and think. So I do more reading and thinking, and make less impulse decisions than most people in business.',
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,

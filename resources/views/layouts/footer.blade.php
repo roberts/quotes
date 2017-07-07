@@ -4,7 +4,7 @@
             <div class="mdl-mega-footer__drop-down-section first">
               <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
               <h3 class="mdl-mega-footer__heading" style="color: #4d4d4d;">Tipoff</h3>
-              <p class="mdl-mega-footer__link-list" style="width: 80%; float: left;">The Tipoff Project is a cooperative effort led by a group of editors, writers, and developers. We provide resources for business and leadership.</p>
+              <p class="mdl-mega-footer__link-list" style="width: 80%; float: left;">The Tipoff Project is a cooperative effort led by a group of editors, writers, designers, and developers. We provide resources for business and leadership.</p>
               <div style="width: 20%; float: left;"></div>
             </div>
 
