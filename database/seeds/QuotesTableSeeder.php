@@ -14467,6 +14467,97 @@ class QuotesTableSeeder extends Seeder
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'Things turn out best for the people who make the best of the way things turn out.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'Be more concerned with your character than with your reputation. Your character is what you really are while your reputation is merely what others think you are.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'Do not let what you cannot do interfere with what you can do.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'If you\'re not making mistakes, then you\'re not doing anything. I\'m positive that a doer makes mistakes.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'Talent is God given. Be humble. Fame is man-given. Be grateful. Conceit is self-given. Be careful.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'Never mistake activity for achievement.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'You cannot live a perfect day without doing something for someone who will never be able to repay you.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'Success comes from knowing that you did your best to become the best that you are capable of becoming.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'Failure is not fatal, but failure to change might be.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('quotes')->insert([
+            'author_id'     => 22,
+            'quote_text'    => 'It\'s the little details that are vital. Little things make big things happen.',
+            'created_by'    => 1,
+            'approved_by'   => 1,
+            'updated_by'    => null,
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+
 
     }
 }
