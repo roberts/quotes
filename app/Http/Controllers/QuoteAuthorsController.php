@@ -23,9 +23,9 @@ class QuoteAuthorsController extends Controller
      */
     public function index()
     {
-        $featuredauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 72, 90, 95, 99])->orderBy('last_name', 'asc')->get();
-        $secondaryauthors = QuoteAuthor::has('quotes', '>=', 1)->whereNotIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 90, 95, 99, 100])->orderBy('last_name', 'asc')->get();
-        $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11])->inRandomOrder()->limit(5)->get();
+        $featuredauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99])->orderBy('last_name', 'asc')->get();
+        $secondaryauthors = QuoteAuthor::has('quotes', '>=', 1)->whereNotIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99])->orderBy('last_name', 'asc')->get();
+        $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22])->inRandomOrder()->limit(5)->get();
         $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 72, 99, 100])->inRandomOrder()->limit(10)->get();
 
         return view('quotes.authors.index', compact('featuredauthors','secondaryauthors','sidequotes','sideauthors'));
@@ -73,7 +73,7 @@ class QuoteAuthorsController extends Controller
     public function show(QuoteAuthor $quoteauthor)
     {
         $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11])->inRandomOrder()->limit(5)->get();
-        $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 72, 99, 100])->inRandomOrder()->limit(10)->get();
+        $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22])->inRandomOrder()->limit(10)->get();
 
         return view('quotes.authors.show', compact('quoteauthor','sidequotes','sideauthors'));
     }
