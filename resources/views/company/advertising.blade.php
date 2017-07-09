@@ -17,7 +17,7 @@
 
     <section class="main">
             <article>
-                <h4>Advertising opportunities will go here.</h4>
+                <h4>For advertising opportunities with Tipoff, please contact our founder, Drew Roberts.</h4>
             </article>
     </section>
 @endsection
