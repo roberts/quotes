@@ -17,7 +17,7 @@
 
     <section class="main">
             <article>
-                <h4>Contact Details will go here.</h4>
+                <h4>Contact the team behind Tipoff through Facebook Messenger:</h4>
             </article>
     </section>
 @endsection
