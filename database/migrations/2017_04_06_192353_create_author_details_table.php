@@ -19,7 +19,7 @@ class CreateAuthorDetailsTable extends Migration
             $table->string('full_name')->nullable();
             $table->date('birth')->nullable();
             $table->date('death')->nullable();
-            $table->string('wikipedia_url')->nullable();
+            $table->string('wikipedia')->nullable();
             $table->string('twitter')->nullable();
             $table->string('facebook')->nullable();
             $table->string('instagram')->nullable();

@@ -31,13 +31,49 @@
       <div>Published: June 2017</div>
     </div>
 
+    @if (auth()->check())
     <section class="details mdl-grid">
         <div class="content mdl-cell mdl-cell--4-col-phone">
             <paper-card>
-                
-            </paper-card>
+            <form method="POST" action="/quotes/authors/details">
+                <div class="card-content">
+                    {{ csrf_field() }}
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <textarea class="mdl-textfield__input" type="text" rows= "5" name="quote_text" id="quote_text"></textarea>
+                      <label class="mdl-textfield__label" for="sample5">{{ $quoteauthor->display_name }} Bio</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_]*" id="wikipedia" name="wikipedia">
+                        <label class="mdl-textfield__label" for="wikipedia">Wikipedia</label>
+                        <span class="mdl-textfield__error">Slug only, not full URL</span>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9.]*" id="facebook" name="facebook">
+                        <label class="mdl-textfield__label" for="facebook">Facebook</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_]*" id="twitter" name="twitter">
+                        <label class="mdl-textfield__label" for="twitter">Twitter</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9._-]*" id="linkedin" name="linkedin">
+                        <label class="mdl-textfield__label" for="facebook">LinkedIn</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9._]*" id="instagram" name="instagram">
+                        <label class="mdl-textfield__label" for="instagram">Instagram</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                </div>
+                <div class="card-actions">
+                    <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Submit</button>
+                </div>
+            </form>
+          </paper-card>
         </div>
-    @if (auth()->check())
         <div class="sidebar mdl-cell mdl-cell--4-col-phone">
           <paper-card>
             <form method="POST" action="/quotes/submissions" style="max-width:300px;">
@@ -56,12 +92,13 @@
             </form>
           </paper-card>
         </div>
-    @else
-    @endif
     </section>
+    @endif
 
     <section class="main mdl-grid">
         <div class="content mdl-cell mdl-cell--4-col-phone">
+            @include('quotes.authors.details')
+
             @foreach ($quoteauthor->quotes as $quote)
                 <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($quoteauthor->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) graphics @endif condense ></tipoff-quote>
                 <br>

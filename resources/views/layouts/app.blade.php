@@ -66,6 +66,7 @@
     <link rel="import" href="/bower_components/paper-styles/color.html">
     <link rel="import" href="/bower_components/paper-styles/typography.html">
     <link rel="import" href="/bower_components/paper-card/paper-card.html">
+    <link rel="import" href="/bower_components/iron-collapse/iron-collapse.html">
     
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -115,7 +116,6 @@
         }]
     }
     </script>
-    @yield('javascript')
 
   </head>
   <body>
@@ -138,5 +138,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    @yield('javascript')
 </body>
 </html>

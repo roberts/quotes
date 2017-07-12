@@ -30,6 +30,19 @@ a {
     }
 }
 
+paper-card {
+    margin: 5px 0 5px 0;
+    width: 100%;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.content paper-card:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+paper-button:hover iron-icon {
+    color: #D32F2F;
+}
+
 .image {
   height: 240px;
   background-repeat: no-repeat;
