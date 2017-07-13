@@ -37,13 +37,33 @@ class Quote extends Model
     }
 
     /**
-     * A quote belongs to a creator.
+     * A quote belongs to a creator (user that generated the original quote submission).
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function creator()
     {
         return $this->belongsTo(User::class, 'created_by');
+    }
+
+    /**
+     * A quote belongs to an updating user.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function updater()
+    {
+        return $this->belongsTo(User::class, 'updated_by');
+    }
+
+    /**
+     * A quote belongs to an approving user (editor that approved the quote from submissions table).
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function approver()
+    {
+        return $this->belongsTo(User::class, 'approved_by');
     }
 
 }

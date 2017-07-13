@@ -70,4 +70,46 @@ class User extends SparkUser
         'trial_ends_at' => 'datetime',
         'uses_two_factor_auth' => 'boolean',
     ];
+
+    /**
+     * A user may have many quotes.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function quotes()
+    {
+        return $this->hasMany(Quote::class, 'created_by');
+    }
+
+    /**
+     * A user may have many approved quotes.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function approvedquotes()
+    {
+        return $this->hasMany(Quote::class, 'approved_by');
+    }
+
+    /**
+     * A user may have many updated quotes.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function updatedquotes()
+    {
+        return $this->hasMany(Quote::class, 'updated_by');
+    }
+
+    /**
+     * A user may have many quote submissions.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function quotesubmissions()
+    {
+        return $this->hasMany(QuoteSubmission::class, 'created_by');
+    }
+
+    
 }

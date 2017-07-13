@@ -76,11 +76,9 @@
         </div>
         <div class="sidebar mdl-cell mdl-cell--4-col-phone">
           <paper-card>
-            <form method="POST" action="/quotes/submissions" style="max-width:300px;">
+            <form method="POST" action="/quotes/{{ $quoteauthor->slug }}/submissions" style="max-width:300px;">
                 <div class="card-content">
                     {{ csrf_field() }}
-                    <input type="hidden" name="author_id" value="{{ $quoteauthor->id }}">
-                    <input type="hidden" name="author_name" value="{{ $quoteauthor->display_name }}">
                     <div class="mdl-textfield mdl-js-textfield">
                       <textarea class="mdl-textfield__input" type="text" style="max-width:268px;" rows= "5" name="quote_text" id="quote_text"></textarea>
                       <label class="mdl-textfield__label" for="sample5">New {{ $quoteauthor->display_name }} quote</label>
@@ -100,7 +98,7 @@
             @include('quotes.authors.details')
 
             @foreach ($quoteauthor->quotes as $quote)
-                <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($quoteauthor->slug == 'jfk') avatar="/img/jfk.jpg" @endif @if ($loop->first) graphics @endif condense ></tipoff-quote>
+                <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($loop->first) graphics @endif condense ></tipoff-quote>
                 <br>
             @endforeach
         </div>

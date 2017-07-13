@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\QuoteAuthor;
 
 class QuoteSubmission extends Model
 {
@@ -16,17 +17,7 @@ class QuoteSubmission extends Model
     protected $guarded = [];
 
     /**
-     * Get a string path for the quote.
-     *
-     * @return string
-     */
-    public function path()
-    {
-        return "/quotes/submissions/{$this->id}";
-    }
-
-    /**
-     * A quote is assigned to an author.
+     * A quote submission is assigned to an author.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -36,7 +27,7 @@ class QuoteSubmission extends Model
     }
 
     /**
-     * A quote belongs to a creator.
+     * A quote submission belongs to a creator.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
@@ -44,4 +35,6 @@ class QuoteSubmission extends Model
     {
         return $this->belongsTo(User::class, 'created_by');
     }
+
+
 }

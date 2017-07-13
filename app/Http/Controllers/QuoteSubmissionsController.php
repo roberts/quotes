@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\QuoteSubmission;
 use App\QuoteAuthor;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class QuoteSubmissionsController extends Controller
@@ -44,17 +45,11 @@ class QuoteSubmissionsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(QuoteAuthor $quoteauthor)
+    public function store(Request $request, QuoteAuthor $quoteauthor)
     {
-        $this->validate(request(), ['quote_text' => 'required|min:10|unique:quote_submissions|unique:quote_rejections|unique:quotes|max:700']);
+        $this->validate($request, ['quote_text' => 'required|min:10|unique:quote_submissions|unique:quote_rejections|unique:quotes|max:700']);
 
-        $quotesubmission = new QuoteSubmission;
-        $quotesubmission->quote_text = request('quote_text');
-        $quotesubmission->display_name = $quoteauthor->display_name;
-        $quotesubmission->author_id = $quoteauthor->id;
-        $quotesubmission->created_by = auth()->id();
-        $quotesubmission->created_at = date('Y-m-d H:i:s');
-        $quotesubmission->save();
+        $quoteauthor->addSubmission(request('quote_text'));
 
         return back();
     }

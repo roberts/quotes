@@ -3,6 +3,8 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
+use App\QuoteSubmission;
 
 class QuoteAuthor extends Model
 {
@@ -70,9 +72,13 @@ class QuoteAuthor extends Model
      *
      * @param $reply
      */
-    public function addSubmission($quotesubmission)
+    public function addSubmission($quote_text)
     {
-        $this->quotesubmissions()->create($quotesubmission);
+        $this->quotesubmissions()->create([
+                'quote_text' => $quote_text,
+                'created_by' => auth()->id(),
+                'created_at' => Carbon::now()
+            ]);
     }
 
     /**
