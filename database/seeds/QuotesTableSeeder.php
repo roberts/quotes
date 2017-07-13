@@ -19,6 +19,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -28,6 +29,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -37,6 +39,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -46,6 +49,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -55,6 +59,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -64,6 +69,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -73,6 +79,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -82,6 +89,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -91,6 +99,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -100,6 +109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -109,6 +119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -118,6 +129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -127,6 +139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -136,6 +149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -145,6 +159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -154,6 +169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -163,6 +179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -172,6 +189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -181,6 +199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -190,6 +209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -199,6 +219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -208,6 +229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -217,6 +239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -226,6 +249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -235,6 +259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -244,6 +269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -253,6 +279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -262,6 +289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -271,6 +299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -280,6 +309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -289,6 +319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -298,6 +329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -307,6 +339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -316,6 +349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -325,6 +359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -334,6 +369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -343,6 +379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -352,6 +389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -361,6 +399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -370,6 +409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -379,6 +419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -388,6 +429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -397,6 +439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -406,6 +449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -415,6 +459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -424,6 +469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -433,6 +479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -442,6 +489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -451,6 +499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -460,6 +509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -469,6 +519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -478,6 +529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -487,6 +539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -496,6 +549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -505,6 +559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -514,6 +569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -523,6 +579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -532,6 +589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -541,6 +599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -550,6 +609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -559,6 +619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -568,6 +629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -577,6 +639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -586,6 +649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -595,6 +659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -604,6 +669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -613,6 +679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -622,6 +689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -631,6 +699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -640,6 +709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -649,6 +719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -658,6 +729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -667,6 +739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -676,6 +749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -685,6 +759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -694,6 +769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -703,6 +779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -712,6 +789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -721,6 +799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -730,6 +809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -739,6 +819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -748,6 +829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -757,6 +839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -766,6 +849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -775,6 +859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -784,6 +869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -793,6 +879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -802,6 +889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -811,6 +899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -820,6 +909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -829,6 +919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -838,6 +929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -847,6 +939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -856,6 +949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -865,6 +959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -874,6 +969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -883,6 +979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -892,6 +989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -901,6 +999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -910,6 +1009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -919,6 +1019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -928,6 +1029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -937,6 +1039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -946,6 +1049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -955,6 +1059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -964,6 +1069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -973,6 +1079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -982,6 +1089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -991,6 +1099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1000,6 +1109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1009,6 +1119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1018,6 +1129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1027,6 +1139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1036,6 +1149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1045,6 +1159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1054,6 +1169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1063,6 +1179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1072,6 +1189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1081,6 +1199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1090,6 +1209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1099,6 +1219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1108,6 +1229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1117,6 +1239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1126,6 +1249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1135,6 +1259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1144,6 +1269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1153,6 +1279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1162,6 +1289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1171,6 +1299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1180,6 +1309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1189,6 +1319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1198,6 +1329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1207,6 +1339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1216,6 +1349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1225,6 +1359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1234,6 +1369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1243,6 +1379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1252,6 +1389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1261,6 +1399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1270,6 +1409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1279,6 +1419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1288,6 +1429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1297,6 +1439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1306,6 +1449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1315,6 +1459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1324,6 +1469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1333,6 +1479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1342,6 +1489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1351,6 +1499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1360,6 +1509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1369,6 +1519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1378,6 +1529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1387,6 +1539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1396,6 +1549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1405,6 +1559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1414,6 +1569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1423,6 +1579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1432,6 +1589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1441,6 +1599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1450,6 +1609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1459,6 +1619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1468,6 +1629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1477,6 +1639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1486,6 +1649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1495,6 +1659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1504,6 +1669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1513,6 +1679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1522,6 +1689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1531,6 +1699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1540,6 +1709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1549,6 +1719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1558,6 +1729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1567,6 +1739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1576,6 +1749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1585,6 +1759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1594,6 +1769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1603,6 +1779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1612,6 +1789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1621,6 +1799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1630,6 +1809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1639,6 +1819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1648,6 +1829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1657,6 +1839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1666,6 +1849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1675,6 +1859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1684,6 +1869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1693,6 +1879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1702,6 +1889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1711,6 +1899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1720,6 +1909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1729,6 +1919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1738,6 +1929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1747,6 +1939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1756,6 +1949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1765,6 +1959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1774,6 +1969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1783,6 +1979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1792,6 +1989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1801,6 +1999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1810,6 +2009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1819,6 +2019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1828,6 +2029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1837,6 +2039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1846,6 +2049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1855,6 +2059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1864,6 +2069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1873,6 +2079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1882,6 +2089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1891,6 +2099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1900,6 +2109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1909,6 +2119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1918,6 +2129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1927,6 +2139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1936,6 +2149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1945,6 +2159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1954,6 +2169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1963,6 +2179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1972,6 +2189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1981,6 +2199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1990,6 +2209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -1999,6 +2219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2008,6 +2229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2017,6 +2239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2026,6 +2249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2035,6 +2259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2044,6 +2269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2053,6 +2279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2062,6 +2289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2071,6 +2299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2080,6 +2309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2089,6 +2319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2098,6 +2329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2107,6 +2339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2116,6 +2349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2125,6 +2359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2134,6 +2369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2143,6 +2379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2152,6 +2389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2161,6 +2399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2170,6 +2409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2179,6 +2419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2188,6 +2429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2197,6 +2439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2206,6 +2449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2215,6 +2459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2224,6 +2469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2233,6 +2479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2242,6 +2489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2251,6 +2499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2260,6 +2509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2269,6 +2519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2278,6 +2529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2287,6 +2539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2296,6 +2549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2305,6 +2559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2314,6 +2569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2323,6 +2579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2332,6 +2589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2341,6 +2599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2350,6 +2609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2359,6 +2619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2368,6 +2629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2377,6 +2639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2386,6 +2649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2395,6 +2659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2404,6 +2669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2413,6 +2679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2422,6 +2689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2431,6 +2699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2440,6 +2709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2449,6 +2719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2458,6 +2729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2467,6 +2739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2476,6 +2749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2485,6 +2759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2494,6 +2769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2503,6 +2779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2512,6 +2789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2521,6 +2799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2530,6 +2809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2539,6 +2819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2548,6 +2829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2557,6 +2839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2566,6 +2849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2575,6 +2859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2584,6 +2869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2593,6 +2879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2602,6 +2889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2611,6 +2899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2620,6 +2909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2629,6 +2919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2638,6 +2929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2647,6 +2939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2656,6 +2949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2665,6 +2959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2674,6 +2969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2683,6 +2979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2692,6 +2989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2701,6 +2999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2710,6 +3009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2719,6 +3019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2728,6 +3029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2737,6 +3039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2746,6 +3049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2755,6 +3059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2764,6 +3069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2773,6 +3079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2782,6 +3089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2791,6 +3099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2800,6 +3109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2809,6 +3119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2818,6 +3129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2827,6 +3139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2836,6 +3149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2845,6 +3159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2854,6 +3169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2863,6 +3179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2872,6 +3189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2881,6 +3199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2890,6 +3209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2899,6 +3219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2908,6 +3229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2917,6 +3239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2926,6 +3249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2935,6 +3259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2944,6 +3269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2953,6 +3279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2962,6 +3289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2971,6 +3299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2980,6 +3309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2989,6 +3319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -2998,6 +3329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3007,6 +3339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3016,6 +3349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3025,6 +3359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3034,6 +3369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3043,6 +3379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3052,6 +3389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3061,6 +3399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3070,6 +3409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3079,6 +3419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3088,6 +3429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3097,6 +3439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3106,6 +3449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3115,6 +3459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3124,6 +3469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3133,6 +3479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3142,6 +3489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3151,6 +3499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3160,6 +3509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3169,6 +3519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3178,6 +3529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3187,6 +3539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3196,6 +3549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3205,6 +3559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3214,6 +3569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3223,6 +3579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3232,6 +3589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3241,6 +3599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3250,6 +3609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3259,6 +3619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3268,6 +3629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3277,6 +3639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3286,6 +3649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3295,6 +3659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3304,6 +3669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3313,6 +3679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3322,6 +3689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3331,6 +3699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3340,6 +3709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3349,6 +3719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3358,6 +3729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3367,6 +3739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3376,6 +3749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3385,6 +3759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3394,6 +3769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3403,6 +3779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3412,6 +3789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3421,6 +3799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3430,6 +3809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3439,6 +3819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3448,6 +3829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3457,6 +3839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3466,6 +3849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3475,6 +3859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3484,6 +3869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3493,6 +3879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3502,6 +3889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3511,6 +3899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3520,6 +3909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3529,6 +3919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3538,6 +3929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3547,6 +3939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3556,6 +3949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3565,6 +3959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3574,6 +3969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3583,6 +3979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3592,6 +3989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3601,6 +3999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3610,6 +4009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3619,6 +4019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3628,6 +4029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3637,6 +4039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3646,6 +4049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3655,6 +4059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3664,6 +4069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3673,6 +4079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3682,6 +4089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3691,6 +4099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3700,6 +4109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3709,6 +4119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3718,6 +4129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3727,6 +4139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3736,6 +4149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3745,6 +4159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3754,6 +4169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3763,6 +4179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3772,6 +4189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3781,6 +4199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3790,6 +4209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3799,6 +4219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3808,6 +4229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3817,6 +4239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3826,6 +4249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3835,6 +4259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3844,6 +4269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3853,6 +4279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3862,6 +4289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3871,6 +4299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3880,6 +4309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3889,6 +4319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3898,6 +4329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3907,6 +4339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3916,6 +4349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3925,6 +4359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3934,6 +4369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3943,6 +4379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3952,6 +4389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3961,6 +4399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3970,6 +4409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3979,6 +4419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3988,6 +4429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -3997,6 +4439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4006,6 +4449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4015,6 +4459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4024,6 +4469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4033,6 +4479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4042,6 +4489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4051,6 +4499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4060,6 +4509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4069,6 +4519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4078,6 +4529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4087,6 +4539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4096,6 +4549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4105,6 +4559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4114,6 +4569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4123,6 +4579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4132,6 +4589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4141,6 +4599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4150,6 +4609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4159,6 +4619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4168,6 +4629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4177,6 +4639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4186,6 +4649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4195,6 +4659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4204,6 +4669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4213,6 +4679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4222,6 +4689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4231,6 +4699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4240,6 +4709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4249,6 +4719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4258,6 +4729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4267,6 +4739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4276,6 +4749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4285,6 +4759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4294,6 +4769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4303,6 +4779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4312,6 +4789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4321,6 +4799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4330,6 +4809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4339,6 +4819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4348,6 +4829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4357,6 +4839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4366,6 +4849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4375,6 +4859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4384,6 +4869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4393,6 +4879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4402,6 +4889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4411,6 +4899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4420,6 +4909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4429,6 +4919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4438,6 +4929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4447,6 +4939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4456,6 +4949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4465,6 +4959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4474,6 +4969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4483,6 +4979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4492,6 +4989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4501,6 +4999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4510,6 +5009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4519,6 +5019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4528,6 +5029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4537,6 +5039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4546,6 +5049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4555,6 +5059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4564,6 +5069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4573,6 +5079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4582,6 +5089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4591,6 +5099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4600,6 +5109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4609,6 +5119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4618,6 +5129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4627,6 +5139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4636,6 +5149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4645,6 +5159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4654,6 +5169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4663,6 +5179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4672,6 +5189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4681,6 +5199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4690,6 +5209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4699,6 +5219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4708,6 +5229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4717,6 +5239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4726,6 +5249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4735,6 +5259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4744,6 +5269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4753,6 +5279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4762,6 +5289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4771,6 +5299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4780,6 +5309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4789,6 +5319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4798,6 +5329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4807,6 +5339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4816,6 +5349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4825,6 +5359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4834,6 +5369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4843,6 +5379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4852,6 +5389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4861,6 +5399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4870,6 +5409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4879,6 +5419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4888,6 +5429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4897,6 +5439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4906,6 +5449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4915,6 +5459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4924,6 +5469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4933,6 +5479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4942,6 +5489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4951,6 +5499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4960,6 +5509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4969,6 +5519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4978,6 +5529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4987,6 +5539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -4996,6 +5549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5005,6 +5559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5014,6 +5569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5023,6 +5579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5032,6 +5589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5041,6 +5599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5050,6 +5609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5059,6 +5619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5068,6 +5629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5077,6 +5639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5086,6 +5649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5095,6 +5659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5104,6 +5669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5113,6 +5679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5122,6 +5689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5131,6 +5699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5140,6 +5709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5149,6 +5719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5158,6 +5729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5167,6 +5739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5176,6 +5749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5185,6 +5759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5194,6 +5769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5203,6 +5779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5212,6 +5789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5221,6 +5799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5230,6 +5809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5239,6 +5819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5248,6 +5829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5257,6 +5839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5266,6 +5849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5275,6 +5859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5284,6 +5869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5293,6 +5879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5302,6 +5889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5311,6 +5899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5320,6 +5909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5329,6 +5919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5338,6 +5929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5347,6 +5939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5356,6 +5949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5365,6 +5959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5374,6 +5969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5383,6 +5979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5392,6 +5989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5401,6 +5999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5410,6 +6009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5419,6 +6019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5428,6 +6029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5437,6 +6039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5446,6 +6049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5455,6 +6059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5464,6 +6069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5473,6 +6079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5482,6 +6089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5491,6 +6099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5500,6 +6109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5509,6 +6119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5518,6 +6129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5527,6 +6139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5536,6 +6149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5545,6 +6159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5554,6 +6169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5563,6 +6179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5572,6 +6189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5581,6 +6199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5590,6 +6209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5599,6 +6219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5608,6 +6229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5617,6 +6239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5626,6 +6249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5635,6 +6259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5644,6 +6269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5653,6 +6279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5662,6 +6289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5671,6 +6299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5680,6 +6309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5689,6 +6319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5698,6 +6329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5707,6 +6339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5716,6 +6349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5725,6 +6359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5734,6 +6369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5743,6 +6379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5752,6 +6389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5761,6 +6399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5770,6 +6409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5779,6 +6419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5788,6 +6429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5797,6 +6439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5806,6 +6449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5815,6 +6459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5824,6 +6469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5833,6 +6479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5842,6 +6489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5851,6 +6499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5860,6 +6509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5869,6 +6519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5878,6 +6529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5887,6 +6539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5896,6 +6549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5905,6 +6559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5914,6 +6569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5923,6 +6579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5932,6 +6589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5941,6 +6599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5950,6 +6609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5959,6 +6619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5968,6 +6629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5977,6 +6639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5986,6 +6649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -5995,6 +6659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6004,6 +6669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6013,6 +6679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6022,6 +6689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6031,6 +6699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6040,6 +6709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6049,6 +6719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6058,6 +6729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6067,6 +6739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6076,6 +6749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6085,6 +6759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6094,6 +6769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6103,6 +6779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6112,6 +6789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6121,6 +6799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6130,6 +6809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6139,6 +6819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6148,6 +6829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6157,6 +6839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6166,6 +6849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6175,6 +6859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6184,6 +6869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6193,6 +6879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6202,6 +6889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6211,6 +6899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6220,6 +6909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6229,6 +6919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6238,6 +6929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6247,6 +6939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6256,6 +6949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6265,6 +6959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6274,6 +6969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6283,6 +6979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6292,6 +6989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6301,6 +6999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6310,6 +7009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6319,6 +7019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6328,6 +7029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6337,6 +7039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6346,6 +7049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6355,6 +7059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6364,6 +7069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6373,6 +7079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6382,6 +7089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6391,6 +7099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6400,6 +7109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6409,6 +7119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6418,6 +7129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6427,6 +7139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6436,6 +7149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6445,6 +7159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6454,6 +7169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6463,6 +7179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6472,6 +7189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6481,6 +7199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6490,6 +7209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6499,6 +7219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6508,6 +7229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6517,6 +7239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6526,6 +7249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6535,6 +7259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6544,6 +7269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6553,6 +7279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6562,6 +7289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6571,6 +7299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6580,6 +7309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6589,6 +7319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6598,6 +7329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6607,6 +7339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6616,6 +7349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6625,6 +7359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6634,6 +7369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6643,6 +7379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6652,6 +7389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6661,6 +7399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6670,6 +7409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6679,6 +7419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6688,6 +7429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6697,6 +7439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6706,6 +7449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6715,6 +7459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6724,6 +7469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6733,6 +7479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6742,6 +7489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6751,6 +7499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6760,6 +7509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6769,6 +7519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6778,6 +7529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6787,6 +7539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6796,6 +7549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6805,6 +7559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6814,6 +7569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6823,6 +7579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6832,6 +7589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6841,6 +7599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6850,6 +7609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6859,6 +7619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6868,6 +7629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6877,6 +7639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6886,6 +7649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6895,6 +7659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6904,6 +7669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6913,6 +7679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6922,6 +7689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6931,6 +7699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6940,6 +7709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6949,6 +7719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6958,6 +7729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6967,6 +7739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6976,6 +7749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6985,6 +7759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -6994,6 +7769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7003,6 +7779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7012,6 +7789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7021,6 +7799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7030,6 +7809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7039,6 +7819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7048,6 +7829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7057,6 +7839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7066,6 +7849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7075,6 +7859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7084,6 +7869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7093,6 +7879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7102,6 +7889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7111,6 +7899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7120,6 +7909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7129,6 +7919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7138,6 +7929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7147,6 +7939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7156,6 +7949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7165,6 +7959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7174,6 +7969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7183,6 +7979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7192,6 +7989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7201,6 +7999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7210,6 +8009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7219,6 +8019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7228,6 +8029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7237,6 +8039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7246,6 +8049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7255,6 +8059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7264,6 +8069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7273,6 +8079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7282,6 +8089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7291,6 +8099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7300,6 +8109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7309,6 +8119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7318,6 +8129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7327,6 +8139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7336,6 +8149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7345,6 +8159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7354,6 +8169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7363,6 +8179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7372,6 +8189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7381,6 +8199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7390,6 +8209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7399,6 +8219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7408,6 +8229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7417,6 +8239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7426,6 +8249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7435,6 +8259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7444,6 +8269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7453,6 +8279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7462,6 +8289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7471,6 +8299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7480,6 +8309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7489,6 +8319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7498,6 +8329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7507,6 +8339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7516,6 +8349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7525,6 +8359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7534,6 +8369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7543,6 +8379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7552,6 +8389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7561,6 +8399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7570,6 +8409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7579,6 +8419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7588,6 +8429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7597,6 +8439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7606,6 +8449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7615,6 +8459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7624,6 +8469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7633,6 +8479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7642,6 +8489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7651,6 +8499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7660,6 +8509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7669,6 +8519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7678,6 +8529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7687,6 +8539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7696,6 +8549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7705,6 +8559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7714,6 +8569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7723,6 +8579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7732,6 +8589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7741,6 +8599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7750,6 +8609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7759,6 +8619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7768,6 +8629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7777,6 +8639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7786,6 +8649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7795,6 +8659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7804,6 +8669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7813,6 +8679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7822,6 +8689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7831,6 +8699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7840,6 +8709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7849,6 +8719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7858,6 +8729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7867,6 +8739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7876,6 +8749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7885,6 +8759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7894,6 +8769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7903,6 +8779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7912,6 +8789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7921,6 +8799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7930,6 +8809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7939,6 +8819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7948,6 +8829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7957,6 +8839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7966,6 +8849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7975,6 +8859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7984,6 +8869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -7993,6 +8879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8002,6 +8889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8011,6 +8899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8020,6 +8909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8029,6 +8919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8038,6 +8929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8047,6 +8939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8056,6 +8949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8065,6 +8959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8074,6 +8969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8083,6 +8979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8092,6 +8989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8101,6 +8999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8110,6 +9009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8119,6 +9019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8128,6 +9029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8137,6 +9039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8146,6 +9049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8155,6 +9059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8164,6 +9069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8173,6 +9079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8182,6 +9089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8191,6 +9099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8200,6 +9109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8209,6 +9119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8218,6 +9129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8227,6 +9139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8236,6 +9149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8245,6 +9159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8254,6 +9169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8263,6 +9179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8272,6 +9189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8281,6 +9199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8290,6 +9209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8299,6 +9219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8308,6 +9229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8317,6 +9239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8326,6 +9249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8335,6 +9259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8344,6 +9269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8353,6 +9279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8362,6 +9289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8371,6 +9299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8380,6 +9309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8389,6 +9319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8398,6 +9329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8407,6 +9339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8416,6 +9349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8425,6 +9359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8434,6 +9369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8443,6 +9379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8452,6 +9389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8461,6 +9399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8470,6 +9409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8479,6 +9419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8488,6 +9429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8497,6 +9439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8506,6 +9449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8515,6 +9459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8524,6 +9469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8533,6 +9479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8542,6 +9489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8551,6 +9499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8560,6 +9509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8569,6 +9519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8578,6 +9529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8587,6 +9539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8596,6 +9549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8605,6 +9559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8614,6 +9569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8623,6 +9579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8632,6 +9589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8641,6 +9599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8650,6 +9609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8659,6 +9619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8668,6 +9629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8677,6 +9639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8686,6 +9649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8695,6 +9659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8704,6 +9669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8713,6 +9679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8722,6 +9689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8731,6 +9699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8740,6 +9709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8749,6 +9719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8758,6 +9729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8767,6 +9739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8776,6 +9749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8785,6 +9759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8794,6 +9769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8803,6 +9779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8812,6 +9789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8821,6 +9799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8830,6 +9809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8839,6 +9819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8848,6 +9829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8857,6 +9839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8866,6 +9849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8875,6 +9859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8884,6 +9869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8893,6 +9879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8902,6 +9889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8911,6 +9899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8920,6 +9909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8929,6 +9919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8938,6 +9929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8947,6 +9939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8956,6 +9949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8965,6 +9959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8974,6 +9969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8983,6 +9979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -8992,6 +9989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9001,6 +9999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9010,6 +10009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9019,6 +10019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9028,6 +10029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9037,6 +10039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9046,6 +10049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9055,6 +10059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9064,6 +10069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9073,6 +10079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9082,6 +10089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9091,6 +10099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9100,6 +10109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9109,6 +10119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9118,6 +10129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9127,6 +10139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9136,6 +10149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9145,6 +10159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9154,6 +10169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9163,6 +10179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9172,6 +10189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9181,6 +10199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9190,6 +10209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9199,6 +10219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9208,6 +10229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9217,6 +10239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9226,6 +10249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9235,6 +10259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9244,6 +10269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9253,6 +10279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9262,6 +10289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9271,6 +10299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9280,6 +10309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9289,6 +10319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9298,6 +10329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9307,6 +10339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9316,6 +10349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9325,6 +10359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9334,6 +10369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9343,6 +10379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9352,6 +10389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9361,6 +10399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9370,6 +10409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9379,6 +10419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9388,6 +10429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9397,6 +10439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9406,6 +10449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9415,6 +10459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9424,6 +10469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9433,6 +10479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9442,6 +10489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9451,6 +10499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9460,6 +10509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9469,6 +10519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9478,6 +10529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9487,6 +10539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9496,6 +10549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9505,6 +10559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9514,6 +10569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9523,6 +10579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9532,6 +10589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9541,6 +10599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9550,6 +10609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9559,6 +10619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9568,6 +10629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9577,6 +10639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9586,6 +10649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9595,6 +10659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9604,6 +10669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9613,6 +10679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9622,6 +10689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9631,6 +10699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9640,6 +10709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9649,6 +10719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9658,6 +10729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9667,6 +10739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9676,6 +10749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9685,6 +10759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9694,6 +10769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9703,6 +10779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9712,6 +10789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9721,6 +10799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9730,6 +10809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9739,6 +10819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9748,6 +10829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9757,6 +10839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9766,6 +10849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9775,6 +10859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9784,6 +10869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9793,6 +10879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9802,6 +10889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9811,6 +10899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9820,6 +10909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9829,6 +10919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9838,6 +10929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9847,6 +10939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9856,6 +10949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9865,6 +10959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9874,6 +10969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9883,6 +10979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9892,6 +10989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9901,6 +10999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9910,6 +11009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9919,6 +11019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9928,6 +11029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9937,6 +11039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9946,6 +11049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9955,6 +11059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9964,6 +11069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9973,6 +11079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9982,6 +11089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -9991,6 +11099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10000,6 +11109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10009,6 +11119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10018,6 +11129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10027,6 +11139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10036,6 +11149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10045,6 +11159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10054,6 +11169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10063,6 +11179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10072,6 +11189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10081,6 +11199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10090,6 +11209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10099,6 +11219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10108,6 +11229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10117,6 +11239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10126,6 +11249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10135,6 +11259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10144,6 +11269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10153,6 +11279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10162,6 +11289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10171,6 +11299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10180,6 +11309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10189,6 +11319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10198,6 +11329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10207,6 +11339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10216,6 +11349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10225,6 +11359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10234,6 +11369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10243,6 +11379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10252,6 +11389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10261,6 +11399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10270,6 +11409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10279,6 +11419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10288,6 +11429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10297,6 +11439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10306,6 +11449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10315,6 +11459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10324,6 +11469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10333,6 +11479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10342,6 +11489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10351,6 +11499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10360,6 +11509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10369,6 +11519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10378,6 +11529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10387,6 +11539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10396,6 +11549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10405,6 +11559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10414,6 +11569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10423,6 +11579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10432,6 +11589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10441,6 +11599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10450,6 +11609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10459,6 +11619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10468,6 +11629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10477,6 +11639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10486,6 +11649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10495,6 +11659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10504,6 +11669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10513,6 +11679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10522,6 +11689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10531,6 +11699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10540,6 +11709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10549,6 +11719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10558,6 +11729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10567,6 +11739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10576,6 +11749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10585,6 +11759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10594,6 +11769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10603,6 +11779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10612,6 +11789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10621,6 +11799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10630,6 +11809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10639,6 +11819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10648,6 +11829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10657,6 +11839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10666,6 +11849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10675,6 +11859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10684,6 +11869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10693,6 +11879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10702,6 +11889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10711,6 +11899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10720,6 +11909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10729,6 +11919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10738,6 +11929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10747,6 +11939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10756,6 +11949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10765,6 +11959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10774,6 +11969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10783,6 +11979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10792,6 +11989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10801,6 +11999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10810,6 +12009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10819,6 +12019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10828,6 +12029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10837,6 +12039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10846,6 +12049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10855,6 +12059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10864,6 +12069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10873,6 +12079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10882,6 +12089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10891,6 +12099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10900,6 +12109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10909,6 +12119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10918,6 +12129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10927,6 +12139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10936,6 +12149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10945,6 +12159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10954,6 +12169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10963,6 +12179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10972,6 +12189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10981,6 +12199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10990,6 +12209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -10999,6 +12219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11008,6 +12229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11017,6 +12239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11026,6 +12249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11035,6 +12259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11044,6 +12269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11053,6 +12279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11062,6 +12289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11071,6 +12299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11080,6 +12309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11089,6 +12319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11098,6 +12329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11107,6 +12339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11116,6 +12349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11125,6 +12359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11134,6 +12369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11143,6 +12379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11152,6 +12389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11161,6 +12399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11170,6 +12409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11179,6 +12419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11188,6 +12429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11197,6 +12439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11206,6 +12449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11215,6 +12459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11224,6 +12469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11233,6 +12479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11242,6 +12489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11251,6 +12499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11260,6 +12509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11269,6 +12519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11278,6 +12529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11287,6 +12539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11296,6 +12549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11305,6 +12559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11314,6 +12569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11323,6 +12579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11332,6 +12589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11341,6 +12599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11350,6 +12609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11359,6 +12619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11368,6 +12629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11377,6 +12639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11386,6 +12649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11395,6 +12659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11404,6 +12669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11413,6 +12679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11422,6 +12689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11431,6 +12699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11440,6 +12709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11449,6 +12719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11458,6 +12729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11467,6 +12739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11476,6 +12749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11485,6 +12759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11494,6 +12769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11503,6 +12779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11512,6 +12789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11521,6 +12799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11530,6 +12809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11539,6 +12819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11548,6 +12829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11557,6 +12839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11566,6 +12849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11575,6 +12859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11584,6 +12869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11593,6 +12879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11602,6 +12889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11611,6 +12899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11620,6 +12909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11629,6 +12919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11638,6 +12929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11647,6 +12939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11656,6 +12949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11665,6 +12959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11674,6 +12969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11683,6 +12979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11692,6 +12989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11701,6 +12999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11710,6 +13009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11719,6 +13019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11728,6 +13029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11737,6 +13039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11746,6 +13049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11755,6 +13059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11764,6 +13069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11773,6 +13079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11782,6 +13089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11791,6 +13099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11800,6 +13109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11809,6 +13119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11818,6 +13129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11827,6 +13139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11836,6 +13149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11845,6 +13159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11854,6 +13169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11863,6 +13179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11872,6 +13189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11881,6 +13199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11890,6 +13209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11899,6 +13219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11908,6 +13229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11917,6 +13239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11926,6 +13249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11935,6 +13259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11944,6 +13269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11953,6 +13279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11962,6 +13289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11971,6 +13299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11980,6 +13309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11989,6 +13319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -11998,6 +13329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12007,6 +13339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12016,6 +13349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12025,6 +13359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12034,6 +13369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12043,6 +13379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12052,6 +13389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12061,6 +13399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12070,6 +13409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12079,6 +13419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12088,6 +13429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12097,6 +13439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12106,6 +13449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12115,6 +13459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12124,6 +13469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12133,6 +13479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12142,6 +13489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12151,6 +13499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12160,6 +13509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12169,6 +13519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12178,6 +13529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12187,6 +13539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12196,6 +13549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12205,6 +13559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12214,6 +13569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12223,6 +13579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12232,6 +13589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12241,6 +13599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12250,6 +13609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12259,6 +13619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12268,6 +13629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12277,6 +13639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12286,6 +13649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12295,6 +13659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12304,6 +13669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12313,6 +13679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12322,6 +13689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12331,6 +13699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12340,6 +13709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12349,6 +13719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12358,6 +13729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12367,6 +13739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12376,6 +13749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12385,6 +13759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12394,6 +13769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12403,6 +13779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12412,6 +13789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12421,6 +13799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12430,6 +13809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12439,6 +13819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12448,6 +13829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12457,6 +13839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12466,6 +13849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12475,6 +13859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12484,6 +13869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12493,6 +13879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12502,6 +13889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12511,6 +13899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12520,6 +13909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12529,6 +13919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12538,6 +13929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12547,6 +13939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12556,6 +13949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12565,6 +13959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12574,6 +13969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12583,6 +13979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12592,6 +13989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12601,6 +13999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12610,6 +14009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12619,6 +14019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12628,6 +14029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12637,6 +14039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12646,6 +14049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12655,6 +14059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12664,6 +14069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12673,6 +14079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12682,6 +14089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12691,6 +14099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12700,6 +14109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12709,6 +14119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12718,6 +14129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12727,6 +14139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12736,6 +14149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12745,6 +14159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12754,6 +14169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12763,6 +14179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12772,6 +14189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12781,6 +14199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12790,6 +14209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12799,6 +14219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12808,6 +14229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12817,6 +14239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12826,6 +14249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12835,6 +14259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12844,6 +14269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12853,6 +14279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12862,6 +14289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12871,6 +14299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12880,6 +14309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12889,6 +14319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12898,6 +14329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12907,6 +14339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12916,6 +14349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12925,6 +14359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12934,6 +14369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12943,6 +14379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12952,6 +14389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12961,6 +14399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12970,6 +14409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12979,6 +14419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12988,6 +14429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -12997,6 +14439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13006,6 +14449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13015,6 +14459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13024,6 +14469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13033,6 +14479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13042,6 +14489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13051,6 +14499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13060,6 +14509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13069,6 +14519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13078,6 +14529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13087,6 +14539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13096,6 +14549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13105,6 +14559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13114,6 +14569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13123,6 +14579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13132,6 +14589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13141,6 +14599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13150,6 +14609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13159,6 +14619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13168,6 +14629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13177,6 +14639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13186,6 +14649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13195,6 +14659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13204,6 +14669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13213,6 +14679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13222,6 +14689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13231,6 +14699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13240,6 +14709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13249,6 +14719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13258,6 +14729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13267,6 +14739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13276,6 +14749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13285,6 +14759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13294,6 +14769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13303,6 +14779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13312,6 +14789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13321,6 +14799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13330,6 +14809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13339,6 +14819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13348,6 +14829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13357,6 +14839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13366,6 +14849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13375,6 +14859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13384,6 +14869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13393,6 +14879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13402,6 +14889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13411,6 +14899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13420,6 +14909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13429,6 +14919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13438,6 +14929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13447,6 +14939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13456,6 +14949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13465,6 +14959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13474,6 +14969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13483,6 +14979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13492,6 +14989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13501,6 +14999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13510,6 +15009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13519,6 +15019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13528,6 +15029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13537,6 +15039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13546,6 +15049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13555,6 +15059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13564,6 +15069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13573,6 +15079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13582,6 +15089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13591,6 +15099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13600,6 +15109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13609,6 +15119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13618,6 +15129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13627,6 +15139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13636,6 +15149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13645,6 +15159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13654,6 +15169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13663,6 +15179,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13672,6 +15189,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13681,6 +15199,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13690,6 +15209,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13699,6 +15219,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13708,6 +15229,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13717,6 +15239,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13726,6 +15249,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13735,6 +15259,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13744,6 +15269,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13753,6 +15279,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13762,6 +15289,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13771,6 +15299,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13780,6 +15309,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13789,6 +15319,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13798,6 +15329,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13807,6 +15339,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13816,6 +15349,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13825,6 +15359,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13834,6 +15369,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13843,6 +15379,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13852,6 +15389,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13861,6 +15399,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13870,6 +15409,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13879,6 +15419,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13888,6 +15429,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13897,6 +15439,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13906,6 +15449,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13915,6 +15459,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13924,6 +15469,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13933,6 +15479,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13942,6 +15489,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13951,6 +15499,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13960,6 +15509,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13969,6 +15519,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13978,6 +15529,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13987,6 +15539,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -13996,6 +15549,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14005,6 +15559,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14014,6 +15569,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14023,6 +15579,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14032,6 +15589,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14041,6 +15599,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14050,6 +15609,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14059,6 +15619,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14068,6 +15629,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14077,6 +15639,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14086,6 +15649,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14095,6 +15659,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14104,6 +15669,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14113,6 +15679,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14122,6 +15689,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14131,6 +15699,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14140,6 +15709,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14149,6 +15719,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14158,6 +15729,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14167,6 +15739,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14176,6 +15749,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14185,6 +15759,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14194,6 +15769,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14203,6 +15779,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14212,6 +15789,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14221,6 +15799,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14230,6 +15809,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14239,6 +15819,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14248,6 +15829,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14257,6 +15839,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14266,6 +15849,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14275,6 +15859,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14284,6 +15869,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14293,6 +15879,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14302,6 +15889,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14311,6 +15899,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14320,6 +15909,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14329,6 +15919,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14338,6 +15929,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14347,6 +15939,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14356,6 +15949,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14365,6 +15959,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14374,6 +15969,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14383,6 +15979,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14392,6 +15989,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14401,6 +15999,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14410,6 +16009,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14419,6 +16019,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14428,6 +16029,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 2,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14437,6 +16039,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14446,6 +16049,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14455,6 +16059,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14464,6 +16069,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14473,6 +16079,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14482,6 +16089,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14491,6 +16099,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14500,6 +16109,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14509,6 +16119,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14518,6 +16129,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14527,6 +16139,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14536,6 +16149,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14545,6 +16159,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -14554,6 +16169,7 @@ class QuotesTableSeeder extends Seeder
             'created_by'    => 1,
             'approved_by'   => 1,
             'updated_by'    => null,
+            'approved_at'   => $now,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);

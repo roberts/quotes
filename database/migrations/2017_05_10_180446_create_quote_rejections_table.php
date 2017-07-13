@@ -25,6 +25,7 @@ class CreateQuoteRejectionsTable extends Migration
             $table->unsignedInteger('book_id')->nullable();
             $table->unsignedInteger('created_by');
             $table->unsignedInteger('rejected_by');
+            $table->timestamp('rejected_at');
             $table->timestamps();
         });
         
