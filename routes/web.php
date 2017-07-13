@@ -35,6 +35,7 @@ Route::group(['prefix' => 'quotes'], function () {
     Route::get('submissions', 'QuoteSubmissionsController@index');
     Route::get('submissions/{quotesubmission}', 'QuoteSubmissionsController@show');
     Route::post('{quoteauthor}/submissions', 'QuoteSubmissionsController@store');
+    Route::post('{quoteauthor}/details', 'AuthorDetailsController@store');
     Route::get('quotations', 'QuotesController@index');
     Route::get('quotations/create', 'QuotesController@create');
 	Route::get('{quoteauthor}/{quote}', 'QuotesController@show')->name('quote.show');

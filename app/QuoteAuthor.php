@@ -48,6 +48,42 @@ class QuoteAuthor extends Model
     }
 
     /**
+     * An author may have many deatils (only use the recent one).
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function details()
+    {
+        return $this->hasMany(AuthorDetail::class, 'author_id');
+    }
+
+    /**
+     * Add bio and other details to the author.
+     *
+     * @param $reply
+     */
+    public function addDetail($request)
+    {
+        $this->details()->create([
+                'full_name' => $request->full_name,
+                'birth' => $request->birth ?: null,
+                'death' => $request->death ?: null,
+                'wikipedia' => $request->wikipedia ?: null,
+                'twitter' => $request->twitter ?: null,
+                'facebook' => $request->facebook ?: null,
+                'instagram' => $request->instagram ?: null,
+                'linkedin' => $request->linkedin ?: null,
+                'intro' => $request->intro ?: null,
+                'known_for' => $request->known_for ?: null,
+                'bio' => $request->bio ?: null,
+                'quotes_summary' => $request->quotes_summary ?: null,
+                'books_summary' => $request->books_summary ?: null,
+                'created_by' => auth()->id(),
+                'created_at' => Carbon::now()
+            ]);
+    }
+
+    /**
      * An author may have many quotes.
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
