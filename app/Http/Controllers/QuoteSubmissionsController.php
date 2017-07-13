@@ -44,20 +44,17 @@ class QuoteSubmissionsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, QuoteAuthor $quoteauthor)
+    public function store(QuoteAuthor $quoteauthor)
     {
-        $quotesubmission = QuoteSubmission::create([
-            'quote_text' => request('quote_text'),
-            'author_name' => request('author_name'),
-            'book_name' => null,
-            'likes' => null,
-            'isbn_10' => null,
-            'isbn_13' => null,
-            'author_id' => request('author_id'),
-            'book_id' => null,
-            'created_by' => auth()->id(),
-            'created_at' => date('Y-m-d H:i:s')
-        ]);
+        $this->validate(request(), ['quote_text' => 'required|min:10|unique:quote_submissions|unique:quote_rejections|unique:quotes|max:700']);
+
+        $quotesubmission = new QuoteSubmission;
+        $quotesubmission->quote_text = request('quote_text');
+        $quotesubmission->display_name = $quoteauthor->display_name;
+        $quotesubmission->author_id = $quoteauthor->id;
+        $quotesubmission->created_by = auth()->id();
+        $quotesubmission->created_at = date('Y-m-d H:i:s');
+        $quotesubmission->save();
 
         return back();
     }

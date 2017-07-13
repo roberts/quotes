@@ -66,6 +66,16 @@ class QuoteAuthor extends Model
     }
 
     /**
+     * Add a quote submission to the author.
+     *
+     * @param $reply
+     */
+    public function addSubmission($quotesubmission)
+    {
+        $this->quotesubmissions()->create($quotesubmission);
+    }
+
+    /**
      * Add a quote to the author.
      *
      * @param $reply
