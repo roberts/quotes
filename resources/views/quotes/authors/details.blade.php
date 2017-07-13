@@ -7,10 +7,18 @@
             <div class="card-actions">
                 <div class="horizontal justified">
                     Profiles: 
-                    <a href="https://www.facebook.com/Tipoff" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
-                    <a href="https://twitter.com/TipoffProject" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
-                    <a href="https://www.instagram.com/tipoff/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png"></paper-icon-button></a>
-                    <a href="https://www.linkedin.com/company/TipoffProject" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
+                    @if ($authordetail->facebook)
+                        <a href="https://www.facebook.com/{{ $authordetail->facebook }}" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
+                    @endif
+                    @if ($authordetail->instagram)
+                        <a href="https://www.instagram.com/{{ $authordetail->instagram }}/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png"></paper-icon-button></a>
+                    @endif
+                    @if ($authordetail->twitter)
+                        <a href="https://twitter.com/{{ $authordetail->twitter }}" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
+                    @endif
+                    @if ($authordetail->linkedin)
+                        <a href="https://www.linkedin.com/company/{{ $authordetail->linkedin }}" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
+                    @endif
                 </div>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim ante, tempus eget volutpat ac, cursus ac ante. Nulla facilisi. Praesent sed lacinia ligula. Donec malesuada nisl eget quam iaculis, vel placerat justo cursus.
             </div>

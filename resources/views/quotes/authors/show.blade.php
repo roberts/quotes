@@ -124,7 +124,9 @@
 
     <section class="main mdl-grid">
         <div class="content mdl-cell mdl-cell--4-col-phone">
-            @include('quotes.authors.details')
+            @if ($authordetail)
+                @include('quotes.authors.details')
+            @endif
 
             @foreach ($quoteauthor->quotes as $quote)
                 <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($loop->first) graphics @endif condense ></tipoff-quote>

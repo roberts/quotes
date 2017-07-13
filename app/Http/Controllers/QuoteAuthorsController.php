@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\QuoteAuthor;
+use App\AuthorDetail;
 use App\Quote;
 use Illuminate\Http\Request;
 
@@ -75,7 +76,9 @@ class QuoteAuthorsController extends Controller
         $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11])->inRandomOrder()->limit(5)->get();
         $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22])->inRandomOrder()->limit(10)->get();
 
-        return view('quotes.authors.show', compact('quoteauthor','sidequotes','sideauthors'));
+        $authordetail = AuthorDetail::where('author_id', $quoteauthor->id)->orderBy('created_at', 'desc')->first();
+
+        return view('quotes.authors.show', compact('quoteauthor', 'authordetail','sidequotes','sideauthors'));
     }
 
     /**
