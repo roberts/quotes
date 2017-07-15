@@ -36,7 +36,7 @@
             @endif
             @if ($authordetail->birth)
                 <div class="horizontal justified">
-                    Born: {{ $authordetail->birth }} @if ($authordetail->death) Died: {{ $authordetail->death }} @endif
+                    Born: {{ $authordetail->birth }} @if ($authordetail->death) Died: {{ $authordetail->death }} @else - Age: {{  \Carbon\Carbon::createFromTimeStamp(strtotime($authordetail->birth))->diff(\Carbon\Carbon::now())->format('%y years') }} @endif
                 </div>
             @endif
             @if ($authordetail->bio)

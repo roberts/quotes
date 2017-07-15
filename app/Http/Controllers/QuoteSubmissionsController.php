@@ -24,9 +24,21 @@ class QuoteSubmissionsController extends Controller
      */
     public function index()
     {
-        $quotesubmissions = QuoteSubmission::latest()->get();
+        $authors = QuoteSubmission::latest()->get();
 
-        return view('quotes.submissions.index', compact('quotesubmissions'));
+        return view('quotes.submissions.index', compact('authors'));
+    }
+
+    /**
+     * Display the first submission for the author for approval.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function author(QuoteAuthor $quoteauthor)
+    {
+        $submission = QuoteSubmission::where('author_id', $quoteauthor->id)->orderBy('created_at', 'desc')->first();
+
+        return view('quotes.submissions.author', compact('quoteauthor', 'submission'));
     }
 
     /**

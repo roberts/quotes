@@ -1,25 +1,20 @@
 @extends('layouts.app')
 
-@section('title', 'Quote Submissions | Tipoff')
-
 @section('content')
     <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
     <div class="pre">
-      <div>Most Recent</div>
-      <div class="title">Quote Submissions</div>
+      <div class="title">Authors with Quote Submissions</div>
     </div>
 
-    <section class="main">
-        @foreach ($quotesubmissions as $quotesubmission)
-            <article>
-                <h4>" {{ $quotesubmission->quote_text }} "</h4>
-                <div class="body">- <a href="{{ $quotesubmission->author->path() }}">{{ $quotesubmission->author->display_name }}</a></div>
-                <div class="body">Created by: <a href="{{ $quotesubmission->creator->path() }}">{{ $quotesubmission->creator->display_name }}</a> - <a href="{{ $quotesubmission->path() }}">View</a></div>
-            </article>
-
-            <hr>
-        @endforeach
+    <section class="main mdl-grid">
+        <div class="content mdl-cell mdl-cell--4-col-phone">
+            <div class="secondary-list mdl-grid">
+                @foreach ($authors as $author)
+                    <a href="{{ $author->path() }}/submissions" class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style="min-width:210px;"><div class="secondary-author">{{ $author->display_name }}</div></a>
+                @endforeach
+            </div>
+        </div>
+        @include('layouts.sidebar-quotes')
     </section>
-
 @endsection

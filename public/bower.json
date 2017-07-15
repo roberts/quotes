@@ -31,7 +31,8 @@
     "layout-elements": "PolymerElements/layout-elements",
     "paper-overlay-elements": "PolymerElements/paper-overlay-elements",
     "molecules": "PolymerElements/molecules#^1.0.0",
-    "iron-form": "PolymerElements/iron-form#^2.0.0"
+    "iron-form": "PolymerElements/iron-form#^2.0.0",
+    "bottom-nav": "greenyouse/bottom-nav#^0.2.0"
   },
   "resolutions": {
     "webcomponentsjs": "^v1.0.0",
