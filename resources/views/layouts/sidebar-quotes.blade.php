@@ -21,7 +21,7 @@
     <div class="sidebar-title">Trending</div>
     <paper-card>
         <div class="trending">
-            @foreach ($sideauthors as $author)
+            @foreach ($trendingauthors as $author)
             <div class="trend">
                 <a href="{{ $author->path() }}"><div class="trending-item">{{ $author->display_name }}</div></a>
             </div>
@@ -29,7 +29,7 @@
         </div>
     </paper-card>
     <div class="sidebar-title">Popular Quotes</div>
-    @foreach ($sidequotes as $quote)
+    @foreach ($popularquotes as $quote)
         <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quote->author->display_name }}" slug="{{ $quote->author->slug }}" more="{{ $quote->author->quotes->count() }}" @if (in_array($quote->author->id, $avatars )) avatar="/img/{{ $quote->author->slug }}.jpg" @endif @if ($loop->first) graphics @endif ></tipoff-quote>
         <br>
     @endforeach

@@ -24,16 +24,12 @@ class QuotesController extends Controller
     public function main()
     {
         $quotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 90, 95, 99])->inRandomOrder()->limit(20)->get();
-        $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22])->inRandomOrder()->limit(5)->get();
-        $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 72, 99, 100])->inRandomOrder()->limit(10)->get();
 
         return view('quotes.index', compact('quotes','sidequotes','sideauthors'));
     }
     public function index()
     {
         $quotes = Quote::latest()->get();
-        $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22])->inRandomOrder()->limit(5)->get();
-        $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 72, 99, 100])->inRandomOrder()->limit(10)->get();
 
         return view('quotes.quotations.index', compact('quotes','sidequotes','sideauthors'));
     }
@@ -75,13 +71,11 @@ class QuotesController extends Controller
      * @param  \App\Quote  $quote
      * @return \Illuminate\Http\Response
      */
-    public function show($quoteauthor, Quote $quote)
+    public function show(QuoteAuthor $quoteauthor, Quote $quote)
     {
         if ($quoteauthor !== $quote->author->slug) {
             return redirect()->to($quote->path());
         }
-        $sidequotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22])->inRandomOrder()->limit(5)->get();
-        $sideauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 72, 99, 100])->inRandomOrder()->limit(10)->get();
 
         return view('quotes.quotations.show', compact('quote','sidequotes','sideauthors'));
     }

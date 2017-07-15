@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer('layouts.sidebar-quotes', function($view) {
+            $view->with('popularquotes', \App\Quote::popular())->with('trendingauthors', \App\QuoteAuthor::trending());
+        });
     }
 
     /**

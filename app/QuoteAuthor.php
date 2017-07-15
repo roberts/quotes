@@ -126,5 +126,15 @@ class QuoteAuthor extends Model
     {
         $this->quotes()->create($quote);
     }
+
+    /**
+     * Return 10 trending authors to display in quotes section sidebar.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public static function trending()
+    {
+        return static::whereIn('id', [4, 5, 6, 7, 9, 10, 22])->inRandomOrder()->limit(10)->get();
+    }
     
 }

@@ -135,13 +135,13 @@
         <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col">
             <form id="approve" action="/quotes/accept" method="post" style="margin: auto; width: 100px">
             <input type="hidden" name="id" value="{{ $submission->id }}">
-                <paper-icon-button raised onclick="approve()" icon="icons:check" title="approve" class="green"></paper-icon-button>
+                <paper-icon-button onclick="approve()" icon="icons:check" title="approve" class="green"></paper-icon-button>
             </form>
         </div>
         <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col">
             <form id="reject" action="/quotes/accept" method="post" style="margin: auto; width: 100px">
             <input type="hidden" name="id" value="{{ $submission->id }}">
-            <paper-icon-button raised onclick="reject()" icon="icons:clear" title="reject" class="red"></paper-icon-button>
+            <paper-icon-button onclick="reject()" icon="icons:clear" title="reject" class="red"></paper-icon-button>
             </form>
         </div>
     </div>

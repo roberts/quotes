@@ -66,4 +66,14 @@ class Quote extends Model
         return $this->belongsTo(User::class, 'approved_by');
     }
 
+    /**
+     * Return popular quotes to display in quotes section sidebar.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public static function popular()
+    {
+        return static::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11])->inRandomOrder()->limit(5)->get();
+    }
+
 }
