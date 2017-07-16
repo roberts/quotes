@@ -38,7 +38,7 @@ class QuoteRejectionsController extends Controller
      */
     public function store(Request $request, QuoteAuthor $quoteauthor)
     {
-        $submission = QuoteSubmission::where('id', request('id'))->first();
+        $submission = QuoteSubmission::find(request('id'));
 
         $quote = QuoteRejection::create([
             'quote_text' => $submission->quote_text,
@@ -54,7 +54,7 @@ class QuoteRejectionsController extends Controller
             'created_at' => $submission->created_at
         ]);
 
-        QuoteSubmission::where('id', request('id'))->delete();
+        QuoteSubmission::find(request('id'))->delete();
 
         return back();
     }
