@@ -129,15 +129,18 @@
     </script>
     <div class="full" style="background-color: #9E9E9E;">
         <tipoff-navigation></tipoff-navigation>
-        <div class="content-paper">
+        <div class="content-paper">    
             @yield('content')
         </div>
         <div style="height:60px;"></div>
     </div>
     @include('layouts.footer')
-
+    
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     @yield('javascript')
+    @if ($flash = session('message'))
+        @include('layouts.flashmessage')
+    @endif
 </body>
 </html>

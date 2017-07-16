@@ -63,6 +63,8 @@ class QuoteSubmissionsController extends Controller
 
         $quoteauthor->addSubmission(request('quote_text'));
 
+        session()->flash('message', 'Thanks for submitting a quote');
+
         return back();
     }
 
