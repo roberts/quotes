@@ -103,21 +103,13 @@
                 @if ($submission)
                     {{ $submission->quote_text }}
                 @else
-                    Go get some more quotes for {{ $quoteauthor->display_name }}!
+                    Go get some more quotes for <a href="{{ $quoteauthor->path() }}">{{ $quoteauthor->display_name }}</a>!
                 @endif
                 </div>
             </section>
         </div>
         <div style="height:400px;"></div>
     </div>
-
-    <form id="accept" action="/quotes/accept" method="post" style="display: none">
-        <input type="hidden" name="id" value="{{ $submission->id }}">
-    </form>
-
-    <form id="reject" action="/index" method="post" style="display: none">
-        <input type="hidden" name="id" value="{{ $submission->id }}">
-    </form>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
@@ -130,6 +122,7 @@
           document.getElementById('rejection').submit();
         }
     </script>
+    @if ($submission)
     <bottom-nav fixed>
     <div class="mdl-grid center-items" style="max-width: 960px;">
         <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col">
@@ -148,5 +141,6 @@
         </div>
     </div>
     </bottom-nav>
+    @endif
 </body>
 </html>
