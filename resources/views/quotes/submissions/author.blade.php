@@ -126,22 +126,24 @@
         function approve() {
           document.getElementById('approve').submit();
         }
-        function reject() {
-          document.getElementById('reject').submit();
+        function rejection() {
+          document.getElementById('rejection').submit();
         }
     </script>
     <bottom-nav fixed>
     <div class="mdl-grid center-items" style="max-width: 960px;">
         <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col">
-            <form id="approve" action="/quotes/accept" method="post" style="margin: auto; width: 100px">
+            <form id="approve" action="{{ $quoteauthor->path() }}/quotes" method="post" style="margin: auto; width: 100px">
+            {{ csrf_field() }}
             <input type="hidden" name="id" value="{{ $submission->id }}">
-                <paper-icon-button onclick="approve()" icon="icons:check" title="approve" class="green"></paper-icon-button>
+                <paper-icon-button onclick="approve()" icon="icons:check" title="Approve" class="green"></paper-icon-button>
             </form>
         </div>
         <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col">
-            <form id="reject" action="/quotes/accept" method="post" style="margin: auto; width: 100px">
+            <form id="rejection" action="{{ $quoteauthor->path() }}/rejections" method="post" style="margin: auto; width: 100px">
+            {{ csrf_field() }}
             <input type="hidden" name="id" value="{{ $submission->id }}">
-            <paper-icon-button onclick="reject()" icon="icons:clear" title="reject" class="red"></paper-icon-button>
+            <paper-icon-button onclick="rejection()" icon="icons:clear" title="Reject" class="red"></paper-icon-button>
             </form>
         </div>
     </div>

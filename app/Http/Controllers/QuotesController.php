@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Quote;
 use App\QuoteAuthor;
+use App\QuoteSubmission;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class QuotesController extends Controller
@@ -21,27 +23,11 @@ class QuotesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function main()
+    public function index()
     {
         $quotes = Quote::whereIn('author_id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 90, 95, 99])->inRandomOrder()->limit(20)->get();
 
-        return view('quotes.index', compact('quotes','sidequotes','sideauthors'));
-    }
-    public function index()
-    {
-        $quotes = Quote::latest()->get();
-
-        return view('quotes.quotations.index', compact('quotes','sidequotes','sideauthors'));
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('quotes.quotations.create');
+        return view('quotes.index', compact('quotes'));
     }
 
     /**
@@ -50,18 +36,23 @@ class QuotesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, QuoteAuthor $quoteauthor)
     {
+        $submission = QuoteSubmission::where('id', request('id'))->first();
+
         $quote = Quote::create([
-            'author_id' => request('author_id'),
-            'quote_text' => request('quote_text'),
-            'active' => 1,
-            'created_by' => request('created_by'),
+            'author_id' => $submission->author_id,
+            'quote_text' => $submission->quote_text,
+            'created_by' => $submission->created_by,
             'approved_by' => auth()->id(),
-            'updated_by' => null
+            'updated_by' => auth()->id(),
+            'approved_at' => Carbon::now(),
+            'created_at' => $submission->created_at
         ]);
 
-        return redirect($quote->path());
+        QuoteSubmission::where('id', request('id'))->delete();
+
+        return back();
     }
 
     /**
@@ -77,7 +68,7 @@ class QuotesController extends Controller
             return redirect()->to($quote->path());
         }
 
-        return view('quotes.quotations.show', compact('quote','sidequotes','sideauthors'));
+        return view('quotes.show', compact('quote'));
     }
 
     /**

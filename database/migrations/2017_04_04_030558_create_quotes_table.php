@@ -19,7 +19,7 @@ class CreateQuotesTable extends Migration
             $table->text('quote_text', 700);
             $table->unsignedInteger('created_by');
             $table->unsignedInteger('approved_by');
-            $table->unsignedInteger('updated_by')->nullable();
+            $table->unsignedInteger('updated_by');
             $table->timestamp('approved_at');
             $table->timestamps();
             $table->softDeletes();

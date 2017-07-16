@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\QuoteAuthor;
 use App\AuthorDetail;
 use App\Quote;
+use App\QuoteSubmission;
 use Illuminate\Http\Request;
 
 class QuoteAuthorsController extends Controller
@@ -27,7 +28,7 @@ class QuoteAuthorsController extends Controller
         $featuredauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99])->orderBy('last_name', 'asc')->get();
         $secondaryauthors = QuoteAuthor::has('quotes', '>=', 1)->whereNotIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99])->orderBy('last_name', 'asc')->get();
 
-        return view('quotes.authors.index', compact('featuredauthors','secondaryauthors','sidequotes','sideauthors'));
+        return view('quotes.authors.index', compact('featuredauthors','secondaryauthors'));
     }
 
     /**
@@ -72,8 +73,9 @@ class QuoteAuthorsController extends Controller
     public function show(QuoteAuthor $quoteauthor)
     {
         $authordetail = AuthorDetail::where('author_id', $quoteauthor->id)->orderBy('created_at', 'desc')->first();
+        $submissioncount = QuoteSubmission::where('author_id', $quoteauthor->id)->count();
 
-        return view('quotes.authors.show', compact('quoteauthor', 'authordetail','sidequotes','sideauthors'));
+        return view('quotes.authors.show', compact('quoteauthor', 'authordetail','submissioncount'));
     }
 
     /**

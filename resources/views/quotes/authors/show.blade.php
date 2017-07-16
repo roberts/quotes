@@ -51,6 +51,15 @@
                 </div>
             </form>
           </paper-card>
+          @if ($submissioncount)
+            <paper-card>
+                <div class="card-actions">
+                    <a href="{{ $quoteauthor->path() }}/submissions" tabindex="-1">
+                      <paper-button>{{ $submissioncount }} Quote @if ($submissioncount == 1) Submission @else Submissions @endif</paper-button>
+                    </a>
+                </div>
+            </paper-card>
+          @endif
         </div>
     </section>
     @endif

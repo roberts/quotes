@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\QuoteRejection;
+use App\QuoteAuthor;
+use App\QuoteSubmission;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class QuoteRejectionsController extends Controller
@@ -33,9 +36,27 @@ class QuoteRejectionsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, QuoteAuthor $quoteauthor)
     {
-        //
+        $submission = QuoteSubmission::where('id', request('id'))->first();
+
+        $quote = QuoteRejection::create([
+            'quote_text' => $submission->quote_text,
+            'author_id' => $submission->author_id,
+            'likes' => $submission->likes,
+            'book_name' => $submission->book_name,
+            'book_id' => $submission->book_id,
+            'isbn_13' => $submission->isbn_13,
+            'isbn_10' => $submission->isbn_10,
+            'created_by' => $submission->created_by,
+            'rejected_by' => auth()->id(),
+            'rejected_at' => Carbon::now(),
+            'created_at' => $submission->created_at
+        ]);
+
+        QuoteSubmission::where('id', request('id'))->delete();
+
+        return back();
     }
 
     /**
