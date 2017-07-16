@@ -46,6 +46,8 @@ class AuthorDetailsController extends Controller
 
         $quoteauthor->addDetail($request);
 
+        session()->flash('message', 'Thanks for adding author details');
+
         return back();
     }
 
