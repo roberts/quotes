@@ -64,10 +64,9 @@ class QuotesController extends Controller
      */
     public function show(QuoteAuthor $quoteauthor, Quote $quote)
     {
-        /**if ($quoteauthor !== $quote->author->slug) {
+        if ($quoteauthor->slug !== $quote->author->slug) {
             return redirect()->to($quote->path());
         }
-        */
 
         return view('quotes.show', compact('quote'));
     }
