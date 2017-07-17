@@ -9,10 +9,12 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0",
         "laravel/cashier": "~7.0",
-        "laravel/spark": "*@dev"
+        "laravel/framework": "5.4.*",
+        "laravel/spark": "*@dev",
+        "laravel/tinker": "~1.0",
+        "league/csv": "^8.2",
+        "webscraperio/api-client-php": "^0.1.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
