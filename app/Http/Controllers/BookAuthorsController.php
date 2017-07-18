@@ -22,7 +22,7 @@ class BookAuthorsController extends Controller
      */
     public function index()
     {
-        BookAuthor::whereIn('id', [20, 22, 26, 27, 28, 29, 34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 46, 101, 156, 188, 189, 200, 201, 202, 203, 204, 205])->orderBy('last_name', 'asc')->get();
+        $bookauthors = BookAuthor::whereIn('id', [20, 22, 26, 27, 28, 29, 34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 46, 101, 156, 188, 189, 200, 201, 202, 203, 204, 205])->orderBy('last_name', 'asc')->get();
 
         return view('books.authors.index', compact('bookauthors'));
     }
