@@ -18,7 +18,7 @@
     "position": 2,
     "item": {
       "@id": "https://tipoff.com{{ $quoteauthor->path() }}",
-      "name": "{{ $quoteauthor->display_name }}",
+      "name": "{{ $quoteauthor->display_name }}"
         }
 @endsection
 

@@ -14,14 +14,14 @@
     "position": 2,
     "item": {
       "@id": "https://tipoff.com{{ $quote->author->path() }}",
-      "name": "{{ $quote->author->display_name }}",
+      "name": "{{ $quote->author->display_name }}"
         }
   },{
     "@type": "ListItem",
     "position": 3,
     "item": {
       "@id": "https://tipoff.com{{ $quote->path() }}",
-      "name": "Quote #{{ $quote->id }}",
+      "name": "Quote #{{ $quote->id }}"
         }
 @endsection
 

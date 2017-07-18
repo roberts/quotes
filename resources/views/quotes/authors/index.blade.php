@@ -6,6 +6,22 @@
 
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
+@section('breadcrumbs')
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+        "@id": "https://tipoff.com/quotes",
+        "name": "Quotes"
+        }
+    },{
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      "@id": "https://tipoff.com/quotes/authors",
+      "name": "Authors"
+        }
+@endsection
+
 @section('content')
     <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
