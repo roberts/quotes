@@ -31,6 +31,40 @@
       <div>Published: June 2017</div>
     </div>
 
+    @if (auth()->check())
+    <section class="details mdl-grid">
+        <div class="content mdl-cell mdl-cell--4-col-phone">
+            <paper-card>
+                <form method="POST" action="/quotes/authors" style="max-width:300px;">
+                    <div class="card-content">
+                        {{ csrf_field() }}
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" id="display_name" name="display_name" value="{{ old('display_name') }}">
+                            <label class="mdl-textfield__label" for="display_name">New Author Name</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" pattern="[A-Za-z-]*" id="last_name" name="last_name" value="{{ old('last_name') }}">
+                            <label class="mdl-textfield__label" for="last_name">Last Name Again</label>
+                            <span class="mdl-textfield__error">For indexing only, no spaces</span>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" pattern="[a-z-]*" id="slug" name="slug" value="{{ old('slug') }}">
+                            <label class="mdl-textfield__label" for="slug">Slug</label>
+                            <span class="mdl-textfield__error">Only lowercase letters and hyphens</span>
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Submit</button>
+                    </div>
+                </form>
+            </paper-card>
+        </div>
+        <div class="sidebar mdl-cell mdl-cell--4-col-phone">
+          
+        </div>
+    </section>
+    @endif
+
     <section class="main mdl-grid">
         <div class="featured-list mdl-grid">
             @foreach ($featuredauthors as $author)

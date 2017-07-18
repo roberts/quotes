@@ -41,9 +41,8 @@ Route::group(['prefix' => 'quotes'], function () {
     Route::post('{quoteauthor}/quotes', 'QuotesController@store');
 	Route::get('{quoteauthor}/{quote}', 'QuotesController@show')->name('quote.show');
     Route::get('authors', 'QuoteAuthorsController@index');
-    Route::get('authors/create', 'QuoteAuthorsController@create');
+    Route::post('authors', 'QuoteAuthorsController@store');
 	Route::get('{quoteauthor}', 'QuoteAuthorsController@show');
-	Route::post('authors', 'QuoteAuthorsController@store');
 });
 Route::get('books', 'BooksController@index');
 Route::post('books', 'BooksController@store');

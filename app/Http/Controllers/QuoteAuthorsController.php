@@ -32,16 +32,6 @@ class QuoteAuthorsController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('quotes.authors.create');
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -49,19 +39,18 @@ class QuoteAuthorsController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, ['display_name' => 'required|min:8|unique:authors|max:255']);
+        $this->validate($request, ['last_name' => 'required|min:3|max:255']);
+        $this->validate($request, ['slug' => 'required|unique:authors|max:255']);
+
         $quoteauthor = QuoteAuthor::create([
             'slug' => request('slug'),
             'display_name' => request('display_name'),
             'last_name' => request('last_name'),
-            'bio_line' => request('bio_line'),
-            'profile_pic' => null,
-            'cover_image' => null,
-            'active' => 1,
-            'created_by' => auth()->id(),
-            'updated_by' => null
+            'created_by' => auth()->id()
         ]);
 
-        return redirect($quoteauthor->path());
+        return back();
     }
 
     /**
