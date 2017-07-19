@@ -23,7 +23,7 @@
             <form style="margin:auto;" role="form" method="POST" action="{{ route('login') }}">
                 {{ csrf_field() }}
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" id="email" type="email" name="email" value="{{ old('email') }}" required autofocus>
+                    <input class="mdl-textfield__input" id="email" type="email" name="email" value="{{ old('email') }}" autofocus>
                     <label class="mdl-textfield__label" for="email">Email Address</label>
                     @if ($errors->has('email'))
                         <span class="help-block">
@@ -33,7 +33,7 @@
                 </div>
                 <br>
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" id="password" type="password" name="password" required>
+                    <input class="mdl-textfield__input" id="password" type="password" name="password">
                     <label class="mdl-textfield__label" for="password">Password</label>
                     @if ($errors->has('password'))
                         <span class="help-block">

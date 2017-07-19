@@ -12,6 +12,9 @@ div#full {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: #D32F2F;
+}
 
 .content-paper {
     max-width: 970px;

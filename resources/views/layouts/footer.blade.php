@@ -40,7 +40,7 @@
           <div class="mdl-mega-footer__bottom-section" style="max-width: 970px; margin: auto; padding: 36px 0px; border-top: 1px solid #ddd;">
             <a href="https://tipoff.com"><img src="/logo.png" height="32" width="32"></img></a>
             <aside style="float: right; line-height: 2rem;">
-                <a href="/company/privacy" style="color: inherit; text-decoration: none;">Privacy</a> & <a href="/company/terms" style="color: inherit; text-decoration: none;">Terms</a>
+                <a href="/company/privacy" style="color: inherit;">Privacy</a> & <a href="/company/terms" style="color: inherit;">Terms</a>
             </aside>
           </div>
 
