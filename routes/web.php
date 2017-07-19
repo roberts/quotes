@@ -47,14 +47,11 @@ Route::get('books', 'BooksController@index');
 Route::post('books', 'BooksController@store');
 Route::group(['prefix' => 'books'], function () {
     Route::get('authors', 'BookAuthorsController@index');
-    Route::get('authors/create', 'BookAuthorsController@create');
+    Route::post('authors', 'BookAuthorsController@store');
 	Route::get('authors/{bookauthor}', 'BookAuthorsController@show');
-	Route::post('authors', 'BookAuthorsController@store');
     Route::get('topics', 'BookTopicsController@index');
-    Route::get('topics/create', 'BookTopicsController@create');
-    Route::get('topics/{booktopic}', 'BookTopicsController@show');
     Route::post('topics', 'BookTopicsController@store');
-    Route::get('create', 'BooksController@create');
+    Route::get('topics/{booktopic}', 'BookTopicsController@show');
 	Route::get('{book}', 'BooksController@show');
 });
 Route::get('/sitemap', 'SitemapController@index');

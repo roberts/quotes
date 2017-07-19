@@ -51,6 +51,8 @@ class QuoteTopicsController extends Controller
             'leadership' => $leadership
         ]);
 
+        session()->flash('message', 'Thanks for creating a topic');
+
         return back();
     }
 

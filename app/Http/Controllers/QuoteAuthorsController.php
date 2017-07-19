@@ -50,6 +50,8 @@ class QuoteAuthorsController extends Controller
             'created_by' => auth()->id()
         ]);
 
+        session()->flash('message', 'Thanks for adding an author');
+
         return back();
     }
 
