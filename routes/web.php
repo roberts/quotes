@@ -29,9 +29,8 @@ Route::get('/@{user}', 'UsersController@show');
 Route::get('quotes', 'QuotesController@index');
 Route::group(['prefix' => 'quotes'], function () {
     Route::get('topics', 'QuoteTopicsController@index');
-    Route::get('topics/create', 'QuoteTopicsController@create');
-    Route::get('topics/{quotetopic}', 'QuoteTopicsController@show');
     Route::post('topics', 'QuoteTopicsController@store');
+    Route::get('topics/{quotetopic}', 'QuoteTopicsController@show');
     Route::get('submissions', 'QuoteSubmissionsController@index');
     Route::get('submissions/{quotesubmission}', 'QuoteSubmissionsController@show');
     Route::get('{quoteauthor}/submissions', 'QuoteSubmissionsController@author');

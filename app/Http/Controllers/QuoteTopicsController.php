@@ -28,16 +28,6 @@ class QuoteTopicsController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -45,7 +35,23 @@ class QuoteTopicsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
+        $this->validate($request, ['slug' => 'required|unique:topics|max:255']);
+        $this->validate($request, ['title' => 'required|unique:topics|max:255']);
+        $this->validate($request, ['description' => 'required|min:3|max:255']);
+
+        if (request('business') == 1 ) { $business = 1; } else { $business = 0; };
+        if (request('leadership') == 1 ) { $leadership = 1; } else { $leadership = 0; };
+
+        $quoteauthor = QuoteTopic::create([
+            'slug' => request('slug'),
+            'title' => request('title'),
+            'description' => request('description'),
+            'business' => $business,
+            'leadership' => $leadership
+        ]);
+
+        return back();
     }
 
     /**
