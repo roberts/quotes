@@ -16,17 +16,19 @@ class CreateCollectionItemsTable extends Migration
         Schema::create('collection_items', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id')->index();
-            $table->unsignedInteger('collectionable_id')->index();
+            $table->unsignedInteger('collection_id')->index();
             $table->unsignedInteger('collectionable_type')->index();
+            $table->unsignedInteger('collectionable_id')->index();
             $table->timestamps();
         });
 
         Schema::table('collection_items', function ($table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
+            $table->foreign('collection_id')->references('id')->on('collections')->onDelete('restrict')->onUpdate('cascade');
         });
 
         Schema::table('collection_items', function($table) {
-            $table->unique(['user_id', 'collectionable_id', 'collectionable_type'], 'unique_item');
+            $table->unique(['collection_id', 'collectionable_id', 'collectionable_type'], 'unique_item');
         });
     }
 
@@ -39,6 +41,7 @@ class CreateCollectionItemsTable extends Migration
     {
         Schema::table('collection_items', function ($table) {
             $table->dropForeign(['user_id']);
+            $table->dropForeign(['collection_id']);
         });
         
         Schema::disableForeignKeyConstraints();

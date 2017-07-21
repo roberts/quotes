@@ -18,11 +18,10 @@ class CreateCommentsTable extends Migration
             $table->unsignedInteger('user_id')->index();
             $table->unsignedInteger('commentable_type')->index();
             $table->unsignedInteger('commentable_id')->index();
-            $table->unsignedInteger('section')->nullable()->index();
+            $table->enum('section', ['attribution', 'context'])->nullable();
             $table->unsignedInteger('reply')->nullable()->index();
-            $table->text('text');
-            $table->boolean('active')->default(1);
-            $table->boolean('archived')->default(0); //Use when comment edited & replaced
+            $table->text('text', 2000);
+            $table->boolean('archived')->default(0); //Use when comment edited & replaced so can get revision history
             $table->timestamps();
             $table->softDeletes();
         });

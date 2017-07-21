@@ -19,9 +19,8 @@ class CreateTakeawaysTable extends Migration
             $table->unsignedInteger('takeawayable_type')->index();
             $table->unsignedInteger('takeawayable_id')->index();
             $table->unsignedInteger('topic_id')->index()->default(1);
-            $table->text('text');
-            $table->boolean('active')->default(1);
-            $table->boolean('archived')->default(0); //Use when recommendation edited & replaced
+            $table->text('text', 5000);
+            $table->boolean('archived')->default(0); //Use when takeaway edited & replaced
             $table->timestamps();
             $table->softDeletes();
         });

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUserImagesTable extends Migration
+class CreateLinksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,21 +13,23 @@ class CreateUserImagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_images', function (Blueprint $table) {
+        Schema::create('links', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('slug')->unique()->index();
-            $table->unsignedInteger('image_type_id')->index();
-            $table->unsignedInteger('content_type')->index();
-            $table->unsignedInteger('content_id')->index();
+            $table->string('link');
+            $table->unsignedInteger('domain_id')->index();
+            $table->unsignedInteger('link_type_id')->index();
+            $table->unsignedInteger('linkable_type')->index();
+            $table->unsignedInteger('linkable_id')->index();
             $table->boolean('approved')->default(1);
             $table->unsignedInteger('created_by')->index();
-            $table->unsignedInteger('updated_by');
+            $table->unsignedInteger('updated_by')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
 
-        Schema::table('user_images', function($table) {
-            $table->foreign('image_type_id')->references('id')->on('image_types')->onDelete('restrict')->onUpdate('cascade');
+        Schema::table('links', function($table) {
+            $table->foreign('domain_id')->references('id')->on('domains')->onDelete('restrict')->onUpdate('cascade');
+            $table->foreign('link_type_id')->references('id')->on('link_types')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('created_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('updated_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });
@@ -40,14 +42,15 @@ class CreateUserImagesTable extends Migration
      */
     public function down()
     {
-        Schema::table('user_images', function ($table) {
-            $table->dropForeign(['image_type_id']);
+        Schema::table('links', function ($table) {
+            $table->dropForeign(['domain_id']);
+            $table->dropForeign(['link_type_id']);
             $table->dropForeign(['created_by']);
             $table->dropForeign(['updated_by']);
         });
         
         Schema::disableForeignKeyConstraints();
-        Schema::dropIfExists('user_images');
+        Schema::dropIfExists('links');
         Schema::enableForeignKeyConstraints();
     }
 }

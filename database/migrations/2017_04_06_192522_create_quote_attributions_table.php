@@ -28,7 +28,7 @@ class CreateQuoteAttributionsTable extends Migration
         });
 
         Schema::table('quote_attributions', function($table) {
-            $table->unique(['quote_id', 'author_id'], 'unique_attribute');
+            $table->unique(['quote_id', 'author_id'], 'unique_attribution');
         });
     }
 

@@ -22,7 +22,6 @@ class CreateQuoteInsightsTable extends Migration
             $table->unsignedInteger('chapter_id')->nullable()->index();
             $table->tinyInteger('day')->nullable();
             $table->date('publish_date')->nullable();
-            $table->boolean('active')->default(1);
             $table->boolean('archived')->default(0); //Use when insight edited & replaced
             $table->timestamps();
             $table->softDeletes();
