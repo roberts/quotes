@@ -21,7 +21,6 @@ class CreateQuoteSubmissionsTable extends Migration
             $table->string('book_name')->nullable();
             $table->unsignedInteger('book_id')->nullable();
             $table->integer('isbn_13')->nullable();
-            $table->integer('isbn_10')->nullable();
             $table->unsignedInteger('created_by');
             $table->timestamp('created_at');
         });

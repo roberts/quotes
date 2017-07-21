@@ -47,7 +47,6 @@ class QuoteRejectionsController extends Controller
             'book_name' => $submission->book_name,
             'book_id' => $submission->book_id,
             'isbn_13' => $submission->isbn_13,
-            'isbn_10' => $submission->isbn_10,
             'created_by' => $submission->created_by,
             'rejected_by' => auth()->id(),
             'rejected_at' => Carbon::now(),
