@@ -37,41 +37,44 @@
                     <span class="mdl-textfield__error">Slug only, not full URL</span>
                 </div>
             @endif
-            @if ($authordetail->facebook)
-                <input type="hidden" name="facebook" value="{{ $authordetail->facebook }}">
+            @if ($authordetail->death)
             @else
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9.]*" id="facebook" name="facebook" value="{{ old('facebook', $authordetail->facebook) }}">
-                    <label class="mdl-textfield__label" for="facebook">Facebook</label>
-                    <span class="mdl-textfield__error">Username only, no symbols</span>
-                </div>
-            @endif
-            @if ($authordetail->twitter)
-                <input type="hidden" name="twitter" value="{{ $authordetail->twitter }}">
-            @else
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_]*" id="twitter" name="twitter" value="{{ old('twitter', $authordetail->twitter) }}">
-                    <label class="mdl-textfield__label" for="twitter">Twitter</label>
-                    <span class="mdl-textfield__error">Username only, no symbols</span>
-                </div>
-            @endif
-            @if ($authordetail->linkedin)
-                <input type="hidden" name="linkedin" value="{{ $authordetail->linkedin }}">
-            @else
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9._-]*" id="linkedin" name="linkedin" value="{{ old('linkedin', $authordetail->linkedin) }}">
-                    <label class="mdl-textfield__label" for="facebook">LinkedIn</label>
-                    <span class="mdl-textfield__error">Username only, no symbols</span>
-                </div>
-            @endif
-            @if ($authordetail->instagram)
-                <input type="hidden" name="instagram" value="{{ $authordetail->instagram }}">
-            @else
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9._]*" id="instagram" name="instagram" value="{{ old('instagram', $authordetail->instagram) }}">
-                    <label class="mdl-textfield__label" for="instagram">Instagram</label>
-                    <span class="mdl-textfield__error">Username only, no symbols</span>
-                </div>
+                @if ($authordetail->facebook)
+                    <input type="hidden" name="facebook" value="{{ $authordetail->facebook }}">
+                @else
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9.]*" id="facebook" name="facebook" value="{{ old('facebook', $authordetail->facebook) }}">
+                        <label class="mdl-textfield__label" for="facebook">Facebook</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                @endif
+                @if ($authordetail->twitter)
+                    <input type="hidden" name="twitter" value="{{ $authordetail->twitter }}">
+                @else
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_]*" id="twitter" name="twitter" value="{{ old('twitter', $authordetail->twitter) }}">
+                        <label class="mdl-textfield__label" for="twitter">Twitter</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                @endif
+                @if ($authordetail->linkedin)
+                    <input type="hidden" name="linkedin" value="{{ $authordetail->linkedin }}">
+                @else
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9._-]*" id="linkedin" name="linkedin" value="{{ old('linkedin', $authordetail->linkedin) }}">
+                        <label class="mdl-textfield__label" for="facebook">LinkedIn</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                @endif
+                @if ($authordetail->instagram)
+                    <input type="hidden" name="instagram" value="{{ $authordetail->instagram }}">
+                @else
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9._]*" id="instagram" name="instagram" value="{{ old('instagram', $authordetail->instagram) }}">
+                        <label class="mdl-textfield__label" for="instagram">Instagram</label>
+                        <span class="mdl-textfield__error">Username only, no symbols</span>
+                    </div>
+                @endif
             @endif
             @if ($authordetail->birth)
                 <input type="hidden" name="birth" value="{{ $authordetail->birth }}">
