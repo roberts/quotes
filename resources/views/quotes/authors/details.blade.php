@@ -21,7 +21,7 @@
                         <a href="https://twitter.com/{{ $authordetail->twitter }}" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
                     @endif
                     @if ($authordetail->linkedin)
-                        <a href="https://www.linkedin.com/company/{{ $authordetail->linkedin }}" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
+                        <a href="https://www.linkedin.com/in/{{ $authordetail->linkedin }}" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
                     @endif
                 </div>
             @endif
