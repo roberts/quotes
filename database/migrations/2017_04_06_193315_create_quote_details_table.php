@@ -19,9 +19,9 @@ class CreateQuoteDetailsTable extends Migration
             $table->text('relevance', 2000)->nullable();
             $table->text('context', 2000);
             $table->date('quote_date')->nullable();
-            $table->smallInteger('quote_year', 4)->nullable();
-            $table->tinyInteger('quote_month', 2)->nullable();
-            $table->tinyInteger('quote_day', 2)->nullable();
+            $table->smallInteger('quote_year')->unsigned()->nullable();
+            $table->tinyInteger('quote_month')->unsigned()->nullable();
+            $table->tinyInteger('quote_day')->unsigned()->nullable();
             $table->text('attribution', 2000)->nullable();
             $table->unsignedInteger('created_by');
             $table->unsignedInteger('updated_by');
