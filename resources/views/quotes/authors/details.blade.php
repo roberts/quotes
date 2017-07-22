@@ -1,4 +1,3 @@
-@if (auth()->check())
     <paper-card>
         <div class="card-content">
             <paper-button title="more info" style="width:100%; -webkit-justify-content: left;" onclick="_toggle()"><iron-icon id="info-icon" icon="icons:expand-less"></iron-icon> About {{ $quoteauthor->display_name }}</paper-button>
@@ -58,4 +57,3 @@
         </script>
     </paper-card>
     <div class="sidebar-title">Quotes</div>
-@endif
