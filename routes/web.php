@@ -33,14 +33,16 @@ Route::group(['prefix' => 'quotes'], function () {
     Route::get('topics/{quotetopic}', 'QuoteTopicsController@show');
     Route::get('submissions', 'QuoteSubmissionsController@index');
     Route::get('submissions/{quotesubmission}', 'QuoteSubmissionsController@show');
+    Route::get('authors', 'QuoteAuthorsController@index');
+    Route::post('authors', 'QuoteAuthorsController@store');
+    Route::get('authors/data', 'QuoteAuthorsController@data');
+    Route::get('authors/missing', 'QuoteAuthorsController@missing');
     Route::get('{quoteauthor}/submissions', 'QuoteSubmissionsController@author');
     Route::post('{quoteauthor}/submissions', 'QuoteSubmissionsController@store');
     Route::post('{quoteauthor}/rejections', 'QuoteRejectionsController@store');
     Route::post('{quoteauthor}/details', 'AuthorDetailsController@store');
     Route::post('{quoteauthor}/quotes', 'QuotesController@store');
 	Route::get('{quoteauthor}/{quote}', 'QuotesController@show')->name('quote.show');
-    Route::get('authors', 'QuoteAuthorsController@index');
-    Route::post('authors', 'QuoteAuthorsController@store');
 	Route::get('{quoteauthor}', 'QuoteAuthorsController@show');
 });
 Route::get('books', 'BooksController@index');

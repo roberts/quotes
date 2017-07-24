@@ -32,6 +32,30 @@ class QuoteAuthorsController extends Controller
     }
 
     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function data()
+    {
+        $authors = QuoteAuthor::doesntHave('details')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->get();
+
+        return view('quotes.authors.data', compact('authors'));
+    }
+
+        /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function missing()
+    {
+        $authors = QuoteAuthor::doesntHave('quotes')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->get();
+
+        return view('quotes.authors.missing', compact('authors'));
+    }
+
+    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
