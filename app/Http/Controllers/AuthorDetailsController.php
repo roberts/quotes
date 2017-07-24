@@ -38,7 +38,7 @@ class AuthorDetailsController extends Controller
                 'instagram' => 'nullable|min:4|max:100',
                 'linkedin' => 'nullable|min:4|max:100',
                 'intro' => 'nullable|min:10',
-                'known_for' => 'nullable|min:10|max:255',
+                'known_for' => 'nullable|min:5|max:255',
                 'bio' => 'nullable|min:10',
                 'quotes_summary' => 'nullable|min:10',
                 'books_summary' => 'nullable|min:10'
