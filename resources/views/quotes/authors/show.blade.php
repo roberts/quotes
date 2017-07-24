@@ -2,7 +2,7 @@
 
 @section('title', $quoteauthor->display_name .' Quotes | Tipoff.com')
 
-@section('description', 'The top quotes from '. $quoteauthor->display_name .' on leadership and business topics from are listed on this profile page.')
+@section('description', 'The top quotes from '. $quoteauthor->display_name .' on leadership and business topics are listed on this profile page.')
 
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
