@@ -39,8 +39,10 @@ class QuoteAuthorsController extends Controller
     public function data()
     {
         $authors = QuoteAuthor::doesntHave('details')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->get();
+        $authorscount = QuoteAuthor::doesntHave('details')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->count();
+        $authorstotal = QuoteAuthor::count();
 
-        return view('quotes.authors.data', compact('authors'));
+        return view('quotes.authors.data', compact('authors','authorscount', 'authorstotal'));
     }
 
         /**
@@ -51,8 +53,10 @@ class QuoteAuthorsController extends Controller
     public function missing()
     {
         $authors = QuoteAuthor::doesntHave('quotes')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->get();
+        $authorscount = QuoteAuthor::doesntHave('quotes')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->count();
+        $authorstotal = QuoteAuthor::count();
 
-        return view('quotes.authors.missing', compact('authors'));
+        return view('quotes.authors.missing', compact('authors','authorscount', 'authorstotal'));
     }
 
     /**
