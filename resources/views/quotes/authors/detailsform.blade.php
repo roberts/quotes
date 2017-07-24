@@ -32,7 +32,7 @@
                 <input type="hidden" name="wikipedia" value="{{ $authordetail->wikipedia }}">
             @else
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_.]*" id="wikipedia" name="wikipedia" value="{{ old('wikipedia', $authordetail->wikipedia) }}">
+                    <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_.()]*" id="wikipedia" name="wikipedia" value="{{ old('wikipedia', $authordetail->wikipedia) }}">
                     <label class="mdl-textfield__label" for="wikipedia">Wikipedia</label>
                     <span class="mdl-textfield__error">Slug only, not full URL</span>
                 </div>
@@ -123,7 +123,7 @@
               <label class="mdl-textfield__label" for="bio">{{ $quoteauthor->display_name }} Bio</label>
             </div>
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_.]*" id="wikipedia" name="wikipedia" value="{{ old('wikipedia') }}">
+                <input class="mdl-textfield__input" type="text" pattern="[A-Za-z0-9_.()]*" id="wikipedia" name="wikipedia" value="{{ old('wikipedia') }}">
                 <label class="mdl-textfield__label" for="wikipedia">Wikipedia</label>
                 <span class="mdl-textfield__error">Slug only, not full URL</span>
             </div>
