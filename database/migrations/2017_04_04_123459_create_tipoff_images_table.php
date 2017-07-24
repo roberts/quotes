@@ -17,8 +17,8 @@ class CreateTipoffImagesTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique()->index();
             $table->unsignedInteger('image_type_id')->index();
-            $table->unsignedInteger('content_type')->index();
-            $table->unsignedInteger('content_id')->index();
+            $table->unsignedInteger('imageable_type')->index();
+            $table->unsignedInteger('imageable_id')->index();
             $table->boolean('approved')->default(1);
             $table->unsignedInteger('created_by')->index();
             $table->unsignedInteger('updated_by');

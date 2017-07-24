@@ -16,8 +16,8 @@ class CreateLinksTable extends Migration
         Schema::create('links', function (Blueprint $table) {
             $table->increments('id');
             $table->string('link');
-            $table->unsignedInteger('domain_id')->index();
             $table->unsignedInteger('link_type_id')->index();
+            $table->unsignedInteger('domain_id')->index();
             $table->unsignedInteger('linkable_type')->index();
             $table->unsignedInteger('linkable_id')->index();
             $table->boolean('approved')->default(1);

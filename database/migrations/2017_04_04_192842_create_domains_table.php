@@ -18,14 +18,18 @@ class CreateDomainsTable extends Migration
             $table->string('domain')->unique();
             $table->string('name')->unique();
             $table->string('slug')->unique();
-            $table->string('facebook');
-            $table->string('instagram');
-            $table->string('twitter');
-            $table->string('linkedin');
-            $table->string('pinterest');
+            $table->string('facebook')->nullable();
+            $table->string('instagram')->nullable();
+            $table->string('twitter')->nullable();
+            $table->string('linkedin')->nullable();
+            $table->string('pinterest')->nullable();
+            $table->unsignedInteger('logo')->nullable();
             $table->boolean('include')->default(1);
-            $table->unsignedInteger('logo');
             $table->timestamps();
+        });
+
+        Schema::table('domains', function($table) {
+            $table->foreign('logo')->references('id')->on('tipoff_images')->onDelete('restrict')->onUpdate('cascade');
         });
     }
 
@@ -36,6 +40,12 @@ class CreateDomainsTable extends Migration
      */
     public function down()
     {
+        Schema::table('domains', function ($table) {
+            $table->dropForeign(['logo']);
+        });
+
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('domains');
+        Schema::enableForeignKeyConstraints();
     }
 }
