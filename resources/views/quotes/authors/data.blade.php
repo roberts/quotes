@@ -8,7 +8,7 @@
     <div class="pre">
       <div>Tipoff Quotes</div>
       <div class="title">Authors Needing Data</div>
-      <div>Number: {{ $authorscount }} of {{ $authorstotal }}</div>
+      <div>Number: {{ $datacount }} of {{ $authorstotal }}</div>
     </div>
 
     <section class="main mdl-grid">
