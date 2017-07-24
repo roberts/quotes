@@ -34,6 +34,13 @@
     @if (auth()->check())
     <section class="details mdl-grid">
         <div class="content mdl-cell mdl-cell--4-col-phone">
+            <paper-card>
+                <div class="card-actions">
+                    <a href="/quotes/authors/data" tabindex="-1">
+                      <paper-button>View Authors Without Data</paper-button>
+                    </a>
+                </div>
+            </paper-card>
             @include('quotes.authors.detailsform')
         </div>
         <div class="sidebar mdl-cell mdl-cell--4-col-phone">
