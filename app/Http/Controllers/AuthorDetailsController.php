@@ -29,7 +29,7 @@ class AuthorDetailsController extends Controller
     public function store(Request $request, QuoteAuthor $quoteauthor)
     {
         $this->validate($request, [
-                'full_name' => 'required|min:10|max:255',
+                'full_name' => 'required|min:5|max:255',
                 'birth' => 'nullable|date',
                 'death' => 'nullable|date|after:birth',
                 'wikipedia' => 'nullable|min:3|max:100',
