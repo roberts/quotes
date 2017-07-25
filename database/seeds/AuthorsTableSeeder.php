@@ -1042,8 +1042,8 @@ class AuthorsTableSeeder extends Seeder
         
         DB::table('authors')->insert([
             'slug'          => 'william-mckinley',
-            'display_name'  => 'William Mckinley',
-            'last_name'     => 'Mckinley',
+            'display_name'  => 'William McKinley',
+            'last_name'     => 'McKinley',
             'bio_line'      => null,
             'profile_pic'   => null,
             'cover_image'   => null,
@@ -1769,8 +1769,8 @@ class AuthorsTableSeeder extends Seeder
         ]);
         
         DB::table('authors')->insert([
-            'slug'          => 'hilary-clinton',
-            'display_name'  => 'Hilary Clinton',
+            'slug'          => 'hillary-clinton',
+            'display_name'  => 'Hillary Clinton',
             'last_name'     => 'Clinton',
             'bio_line'      => null,
             'profile_pic'   => null,
