@@ -40,11 +40,12 @@ class QuoteAuthorsController extends Controller
      */
     public function data()
     {
-        $authors = QuoteAuthor::doesntHave('details')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->get();
+        $priority = QuoteAuthor::has('quotes')->doesntHave('details')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->get();
+        $authors = QuoteAuthor::doesntHave('quotes')->doesntHave('details')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->get();
         $datacount = QuoteAuthor::doesntHave('details')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->count();
         $authorstotal = QuoteAuthor::count();
 
-        return view('quotes.authors.data', compact('authors','datacount', 'authorstotal'));
+        return view('quotes.authors.data', compact('authors','priority','datacount', 'authorstotal'));
     }
 
         /**
