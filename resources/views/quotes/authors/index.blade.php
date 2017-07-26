@@ -60,7 +60,18 @@
             </paper-card>
         </div>
         <div class="sidebar mdl-cell mdl-cell--4-col-phone">
-          
+            <paper-card>
+                <div class="trending">
+                    @foreach ($missingquotes as $authoradd)
+                    <div class="trend">
+                        <a href="{{ $authoradd->path() }}"><div class="trending-item">{{ $authoradd->display_name }}</div></a>
+                    </div>
+                    @endforeach
+                    <div class="trend">
+                        <a href="/quotes/authors/missing"><div class="trending-item">{{ $missingcount }} More Missing Quotes</div></a>
+                    </div>
+                </div>
+            </paper-card>
         </div>
     </section>
     @endif

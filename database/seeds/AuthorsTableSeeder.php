@@ -2093,8 +2093,8 @@ class AuthorsTableSeeder extends Seeder
         ]);
 
         DB::table('authors')->insert([
-            'slug'          => 'edgar-allen-poe',
-            'display_name'  => 'Edgar Allen Poe',
+            'slug'          => 'edgar-allan-poe',
+            'display_name'  => 'Edgar Allan Poe',
             'last_name'     => 'Poe',
             'bio_line'      => null,
             'profile_pic'   => null,

@@ -27,6 +27,8 @@ class QuoteAuthorsController extends Controller
     {
         $featuredauthors = QuoteAuthor::whereIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99])->orderBy('last_name', 'asc')->get();
         $secondaryauthors = QuoteAuthor::has('quotes', '>=', 1)->whereNotIn('id', [4, 5, 6, 7, 8, 9, 10, 11, 22, 72, 95, 99])->orderBy('last_name', 'asc')->get();
+        $missingquotes = QuoteAuthor::doesntHave('quotes')->whereNotIn('id', [1, 2, 3])->latest()->limit(5)->get();
+        $missingcount = QuoteAuthor::doesntHave('quotes')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->count();
 
         return view('quotes.authors.index', compact('featuredauthors','secondaryauthors'));
     }
