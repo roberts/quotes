@@ -67,6 +67,17 @@
                 </div>
             </paper-card>
           @endif
+          <paper-card>
+            <form method="POST" action="/quotes/{{ $quoteauthor->slug }}/avatars" enctype="multipart/form-data" style="max-width:300px;">
+                <div class="card-content">
+                    {{ csrf_field() }}
+                    <input type="file" name="avatar"></input>
+                </div>
+                <div class="card-actions">
+                    <button type="submit" class="mdl-button mdl-js-button mdl-button--accent">Save Avatar</button>
+                </div>
+            </form>
+          </paper-card>
         </div>
     </section>
     @endif

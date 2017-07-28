@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'cloud' => env('FILESYSTEM_CLOUD', 's3'),
+    'cloud' => env('FILESYSTEM_CLOUD', 'gcs'),
 
     /*
     |--------------------------------------------------------------------------
@@ -61,6 +61,15 @@ return [
             'secret' => env('AWS_SECRET'),
             'region' => env('AWS_REGION'),
             'bucket' => env('AWS_BUCKET'),
+        ],
+
+        'gcs' => [
+            'driver' => 's3',
+            'key' => env('GCS_KEY'),
+            'secret' => env('GCS_SECRET'),
+            'bucket' => env('GCS_BUCKET'),
+            'region' => 'US',
+            'endpoint' => 'https://storage.googleapis.com',
         ],
 
     ],

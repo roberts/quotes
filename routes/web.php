@@ -37,6 +37,10 @@ Route::group(['prefix' => 'quotes'], function () {
     Route::post('authors', 'QuoteAuthorsController@store');
     Route::get('authors/data', 'QuoteAuthorsController@data');
     Route::get('authors/missing', 'QuoteAuthorsController@missing');
+    Route::post('{quoteauthor}/avatars', function() {
+        request()->file('avatar')->store('avatars', 'gcs');
+        return back();
+    });
     Route::get('{quoteauthor}/submissions', 'QuoteSubmissionsController@author');
     Route::post('{quoteauthor}/submissions', 'QuoteSubmissionsController@store');
     Route::post('{quoteauthor}/rejections', 'QuoteRejectionsController@store');

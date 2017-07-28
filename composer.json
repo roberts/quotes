@@ -9,12 +9,14 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "google/cloud": "^0.35.0",
         "laravel/cashier": "~7.0",
         "laravel/framework": "5.4.*",
         "laravel/spark": "*@dev",
         "laravel/tinker": "~1.0",
         "league/csv": "^8.2",
         "league/flysystem-aws-s3-v3": "^1.0",
+        "superbalist/laravel-google-cloud-storage": "^1.0",
         "webscraperio/api-client-php": "^0.1.1"
     },
     "require-dev": {
