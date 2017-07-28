@@ -14,6 +14,7 @@
         "laravel/spark": "*@dev",
         "laravel/tinker": "~1.0",
         "league/csv": "^8.2",
+        "league/flysystem-aws-s3-v3": "^1.0",
         "webscraperio/api-client-php": "^0.1.1"
     },
     "require-dev": {

@@ -63,7 +63,7 @@
             @endif
                 <div class="col-md-8 col-md-offset-2">
                 <h2>Cite this Quote</h2>
-                <p>Feel free to use this quote from {{ $quote->author->display_name }} or any of our other curated quotes in your book, paper, website, or any other work. Here are the common styles to provide citation:</p>
+                <p>Feel free to use this quote from {{ $quote->author->display_name }} or any of our other curated quotes in your book, paper, website, or any published work. Here are the common styles to provide citation:</p>
                 <b>APA Style Citation</b><br>
                 {{ $quote->author->display_name }}. (n.d.). Tipoff.com. Retrieved {{ date('F j, Y') }}, from Tipoff.com Web site: https://tipoff.com{{ $quote->path() }}<br>
                 <b>Chicago Style Citation</b><br>
