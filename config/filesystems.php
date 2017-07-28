@@ -64,12 +64,9 @@ return [
         ],
 
         'gcs' => [
-            'driver' => 's3',
-            'key' => env('GCS_KEY'),
-            'secret' => env('GCS_SECRET'),
-            'bucket' => env('GCS_BUCKET'),
-            'region' => 'US',
-            'endpoint' => 'https://storage.googleapis.com',
+            'driver' => 'gcs',
+            'project_id' => env('GCS_PROJECT', 'your-project-id'),
+            'bucket' => env('GCS_BUCKET', 'tipoff-project'),
         ],
 
     ],
