@@ -15,14 +15,18 @@ class CreateUserImagesTable extends Migration
     {
         Schema::create('user_images', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('slug')->unique()->index();
+            $table->string('name')->unique()->index(); //includes mime type extension - need to force lowercase
+            $table->string('path');
+            $table->enum('mime', ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'psd']); //need to force lowercase
+            $table->string('width');
+            $table->string('height');
             $table->unsignedInteger('image_type_id')->index();
             $table->unsignedInteger('imageable_type')->index();
             $table->unsignedInteger('imageable_id')->index();
-            $table->boolean('approved')->default(1);
             $table->unsignedInteger('created_by')->index();
             $table->unsignedInteger('updated_by');
             $table->timestamps();
+            $table->timestamp('approved_at')->nullable()->useCurrent();  // remove useCurrent() later when approval process for User Images
             $table->softDeletes();
         });
 

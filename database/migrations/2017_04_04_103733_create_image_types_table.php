@@ -17,7 +17,10 @@ class CreateImageTypesTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique()->index();
             $table->string('title')->unique();
-            $table->string('description')->nullable();
+            $table->string('description');
+            $table->string('width')->nullable();
+            $table->string('height')->nullable();
+            $table->enum('directory', ['user', 'tipoff', 'graphics']);
             $table->timestamps();
             $table->softDeletes();
         });
