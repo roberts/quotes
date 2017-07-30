@@ -123,7 +123,7 @@ class Quote extends Model
             });
             $path = 'quotes/instagram/';
             $color = 'red';
-            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
             $this->addGraphic($img, $name, $path, $color);
 
             //Grey Instagram
@@ -159,7 +159,7 @@ class Quote extends Model
             });
             $path = 'quotes/instagram/';
             $color = 'grey';
-            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
             $this->addGraphic($img, $name, $path, $color);
 
             //Black Instagram
@@ -195,7 +195,7 @@ class Quote extends Model
             });
             $path = 'quotes/instagram/';
             $color = 'black';
-            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
             $this->addGraphic($img, $name, $path, $color);
 
             //Blue Instagram
@@ -231,7 +231,7 @@ class Quote extends Model
             });
             $path = 'quotes/instagram/';
             $color = 'blue';
-            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
             $this->addGraphic($img, $name, $path, $color);
         }
     }
