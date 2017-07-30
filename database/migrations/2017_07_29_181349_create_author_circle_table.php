@@ -29,7 +29,7 @@ class CreateAuthorCircleTable extends Migration
         });
 
         Schema::table('author_circle', function($table) {
-            $table->unique(['collection_id', 'collectionable_id', 'collectionable_type'], 'unique_item');
+            $table->unique(['author_id', 'circle_id'], 'unique_circle');
         });
     }
 
