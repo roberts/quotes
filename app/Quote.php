@@ -69,6 +69,14 @@ class Quote extends Model
     }
 
     /**
+     * Get all of the quote's graphics.
+     */
+    public function graphics()
+    {
+        return $this->morphMany('App\Graphic', 'graphicable');
+    }
+
+    /**
      * Create the standard red instagram image for the quote.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
@@ -113,7 +121,10 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            Storage::disk('gcs')->put('quotes/instagram/'.$this->author->slug.'-red-'.$datetime.'.jpg', $img->stream(), 'public');
+            $path = 'quotes/instagram/';
+            $color = 'red';
+            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $name, $path, $color);
 
             //Grey Instagram
             $img = Image::make('img/templates/instagram-grey.jpg');
@@ -146,7 +157,10 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            Storage::disk('gcs')->put('quotes/instagram/'.$this->author->slug.'-grey-'.$datetime.'.jpg', $img->stream(), 'public');
+            $path = 'quotes/instagram/';
+            $color = 'grey';
+            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $name, $path, $color);
 
             //Black Instagram
             $img = Image::make('img/templates/instagram-black.jpg');
@@ -179,7 +193,10 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            Storage::disk('gcs')->put('quotes/instagram/'.$this->author->slug.'-black-'.$datetime.'.jpg', $img->stream(), 'public');
+            $path = 'quotes/instagram/';
+            $color = 'black';
+            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $name, $path, $color);
 
             //Blue Instagram
             $img = Image::make('img/templates/instagram-blue.jpg');
@@ -212,8 +229,34 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            Storage::disk('gcs')->put('quotes/instagram/'.$this->author->slug.'-blue-'.$datetime.'.jpg', $img->stream(), 'public');
+            $path = 'quotes/instagram/';
+            $color = 'blue';
+            $name = $this->author->slug.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $name, $path, $color);
         }
+    }
+
+    /**
+     * Add graphic to the quote.
+     *
+     * @param $reply
+     */
+    public function addGraphic($img, $name, $path, $color)
+    {
+        Storage::disk('gcs')->put($path.$name , $img->stream(), 'public');
+        $graphic = new Graphic([
+                'name' => $name,
+                'path' => $path,
+                'mime' => 'jpg',
+                'width' => 1080,
+                'height' => 1080,
+                'background_color' => $color,
+                'image_type_id' => 4,
+                'headshot_id' => NULL,
+                'created_by' => 1,
+                'updated_by' => 1
+            ]);
+        $this->graphics()->save($graphic);
     }
 
     /**

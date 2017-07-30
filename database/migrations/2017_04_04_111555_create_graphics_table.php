@@ -22,7 +22,7 @@ class CreateGraphicsTable extends Migration
             $table->string('height');
             $table->string('background_color');
             $table->unsignedInteger('image_type_id')->index();
-            $table->unsignedInteger('graphicable_type')->index();
+            $table->string('graphicable_type')->index();
             $table->unsignedInteger('graphicable_id')->index();
             $table->unsignedInteger('headshot_id')->nullable();
             $table->unsignedInteger('created_by')->index();

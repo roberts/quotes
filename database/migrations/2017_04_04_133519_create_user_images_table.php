@@ -21,7 +21,7 @@ class CreateUserImagesTable extends Migration
             $table->string('width');
             $table->string('height');
             $table->unsignedInteger('image_type_id')->index();
-            $table->unsignedInteger('imageable_type')->index();
+            $table->string('imageable_type')->index();
             $table->unsignedInteger('imageable_id')->index();
             $table->unsignedInteger('created_by')->index();
             $table->unsignedInteger('updated_by');
