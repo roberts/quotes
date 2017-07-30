@@ -69,7 +69,7 @@ class QuotesController extends Controller
         }
 
         // Need to create a way to automate this with a con job:
-        $quote->makeBasicInstagram();
+        //$quote->makeBasicInstagram();
 
         return view('quotes.show', compact('quote'));
     }
