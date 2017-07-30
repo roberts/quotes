@@ -68,6 +68,7 @@ class QuotesController extends Controller
             return redirect()->to($quote->path());
         }
 
+        // Need to create a way to automate this with a con job:
         // $quote->makeBasicInstagram();
 
         return view('quotes.show', compact('quote'));
