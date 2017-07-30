@@ -10,6 +10,7 @@
     "require": {
         "php": ">=5.6.4",
         "google/cloud": "^0.35.0",
+        "intervention/image": "^2.4",
         "laravel/cashier": "~7.0",
         "laravel/framework": "5.4.*",
         "laravel/spark": "*@dev",
