@@ -3,6 +3,8 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Image;
+use Storage;
 
 class Quote extends Model
 {
@@ -64,6 +66,164 @@ class Quote extends Model
     public function approver()
     {
         return $this->belongsTo(User::class, 'approved_by');
+    }
+
+    /**
+     * Create the standard red instagram image for the quote.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function makeBasicInstagram()
+    {
+        $quote = '"'.$this->quote_text.'"';
+        $length = strlen($quote);
+        $fontsize = 75;
+        $char_per_line=floor(33);
+
+        //Red Instagram
+        $img = Image::make('img/templates/instagram-red.jpg');
+        if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+        $string = wordwrap($quote,$char_per_line,"|");
+        $strings = explode("|",$string);
+        $i = 1;
+        foreach($strings as $string){
+            $img->text($string, 540, $top, function($font) {
+                $font->file('fonts/Roboto-Medium.ttf');
+                $font->size(65);
+                $font->color('#ffffff');
+                $font->align('center');
+                $font->valign('top');
+            });
+            $top=ceil($top+($fontsize*1.10)); //shift top postition down
+        }
+        $top = $top + $spacer;
+        $img->text("-".$this->author->display_name, 1000, $top, function($font) {
+            $font->file('fonts/RockSalt.ttf');
+            $font->size(45);
+            $font->color('#ffffff');
+            $font->align('right');
+            $font->valign('top');
+        });
+        $img->text('.com/'.$this->id, 162, 1048, function($font) {
+            $font->file('fonts/Roboto-Medium.ttf');
+            $font->size(34);
+            $font->color('#ffffff');
+            $font->align('left');
+            $font->valign('bottom');
+        });
+        if ($length < 260) {
+            $img->save(public_path('img/instagram-red.jpg'));
+        }
+        //store('quotes/instagram', 'gcs');
+
+        //Grey Instagram
+        $img = Image::make('img/templates/instagram-grey.jpg');
+        if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+        $string = wordwrap($quote,$char_per_line,"|");
+        $strings = explode("|",$string);
+        $i = 1;
+        foreach($strings as $string){
+            $img->text($string, 540, $top, function($font) {
+                $font->file('fonts/Roboto-Medium.ttf');
+                $font->size(65);
+                $font->color('#ffffff');
+                $font->align('center');
+                $font->valign('top');
+            });
+            $top=ceil($top+($fontsize*1.10)); //shift top postition down
+        }
+        $top = $top + $spacer;
+        $img->text("-".$this->author->display_name, 1000, $top, function($font) {
+            $font->file('fonts/RockSalt.ttf');
+            $font->size(45);
+            $font->color('#ffffff');
+            $font->align('right');
+            $font->valign('top');
+        });
+        $img->text('.com/'.$this->id, 162, 1048, function($font) {
+            $font->file('fonts/Roboto-Medium.ttf');
+            $font->size(34);
+            $font->color('#ffffff');
+            $font->align('left');
+            $font->valign('bottom');
+        });
+        if ($length < 260) {
+            $img->save(public_path('img/instagram-grey.jpg'));
+        }
+        //store('quotes/instagram', 'gcs');
+
+        //Black Instagram
+        $img = Image::make('img/templates/instagram-black.jpg');
+        if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+        $string = wordwrap($quote,$char_per_line,"|");
+        $strings = explode("|",$string);
+        $i = 1;
+        foreach($strings as $string){
+            $img->text($string, 540, $top, function($font) {
+                $font->file('fonts/Roboto-Medium.ttf');
+                $font->size(65);
+                $font->color('#ffffff');
+                $font->align('center');
+                $font->valign('top');
+            });
+            $top=ceil($top+($fontsize*1.10)); //shift top postition down
+        }
+        $top = $top + $spacer;
+        $img->text("-".$this->author->display_name, 1000, $top, function($font) {
+            $font->file('fonts/RockSalt.ttf');
+            $font->size(45);
+            $font->color('#ffffff');
+            $font->align('right');
+            $font->valign('top');
+        });
+        $img->text('.com/'.$this->id, 162, 1048, function($font) {
+            $font->file('fonts/Roboto-Medium.ttf');
+            $font->size(34);
+            $font->color('#ffffff');
+            $font->align('left');
+            $font->valign('bottom');
+        });
+        if ($length < 260) {
+            $img->save(public_path('img/instagram-black.jpg'));
+        }
+        //store('quotes/instagram', 'gcs');
+
+        //Blue Instagram
+        $img = Image::make('img/templates/instagram-blue.jpg');
+        if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+        $string = wordwrap($quote,$char_per_line,"|");
+        $strings = explode("|",$string);
+        $i = 1;
+        foreach($strings as $string){
+            $img->text($string, 540, $top, function($font) {
+                $font->file('fonts/Roboto-Medium.ttf');
+                $font->size(65);
+                $font->color('#ffffff');
+                $font->align('center');
+                $font->valign('top');
+            });
+            $top=ceil($top+($fontsize*1.10)); //shift top postition down
+        }
+        $top = $top + $spacer;
+        $img->text("-".$this->author->display_name, 1000, $top, function($font) {
+            $font->file('fonts/RockSalt.ttf');
+            $font->size(45);
+            $font->color('#ffffff');
+            $font->align('right');
+            $font->valign('top');
+        });
+        $img->text('.com/'.$this->id, 162, 1048, function($font) {
+            $font->file('fonts/Roboto-Medium.ttf');
+            $font->size(34);
+            $font->color('#ffffff');
+            $font->align('left');
+            $font->valign('bottom');
+        });
+        if ($length < 260) {
+            $img->save(public_path('img/instagram-blue.jpg'));
+        }
+        //$contents = Storage::get('img/instagram-blue.jpg')->store('quotes/instagram', 'gcs');
+
     }
 
     /**

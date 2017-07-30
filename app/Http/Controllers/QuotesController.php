@@ -68,6 +68,8 @@ class QuotesController extends Controller
             return redirect()->to($quote->path());
         }
 
+        //$quote->makeBasicInstagram();
+
         return view('quotes.show', compact('quote'));
     }
 
