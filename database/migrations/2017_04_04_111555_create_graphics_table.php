@@ -20,12 +20,13 @@ class CreateGraphicsTable extends Migration
             $table->enum('mime', ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'psd']); //need to force lowercase
             $table->string('width');
             $table->string('height');
+            $table->string('background_color');
             $table->unsignedInteger('image_type_id')->index();
             $table->unsignedInteger('graphicable_type')->index();
             $table->unsignedInteger('graphicable_id')->index();
             $table->unsignedInteger('headshot_id')->nullable();
             $table->unsignedInteger('created_by')->index();
-            $table->unsignedInteger('updated_by')->nullable();
+            $table->unsignedInteger('updated_by');
             $table->timestamps();
             $table->timestamp('approved_at')->nullable()->useCurrent();  // remove useCurrent() later when approval process for Graphics
             $table->softDeletes();
