@@ -83,11 +83,11 @@ class Quote extends Model
      */
     public function makeBasicInstagram()
     {
+        $datetime = date('ynj-Gis');
         $quote = '"'.$this->quote_text.'"';
         $length = strlen($quote);
         $fontsize = 75;
         $char_per_line=floor(33);
-        $datetime = date('ynj-Gis');
 
         if ($length < 260) {
             //Red Instagram
@@ -233,6 +233,45 @@ class Quote extends Model
             $color = 'blue';
             $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
             $this->addGraphic($img, $name, $path, $color);
+
+        } else {
+            //Large Quote Instagram
+            $img = Image::make('img/templates/instagram-red.jpg');
+            $fontsize = 45;
+            $char_per_line=46;
+            if ($length < 400) { $top = 150; $spacer = 80; } elseif ($length > 600) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+            $string = wordwrap($quote,$char_per_line,"|");
+            $strings = explode("|",$string);
+            $i = 1;
+            foreach($strings as $string){
+                $img->text($string, 540, $top, function($font) {
+                    $font->file('fonts/Roboto-Medium.ttf');
+                    $font->size(45);
+                    $font->color('#ffffff');
+                    $font->align('center');
+                    $font->valign('top');
+                });
+                $top=ceil($top+($fontsize*1.20)); //shift top postition down
+            }
+            $top = $top + $spacer;
+            $img->text("-".$this->author->display_name, 1000, $top, function($font) {
+                $font->file('fonts/RockSalt.ttf');
+                $font->size(40);
+                $font->color('#ffffff');
+                $font->align('right');
+                $font->valign('top');
+            });
+            $img->text('.com/'.$this->id, 162, 1048, function($font) {
+                $font->file('fonts/Roboto-Medium.ttf');
+                $font->size(34);
+                $font->color('#ffffff');
+                $font->align('left');
+                $font->valign('bottom');
+            });
+            $path = 'quotes/instagram/';
+            $color = 'longred';
+            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $name, $path, $color);
         }
     }
 
@@ -248,8 +287,8 @@ class Quote extends Model
                 'name' => $name,
                 'path' => $path,
                 'mime' => 'jpg',
-                'width' => 1080,
-                'height' => 1080,
+                'width' => $img->width(),
+                'height' => $img->height(),
                 'background_color' => $color,
                 'image_type_id' => 4,
                 'headshot_id' => NULL,

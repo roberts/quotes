@@ -44,9 +44,9 @@ class ImageTypesTableSeeder extends Seeder
             'updated_at'    => $now,
         ]);
         DB::table('image_types')->insert([
-            'slug'          => 'instagram-quotes',
-            'title'         => 'Quote Instagram',
-            'description'   => 'Graphic created for sharing a quote on instagram.',
+            'slug'          => 'instagram-quotes-basic',
+            'title'         => 'Quote Instagram Basic',
+            'description'   => 'Basic graphics without author depictions created for sharing a quote on instagram.',
             'width'         => 1080,
             'height'        => 1080,
             'directory'     => 'graphics',
