@@ -91,14 +91,14 @@ class Quote extends Model
 
         if ($length < 260) {
             //Red Instagram
-            $img = Image::make('img/templates/instagram-red.jpg');
+            $img = Image::make(public_path('img/templates/instagram-red.jpg'));
             if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
             foreach($strings as $string){
                 $img->text($string, 540, $top, function($font) {
-                    $font->file('fonts/Roboto-Medium.ttf');
+                    $font->file(public_path('fonts/Roboto-Medium.ttf'));
                     $font->size(65);
                     $font->color('#ffffff');
                     $font->align('center');
@@ -108,14 +108,14 @@ class Quote extends Model
             }
             $top = $top + $spacer;
             $img->text("-".$this->author->display_name, 1000, $top, function($font) {
-                $font->file('fonts/RockSalt.ttf');
+                $font->file(public_path('fonts/RockSalt.ttf'));
                 $font->size(45);
                 $font->color('#ffffff');
                 $font->align('right');
                 $font->valign('top');
             });
             $img->text('.com/'.$this->id, 162, 1048, function($font) {
-                $font->file('fonts/Roboto-Medium.ttf');
+                $font->file(public_path('fonts/Roboto-Medium.ttf'));
                 $font->size(34);
                 $font->color('#ffffff');
                 $font->align('left');
@@ -127,14 +127,14 @@ class Quote extends Model
             $this->addGraphic($img, $name, $path, $color);
 
             //Grey Instagram
-            $img = Image::make('img/templates/instagram-grey.jpg');
+            $img = Image::make(public_path('img/templates/instagram-grey.jpg'));
             if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
             foreach($strings as $string){
                 $img->text($string, 540, $top, function($font) {
-                    $font->file('fonts/Roboto-Medium.ttf');
+                    $font->file(public_path('fonts/Roboto-Medium.ttf'));
                     $font->size(65);
                     $font->color('#ffffff');
                     $font->align('center');
@@ -144,14 +144,14 @@ class Quote extends Model
             }
             $top = $top + $spacer;
             $img->text("-".$this->author->display_name, 1000, $top, function($font) {
-                $font->file('fonts/RockSalt.ttf');
+                $font->file(public_path('fonts/RockSalt.ttf'));
                 $font->size(45);
                 $font->color('#ffffff');
                 $font->align('right');
                 $font->valign('top');
             });
             $img->text('.com/'.$this->id, 162, 1048, function($font) {
-                $font->file('fonts/Roboto-Medium.ttf');
+                $font->file(public_path('fonts/Roboto-Medium.ttf'));
                 $font->size(34);
                 $font->color('#ffffff');
                 $font->align('left');
@@ -163,14 +163,14 @@ class Quote extends Model
             $this->addGraphic($img, $name, $path, $color);
 
             //Black Instagram
-            $img = Image::make('img/templates/instagram-black.jpg');
+            $img = Image::make(public_path('img/templates/instagram-black.jpg'));
             if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
             foreach($strings as $string){
                 $img->text($string, 540, $top, function($font) {
-                    $font->file('fonts/Roboto-Medium.ttf');
+                    $font->file(public_path('fonts/Roboto-Medium.ttf'));
                     $font->size(65);
                     $font->color('#ffffff');
                     $font->align('center');
@@ -180,14 +180,14 @@ class Quote extends Model
             }
             $top = $top + $spacer;
             $img->text("-".$this->author->display_name, 1000, $top, function($font) {
-                $font->file('fonts/RockSalt.ttf');
+                $font->file(public_path('fonts/RockSalt.ttf'));
                 $font->size(45);
                 $font->color('#ffffff');
                 $font->align('right');
                 $font->valign('top');
             });
             $img->text('.com/'.$this->id, 162, 1048, function($font) {
-                $font->file('fonts/Roboto-Medium.ttf');
+                $font->file(public_path('fonts/Roboto-Medium.ttf'));
                 $font->size(34);
                 $font->color('#ffffff');
                 $font->align('left');
@@ -199,14 +199,14 @@ class Quote extends Model
             $this->addGraphic($img, $name, $path, $color);
 
             //Blue Instagram
-            $img = Image::make('img/templates/instagram-blue.jpg');
+            $img = Image::make(public_path('img/templates/instagram-blue.jpg'));
             if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
             foreach($strings as $string){
                 $img->text($string, 540, $top, function($font) {
-                    $font->file('fonts/Roboto-Medium.ttf');
+                    $font->file(public_path('fonts/Roboto-Medium.ttf'));
                     $font->size(65);
                     $font->color('#ffffff');
                     $font->align('center');
@@ -216,14 +216,14 @@ class Quote extends Model
             }
             $top = $top + $spacer;
             $img->text("-".$this->author->display_name, 1000, $top, function($font) {
-                $font->file('fonts/RockSalt.ttf');
+                $font->file(public_path('fonts/RockSalt.ttf'));
                 $font->size(45);
                 $font->color('#ffffff');
                 $font->align('right');
                 $font->valign('top');
             });
             $img->text('.com/'.$this->id, 162, 1048, function($font) {
-                $font->file('fonts/Roboto-Medium.ttf');
+                $font->file(public_path('fonts/Roboto-Medium.ttf'));
                 $font->size(34);
                 $font->color('#ffffff');
                 $font->align('left');
@@ -236,7 +236,7 @@ class Quote extends Model
 
         } else {
             //Large Quote Instagram
-            $img = Image::make('img/templates/instagram-red.jpg');
+            $img = Image::make(public_path('img/templates/instagram-red.jpg'));
             $fontsize = 45;
             $char_per_line=46;
             if ($length < 400) { $top = 150; $spacer = 80; } elseif ($length > 600) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
@@ -245,7 +245,7 @@ class Quote extends Model
             $i = 1;
             foreach($strings as $string){
                 $img->text($string, 540, $top, function($font) {
-                    $font->file('fonts/Roboto-Medium.ttf');
+                    $font->file(public_path('fonts/Roboto-Medium.ttf'));
                     $font->size(45);
                     $font->color('#ffffff');
                     $font->align('center');
@@ -255,14 +255,14 @@ class Quote extends Model
             }
             $top = $top + $spacer;
             $img->text("-".$this->author->display_name, 1000, $top, function($font) {
-                $font->file('fonts/RockSalt.ttf');
+                $font->file(public_path('fonts/RockSalt.ttf'));
                 $font->size(40);
                 $font->color('#ffffff');
                 $font->align('right');
                 $font->valign('top');
             });
             $img->text('.com/'.$this->id, 162, 1048, function($font) {
-                $font->file('fonts/Roboto-Medium.ttf');
+                $font->file(public_path('fonts/Roboto-Medium.ttf'));
                 $font->size(34);
                 $font->color('#ffffff');
                 $font->align('left');

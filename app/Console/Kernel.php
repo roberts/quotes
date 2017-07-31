@@ -23,9 +23,9 @@ class Kernel extends ConsoleKernel
      * @return void
      */
     protected function schedule(Schedule $schedule)
-    {
-        // $schedule->command('inspire')
-        //          ->hourly();
+    {   
+        $schedule->command('startergraphics')->withoutOverlapping();
+        // Change to $schedule->command('startergraphics')->everyFiveMinutes()->withoutOverlapping(); when get caught up
     }
 
     /**

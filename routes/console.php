@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Foundation\Inspiring;
+use App\Quote;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,10 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+Artisan::command('startergraphics', function () {
+    $quotes = Quote::doesntHave('graphics')->orderBy('id', 'asc')->limit(20)->get();
+	foreach ($quotes as $quote) {
+	    $quote->makeBasicInstagram();
+	}
+})->describe('Create the basic instagram starter pack of graphics for every quote.');
