@@ -70,6 +70,22 @@
                             </a>
                         </div>
                     </paper-card>
+                    <paper-card image="{{ $graphic->path() }}">
+                      <div class="card-content">
+                        <div class="sidebar-connect">Connect with Tipoff</div>
+                        <p class="sidebar-connect-p">Receive daily quotes and more resources for business and leadership by connecting with us on social media.</p>
+                      </div>
+                      <div class="card-actions">
+                        <div class="horizontal justified">
+                            <a href="https://www.facebook.com/Tipoff" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
+                            <a href="https://www.instagram.com/tipoff/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png"></paper-icon-button></a>
+                            <a href="https://www.pinterest.com/tipoff/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/pinterest.png"></paper-icon-button></a>
+                            <a href="https://twitter.com/TipoffProject" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
+                            <a href="https://plus.google.com/+Tipoff" tabindex="-1"><paper-icon-button src="/img/google-plus.png"></paper-icon-button></a>
+                            <a href="https://www.linkedin.com/company/TipoffProject" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
+                        </div>
+                      </div>
+                    </paper-card>
                 @endforeach
             @endif
                 <div class="col-md-8 col-md-offset-2">

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Quote;
 use App\QuoteAuthor;
 use App\QuoteSubmission;
+use App\Graphic;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 
@@ -68,7 +69,10 @@ class QuotesController extends Controller
             return redirect()->to($quote->path());
         }
 
-        $graphics = $quote->graphics();
+        $graphics = Graphic::where([
+                                ['graphicable_id', '=', $quote->id],
+                                ['image_type_id', '=', '4'],
+                            ])->inRandomOrder()->limit(20)->get();
 
         return view('quotes.show', compact('quote', 'graphics'));
     }
