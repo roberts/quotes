@@ -102,5 +102,5 @@
         </div>
         @include('layouts.sidebar-quotes')
     </section>
-    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script type="text/javascript" async defer data-pin-custom="true" src="//assets.pinterest.com/js/pinit.js"></script>
 @endsection
