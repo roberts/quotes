@@ -64,16 +64,9 @@
                 <div class="sidebar-title">Shareable Graphics of this Quote</div>
                 @foreach ($graphics as $graphic)
                     <paper-card image="{{ $graphic->path() }}">
-                        <div class="card-actions">
-                            <a href="/quotes/authors/data" tabindex="-1">
-                              <paper-button>Share {{ $graphic->name }}</paper-button>
-                            </a>
-                        </div>
-                    </paper-card>
-                    <paper-card image="{{ $graphic->path() }}">
                       <div class="card-content">
-                        <div class="sidebar-connect">Connect with Tipoff</div>
-                        <p class="sidebar-connect-p">Receive daily quotes and more resources for business and leadership by connecting with us on social media.</p>
+                        <div class="sidebar-connect">Share This Image</div>
+                        <p class="sidebar-connect-p">This graphic was created to share quote #{{ $quote->id }} from {{ $quote->author->display_name }} on social media:</p>
                       </div>
                       <div class="card-actions">
                         <div class="horizontal justified">
