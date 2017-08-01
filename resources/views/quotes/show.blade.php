@@ -77,7 +77,7 @@
                             <a href="https://www.facebook.com/Tipoff" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
                             <a href="https://twitter.com/TipoffProject" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
                             <a href="https://www.linkedin.com/company/TipoffProject" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
-                            <a href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=View%20more%20Business%20and%20Leadership%20Quotes%20from%20{{ $urlauthorname }}"><paper-icon-button src="/img/pinterest.png"></paper-icon-button></a>
+                            <a href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=View%20more%20Business%20and%20Leadership%20Quotes%20from%20{{ $urlauthorname }}" target="_blank"><paper-icon-button src="/img/pinterest.png"></paper-icon-button></a>
                         </div>
                       </div>
                     </paper-card>
