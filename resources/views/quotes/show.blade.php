@@ -52,11 +52,9 @@
                     <div class="col-md-8 col-md-offset-2">
                         <form method="POST" action="{{ $quote->path() . '/comments' }}">
                             {{ csrf_field() }}
-
                             <div class="form-group">
                                 <textarea name="body" id="body" class="form-control" placeholder="Have something to say?" rows="5"></textarea>
                             </div>
-                            
                             <button type="submit" class="btn btn-default">Post</button>
                         </form>
                     </div>
@@ -74,10 +72,7 @@
                       </div>
                       <div class="card-actions">
                         <div class="horizontal justified">
-                            <a href="https://www.facebook.com/Tipoff" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
-                            <a href="https://twitter.com/TipoffProject" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
-                            <a href="https://www.linkedin.com/company/TipoffProject" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
-                            <a href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=View%20more%20Business%20and%20Leadership%20Quotes%20from%20{{ $urlauthorname }}" target="_blank"><paper-icon-button src="/img/pinterest.png"></paper-icon-button></a>
+                            <a href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=View%20more%20{{ $urlauthorname }}%20Quotes%20on%20Business%20and%20Leadership" target="_blank" tabindex="-1"><paper-icon-button src="/img/pinterest.png"></paper-icon-button></a>
                         </div>
                       </div>
                     </paper-card>
