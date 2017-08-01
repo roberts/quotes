@@ -29,6 +29,10 @@
 
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
+@php
+    $urlauthorname = urlencode($quote->author->display_name);
+@endphp
+
 @section('content')
     <div class="image" style="background-color:#D32F2F; background-image: url('/red-einstein.jpg')"></div>
 
@@ -71,11 +75,9 @@
                       <div class="card-actions">
                         <div class="horizontal justified">
                             <a href="https://www.facebook.com/Tipoff" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
-                            <a href="https://www.instagram.com/tipoff/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png"></paper-icon-button></a>
-                            <a href="https://www.pinterest.com/tipoff/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/pinterest.png"></paper-icon-button></a>
                             <a href="https://twitter.com/TipoffProject" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
-                            <a href="https://plus.google.com/+Tipoff" tabindex="-1"><paper-icon-button src="/img/google-plus.png"></paper-icon-button></a>
                             <a href="https://www.linkedin.com/company/TipoffProject" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
+                            <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=Business%20and%20Leadership%20Quotes%20from%20{{ $urlauthorname }}" data-pin-shape="round" data-pin-config="beside"></a>
                         </div>
                       </div>
                     </paper-card>
