@@ -82,7 +82,7 @@
                 @endforeach
             @endif
                 <div class="sidebar-title">Citations</div>
-                <paper-card image="{{ $graphic->path() }}">
+                <paper-card>
                       <div class="card-content">
                         <div class="sidebar-connect">Cite this Quote</div>
                         <p class="sidebar-connect-p">Feel free to use this quote from {{ $quote->author->display_name }} or any of our other curated quotes in your book, paper, website, or any published work. Here are the common styles to provide citation:</p>
