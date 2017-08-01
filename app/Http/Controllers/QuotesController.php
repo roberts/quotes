@@ -68,7 +68,9 @@ class QuotesController extends Controller
             return redirect()->to($quote->path());
         }
 
-        return view('quotes.show', compact('quote'));
+        $graphics = $quote->graphics();
+
+        return view('quotes.show', compact('quote', 'graphics'));
     }
 
     /**

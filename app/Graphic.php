@@ -15,21 +15,21 @@ class Graphic extends Model
     protected $guarded = [];
 
     /**
-     * Get all of the owning graphicable models.
-     */
-    public function graphicable()
-    {
-        return $this->morphTo();
-    }
-
-    /**
-     * Get a string path for the quote.
+     * Get a string path for the graphic.
      *
      * @return string
      */
     public function path()
     {
-        return "/quotes/{$this->author->slug}/{$this->id}";
+        return "https://storage.googleapis.com/tipoff-project/{$this->path}{$this->name}";
+    }
+
+    /**
+     * Get all of the owning graphicable models.
+     */
+    public function graphicable()
+    {
+        return $this->morphTo();
     }
 
     
