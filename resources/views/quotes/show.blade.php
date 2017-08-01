@@ -43,18 +43,6 @@
             <article>
                 <h4>"{{ $quote->quote_text }}"</h4>
             </article>
-            @if ($graphics)
-                <div class="sidebar-title">Shareable Graphics of this Quote</div>
-                @foreach ($graphics as $graphic)
-                    <paper-card image="{{ $graphic->path() }}">
-                        <div class="card-actions">
-                            <a href="/quotes/authors/data" tabindex="-1">
-                              <paper-button>Share</paper-button>
-                            </a>
-                        </div>
-                    </paper-card>
-                @endforeach
-            @endif
             @if (auth()->check())
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
@@ -71,6 +59,18 @@
                 </div>
             @else
                 <p class="text-center">Please <a href="{{ route('login') }}">sign in</a> to participate in this discussion.</p>
+            @endif
+            @if ($graphics)
+                <div class="sidebar-title">Shareable Graphics of this Quote</div>
+                @foreach ($graphics as $graphic)
+                    <paper-card image="{{ $graphic->path() }}">
+                        <div class="card-actions">
+                            <a href="/quotes/authors/data" tabindex="-1">
+                              <paper-button>Share</paper-button>
+                            </a>
+                        </div>
+                    </paper-card>
+                @endforeach
             @endif
                 <div class="col-md-8 col-md-offset-2">
                 <h2>Cite this Quote</h2>
