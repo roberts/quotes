@@ -72,7 +72,7 @@
                       </div>
                       <div class="card-actions">
                         <div class="horizontal justified">
-                            <a href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=View%20more%20{{ $urlauthorname }}%20Quotes%20on%20Business%20and%20Leadership" target="_blank" tabindex="-1"><paper-icon-button src="/img/pinterest.png"></paper-icon-button></a>
+                            <a href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=View%20more%20{{ $urlauthorname }}%20Quotes%20on%20Business%20and%20Leadership" target="_blank" tabindex="-1"><paper-icon-button src="/img/pinterest.png"></paper-icon-button></a>
                         </div>
                       </div>
                     </paper-card>
