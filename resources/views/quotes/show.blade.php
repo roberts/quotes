@@ -88,16 +88,13 @@
                         <p class="sidebar-connect-p">Feel free to use this quote from {{ $quote->author->display_name }} or any of our other curated quotes in your book, paper, website, or any published work. Here are the common styles to provide citation:</p>
                       </div>
                       <div class="card-actions">
-                        <div class="sidebar-connect">APA Style Citation</div>
-                        <p class="sidebar-connect-p">{{ $quote->author->display_name }}. (n.d.). Tipoff.com. Retrieved {{ date('F j, Y') }}, from Tipoff.com Web site: https://tipoff.com{{ $quote->path() }}</p>
+                        <p class="sidebar-connect-p"><b>APA Style Citation</b></br>{{ $quote->author->display_name }}. (n.d.). Tipoff.com. Retrieved {{ date('F j, Y') }}, from Tipoff.com Web site: https://tipoff.com{{ $quote->path() }}</p>
                       </div>
                       <div class="card-actions">
-                        <div class="sidebar-connect">Chicago Style Citation</div>
-                        <p class="sidebar-connect-p">{{ $quote->author->display_name }}. Tipoff.com, Tipoff Inc, {{ date('Y') }}. https://tipoff.com{{ $quote->path() }}, accessed {{ date('F j, Y') }}.</p>
+                        <p class="sidebar-connect-p"><b>Chicago Style Citation</b></br>{{ $quote->author->display_name }}. Tipoff.com, Tipoff Inc, {{ date('Y') }}. https://tipoff.com{{ $quote->path() }}, accessed {{ date('F j, Y') }}.</p>
                       </div>
                       <div class="card-actions">
-                        <div class="sidebar-connect">MLA Style Citation</div>
-                        <p class="sidebar-connect-p">"{{ $quote->author->display_name }}." Tipoff.com. Tipoff Inc, {{ date('Y') }}. {{ date('j F Y') }}. https://tipoff.com{{ $quote->path() }}</p>
+                        <p class="sidebar-connect-p"><b>MLA Style Citation</b></br>"{{ $quote->author->display_name }}." Tipoff.com. Tipoff Inc, {{ date('Y') }}. {{ date('j F Y') }}. https://tipoff.com{{ $quote->path() }}</p>
                       </div>
                     </paper-card>
         </div>
