@@ -77,7 +77,7 @@
                             <a href="https://www.facebook.com/Tipoff" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
                             <a href="https://twitter.com/TipoffProject" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
                             <a href="https://www.linkedin.com/company/TipoffProject" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
-                            <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=Business%20and%20Leadership%20Quotes%20from%20{{ $urlauthorname }}" data-pin-shape="round" data-pin-config="beside"></a>
+                            <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=https://tipoff.com/{{ $quote->author->path() }}&media={{ $graphic->path() }}&description=Business%20and%20Leadership%20Quotes%20from%20{{ $urlauthorname }}" data-pin-do="buttonBookmark" data-pin-custom="true" tabindex="-1"><paper-icon-button src="/img/pinterest.png"></paper-icon-button></a>
                         </div>
                       </div>
                     </paper-card>
@@ -102,9 +102,5 @@
         </div>
         @include('layouts.sidebar-quotes')
     </section>
-    <script
-        type="text/javascript"
-        async defer
-        src="//assets.pinterest.com/js/pinit.js"
-    ></script>
+    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 @endsection
