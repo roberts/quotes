@@ -30,7 +30,7 @@
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
 @php
-    $urlauthorname = urlencode($quote->author->display_name);
+    $urlauthorname = str_replace(" ", "%20", $quote->author->display_name);
 @endphp
 
 @section('content')
