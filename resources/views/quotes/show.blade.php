@@ -66,7 +66,7 @@
                     <paper-card image="{{ $graphic->path() }}">
                         <div class="card-actions">
                             <a href="/quotes/authors/data" tabindex="-1">
-                              <paper-button>Share</paper-button>
+                              <paper-button>Share {{ $graphic->name }}</paper-button>
                             </a>
                         </div>
                     </paper-card>
