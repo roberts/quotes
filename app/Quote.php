@@ -87,7 +87,7 @@ class Quote extends Model
         $quote = '"'.$this->quote_text.'"';
         $length = strlen($quote);
         $fontsize = 75;
-        $char_per_line=floor(33);
+        $char_per_line=floor(31);
 
         if ($length < 260) {
             //Red Instagram
