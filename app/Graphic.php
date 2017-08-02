@@ -21,7 +21,7 @@ class Graphic extends Model
      */
     public function path()
     {
-        return "https://storage.googleapis.com/tipoff-project/{$this->path}{$this->name}";
+        return "https://storage.googleapis.com/pic.tipoff.com/{$this->path_prefix}/{$this->filename}";
     }
 
     /**

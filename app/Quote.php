@@ -92,7 +92,7 @@ class Quote extends Model
         if ($length < 260) {
             //Red Instagram
             $img = Image::make(public_path('img/templates/instagram-red.jpg'));
-            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 150; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
@@ -121,14 +121,14 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            $path = 'quotes/instagram/';
+            $path_prefix = 'quotes/instagram';
             $color = 'red';
-            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
-            $this->addGraphic($img, $name, $path, $color);
+            $filename = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $filename, $path_prefix, $color);
 
             //Grey Instagram
             $img = Image::make(public_path('img/templates/instagram-grey.jpg'));
-            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 150; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
@@ -157,14 +157,14 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            $path = 'quotes/instagram/';
+            $path_prefix = 'quotes/instagram';
             $color = 'grey';
-            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
-            $this->addGraphic($img, $name, $path, $color);
+            $filename = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $filename, $path_prefix, $color);
 
             //Black Instagram
             $img = Image::make(public_path('img/templates/instagram-black.jpg'));
-            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 150; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
@@ -193,14 +193,14 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            $path = 'quotes/instagram/';
+            $path_prefix = 'quotes/instagram';
             $color = 'black';
-            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
-            $this->addGraphic($img, $name, $path, $color);
+            $filename = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $filename, $path_prefix, $color);
 
             //Blue Instagram
             $img = Image::make(public_path('img/templates/instagram-blue.jpg'));
-            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 100; $spacer = 80; }
+            if ($length < 100) { $top = 250; $spacer = 80; } elseif ($length > 230) { $top = 50; $spacer = 40; } else { $top = 150; $spacer = 80; }
             $string = wordwrap($quote,$char_per_line,"|");
             $strings = explode("|",$string);
             $i = 1;
@@ -229,10 +229,10 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            $path = 'quotes/instagram/';
+            $path_prefix = 'quotes/instagram';
             $color = 'blue';
-            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
-            $this->addGraphic($img, $name, $path, $color);
+            $filename = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $filename, $path_prefix, $color);
 
         } else {
             //Large Quote Instagram
@@ -268,10 +268,10 @@ class Quote extends Model
                 $font->align('left');
                 $font->valign('bottom');
             });
-            $path = 'quotes/instagram/';
+            $path_prefix = 'quotes/instagram';
             $color = 'longred';
-            $name = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
-            $this->addGraphic($img, $name, $path, $color);
+            $filename = $this->author->slug.'-'.$this->id.'-'.$color.'-'.$datetime.'.jpg';
+            $this->addGraphic($img, $filename, $path_prefix, $color);
         }
     }
 
@@ -280,17 +280,17 @@ class Quote extends Model
      *
      * @param $reply
      */
-    public function addGraphic($img, $name, $path, $color)
+    public function addGraphic($img, $filename, $path_prefix, $color)
     {
-        Storage::disk('gcs')->put($path.$name , $img->stream(), 'public');
+        Storage::disk('gcs-command')->put($path_prefix.'/'.$filename , $img->stream(), 'public');
         $graphic = new Graphic([
-                'name' => $name,
-                'path' => $path,
+                'filename' => $filename,
+                'path_prefix' => $path_prefix,
                 'mime' => 'jpg',
                 'width' => $img->width(),
                 'height' => $img->height(),
                 'background_color' => $color,
-                'image_type_id' => 4,
+                'image_type_id' => 6,
                 'headshot_id' => NULL,
                 'created_by' => 1,
                 'updated_by' => 1

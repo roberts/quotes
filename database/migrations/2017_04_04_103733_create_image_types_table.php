@@ -21,6 +21,7 @@ class CreateImageTypesTable extends Migration
             $table->string('width')->nullable();
             $table->string('height')->nullable();
             $table->enum('directory', ['user', 'tipoff', 'graphics']);
+            $table->string('path');
             $table->timestamps();
             $table->softDeletes();
         });

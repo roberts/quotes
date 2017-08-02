@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DRIVER', 'local'),
+    'default' => env('FILESYSTEM_DRIVER', 'gcs'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,18 +55,18 @@ return [
             'visibility' => 'public',
         ],
 
-        's3' => [
-            'driver' => 's3',
-            'key' => env('AWS_KEY'),
-            'secret' => env('AWS_SECRET'),
-            'region' => env('AWS_REGION'),
-            'bucket' => env('AWS_BUCKET'),
-        ],
-
         'gcs' => [
             'driver' => 'gcs',
-            'project_id' => env('GCS_PROJECT', 'your-project-id'),
-            'bucket' => env('GCS_BUCKET', 'tipoff-project'),
+            'project_id' => env('GCS_PROJECT', 'tipoff-project'),
+            'bucket' => env('GCS_BUCKET', 'pic.tipoff.com'),
+            'key_file' => env('GCS_KEY_FILE', null),
+        ],
+
+        'gcs-command' => [
+            'driver' => 'gcs',
+            'project_id' => env('GCS_PROJECT', 'tipoff-project'),
+            'bucket' => env('GCS_BUCKET', 'pic.tipoff.com'),
+            'key_file' => env('COMMAND_KEY_FILE', null),
         ],
 
     ],

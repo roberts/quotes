@@ -37,21 +37,19 @@ class GraphicsController extends Controller
     {
 
         $graphic = Graphic::create([
-            'name' => $name,
-            'path' => $path,
+            'filename' => $filename,
+            'path_prefix' => $path_prefix,
             'mime' => 'jpg',
             'width' => 1080,
             'height' => 1080,
-            'background_color' => 
+            'background_color' => ,
             'image_type_id' => 4,
             'graphicable_type' => 'App/Quote',
-            'graphicable_id' => 
+            'graphicable_id' => ,
             'headshot_id' => NULL,
             'created_by' => auth()->id(),
             'updated_by' => auth()->id()
         ]);
-
-        QuoteSubmission::find(request('id'))->delete();
 
         return back();
     }

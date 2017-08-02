@@ -20,6 +20,7 @@ class ImageTypesTableSeeder extends Seeder
             'width'         => NULL,
             'height'        => NULL,
             'directory'     => 'tipoff',
+            'path'          => 'authors/headshot',
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -30,6 +31,7 @@ class ImageTypesTableSeeder extends Seeder
             'width'         => NULL,
             'height'        => NULL,
             'directory'     => 'tipoff',
+            'path'          => 'authors/depiction',
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -40,6 +42,29 @@ class ImageTypesTableSeeder extends Seeder
             'width'         => NULL,
             'height'        => NULL,
             'directory'     => 'tipoff',
+            'path'          => 'authors/caricature',
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('image_types')->insert([
+            'slug'          => 'avatar',
+            'title'         => 'Author Avatar',
+            'description'   => 'Ideally the Author Avatar is from a different headshot than the Author Cover. It is made from a headshot.',
+            'width'         => 500,
+            'height'        => 500,
+            'directory'     => 'tipoff',
+            'path'          => 'authors/profile',
+            'created_at'    => $now,
+            'updated_at'    => $now,
+        ]);
+        DB::table('image_types')->insert([
+            'slug'          => 'cover',
+            'title'         => 'Author Cover',
+            'description'   => 'Ideally the Author Cover is from a different headshot than the Author Avatar. It is made from a depiction, which is made from a headshot.',
+            'width'         => NULL,
+            'height'        => NULL,
+            'directory'     => 'tipoff',
+            'path'          => 'authors/cover',
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -50,6 +75,7 @@ class ImageTypesTableSeeder extends Seeder
             'width'         => 1080,
             'height'        => 1080,
             'directory'     => 'graphics',
+            'path'          => 'quotes/instagram',
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);

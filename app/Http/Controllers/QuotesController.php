@@ -71,7 +71,7 @@ class QuotesController extends Controller
 
         $graphics = Graphic::where([
                                 ['graphicable_id', '=', $quote->id],
-                                ['image_type_id', '=', '4'],
+                                ['image_type_id', '=', '6'],
                             ])->inRandomOrder()->limit(20)->get();
 
         return view('quotes.show', compact('quote', 'graphics'));

@@ -15,8 +15,8 @@ class CreateGraphicsTable extends Migration
     {
         Schema::create('graphics', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name')->unique()->index(); //includes mime type extension - need to force lowercase
-            $table->string('path');
+            $table->string('filename')->unique()->index(); //includes mime type extension - need to force lowercase
+            $table->string('path_prefix');
             $table->enum('mime', ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'psd']); //need to force lowercase
             $table->string('width');
             $table->string('height');
