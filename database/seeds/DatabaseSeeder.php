@@ -23,5 +23,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TopicsTableSeeder::class);
         $this->call(CirclesTableSeeder::class);
         $this->call(ImageTypesTableSeeder::class);
+        $this->call(GraphicsTableSeeder::class);
     }
 }
