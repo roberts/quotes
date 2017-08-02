@@ -24,8 +24,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {   
-        $schedule->command('startergraphics')->withoutOverlapping();
-        //$schedule->command('startergraphics')->everyThirtyMinutes();
+        //$schedule->command('startergraphics')->withoutOverlapping();
+        $schedule->command('startergraphics')->everyThirtyMinutes();
     }
 
     /**
