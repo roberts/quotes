@@ -89,7 +89,7 @@
             @endif
 
             @foreach ($quoteauthor->quotes as $quote)
-                <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" @if ($loop->first) graphics @endif condense ></tipoff-quote>
+                <tipoff-quote id="{{ $quote->id }}" quote="{{ $quote->quote_text }}" author="{{ $quoteauthor->display_name }}" slug="{{ $quoteauthor->slug }}" more="{{ $quoteauthor->quotes->count() }}" condense ></tipoff-quote>
                 <br>
             @endforeach
         </div>
