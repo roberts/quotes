@@ -38,13 +38,21 @@ class QuoteAuthor extends Model
     }
 
     /**
-     * A reply has a creator.
+     * An author has a creator.
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function creator()
     {
         return $this->belongsTo(User::class, 'created_by');
+    }
+
+    /**
+     * The circles that belong to the author.
+     */
+    public function circles()
+    {
+        return $this->belongsToMany('App\Circle', 'author_circle', 'author_id', 'circle_id');
     }
 
     /**

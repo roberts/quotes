@@ -122,7 +122,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'basketball',
             'title'         => 'Basketball',
             'description'   => 'Basketball related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -130,7 +130,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'football',
             'title'         => 'Football',
             'description'   => 'Football related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -138,7 +138,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'baseball',
             'title'         => 'Baseball',
             'description'   => 'Baseball related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -146,7 +146,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'soccer',
             'title'         => 'Soccer',
             'description'   => 'Soccer related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -154,7 +154,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'hockey',
             'title'         => 'Hockey',
             'description'   => 'Hockey related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -162,7 +162,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'golf',
             'title'         => 'Golf',
             'description'   => 'Golf related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -170,7 +170,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'boxing',
             'title'         => 'Boxing',
             'description'   => 'Boxing related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -178,7 +178,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'mma',
             'title'         => 'Mixed Martial Arts',
             'description'   => 'MMA related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -186,7 +186,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'olympic',
             'title'         => 'Olympic Sports',
             'description'   => 'Olympic sports not otherwise listed (track & field, swimming, skiing, etc.).',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -194,7 +194,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'nascar',
             'title'         => 'NASCAR',
             'description'   => 'NASCAR related authors.',
-            'primary'       => 9,
+            'primary'       => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);

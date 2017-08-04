@@ -3,10 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Circle;
+use App\QuoteAuthor;
 use Illuminate\Http\Request;
 
 class CirclesController extends Controller
 {
+    /**
+     * CirclesController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware('auth')->except(['index', 'show']);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,17 +23,11 @@ class CirclesController extends Controller
      */
     public function index()
     {
-        //
-    }
+        $primarycircles = Circle::where('id', '<', 10)->orderBy('id')->with('children')->get();
+        $missingircles = QuoteAuthor::doesntHave('circles')->whereNotIn('id', [1, 2, 3])->orderBy('id')->limit(5)->get();
+        $missingcount = QuoteAuthor::doesntHave('circles')->whereNotIn('id', [1, 2, 3])->orderBy('last_name', 'asc')->count();
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+        return view('quotes.authors.circles.index', compact('primarycircles', 'missingcircles','missingcount'));
     }
 
     /**
