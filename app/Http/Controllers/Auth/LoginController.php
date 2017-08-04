@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+Use Redirect;
 
 class LoginController extends Controller
 {
@@ -25,8 +26,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    session(['url.intended' => url()->previous()]);
-    protected $redirectTo = session()->get('url.intended');
+    protected $redirectTo = Redirect::intended('/');
 
     /**
      * Create a new controller instance.
