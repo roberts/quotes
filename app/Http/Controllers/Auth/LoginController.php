@@ -25,7 +25,8 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = redirect()->intended('/');
+    session(['url.intended' => url()->previous()]);
+    protected $redirectTo = session()->get('url.intended');
 
     /**
      * Create a new controller instance.
