@@ -39,7 +39,7 @@
     <div class="pre">
       <div>Business and Leadership</div>
       <div class="title"><a href="{{ $quote->author->path() }}">Quote from {{ $quote->author->display_name }}</a></div>
-      <div>Published: June 2017</div>
+      <div>Updated: Aug 2017</div>
     </div>
 
     <section class="main mdl-grid">

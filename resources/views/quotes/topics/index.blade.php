@@ -12,7 +12,7 @@
     <div class="pre">
       <div>Business and Leadership</div>
       <div class="title">Quote Topics</div>
-      <div>Published: June 2017</div>
+      <div>Updated: Aug 2017</div>
     </div>
 
     @if (auth()->check())

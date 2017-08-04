@@ -28,7 +28,7 @@
     <div class="pre">
       <div>Business and Leadership</div>
       <div class="title">{{ $quoteauthor->display_name }} Quotes</div>
-      <div>Published: June 2017</div>
+      <div>Updated: Aug 2017</div>
     </div>
 
     @if (auth()->check())
