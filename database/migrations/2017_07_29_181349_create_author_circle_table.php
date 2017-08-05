@@ -18,7 +18,9 @@ class CreateAuthorCircleTable extends Migration
             $table->unsignedInteger('author_id')->index();
             $table->unsignedInteger('circle_id')->index();
             $table->boolean('featured')->default(0); // Limit to 12 or less authors per circle_id that will be featured at top. They will also listed below in alphabetical section, so alrigt if more. 
-            $table->unsignedInteger('created_by')->index();
+            $table->boolean('defining')->default(0); // Should circle be the defining category for the author?
+            $table->unsignedInteger('created_by');
+            $table->unsignedInteger('updated_by')->nullable();
             $table->timestamps();
         });
 
@@ -26,6 +28,7 @@ class CreateAuthorCircleTable extends Migration
             $table->foreign('author_id')->references('id')->on('authors')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('circle_id')->references('id')->on('circles')->onDelete('restrict')->onUpdate('cascade');
             $table->foreign('created_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
+            $table->foreign('updated_by')->references('id')->on('users')->onDelete('restrict')->onUpdate('cascade');
         });
 
         Schema::table('author_circle', function($table) {
@@ -44,6 +47,7 @@ class CreateAuthorCircleTable extends Migration
             $table->dropForeign(['author_id']);
             $table->dropForeign(['circle_id']);
             $table->dropForeign(['created_by']);
+            $table->dropForeign(['updated_by']);
         });
         
         Schema::disableForeignKeyConstraints();

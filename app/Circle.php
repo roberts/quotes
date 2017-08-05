@@ -57,9 +57,9 @@ class Circle extends Model
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function children() {
-	    return $this->hasMany(Circle::class, 'primary');
+	    return $this->hasMany(Circle::class, 'parent');
 	}
 	public function parent() {
-	    return $this->belongsTo(Circle::class, 'primary');
+	    return $this->belongsTo(Circle::class, 'parent');
 	}
 }

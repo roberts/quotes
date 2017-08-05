@@ -82,7 +82,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'highlight',
             'title'         => 'Highlight',
             'description'   => 'Not only popular, but have a reputation for quality insight into business and leadership topics. Authors most shared by Tipoff social pushes and featured on Quotes Authors page.',
-            'primary'       => 9,
+            'parent'        => 9,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -90,7 +90,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'highlight-bookauthors',
             'title'         => 'Highlighted Book Authors',
             'description'   => 'Most popular authors known for business and leadership books. Featured on Books Authors page.',
-            'primary'       => 9,
+            'parent'        => 9,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -98,7 +98,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'household',
             'title'         => 'Household Names',
             'description'   => 'A sub-set of popular for the most well-known personalities of all types that the vast majority of households in the US know.',
-            'primary'       => 9,
+            'parent'        => 9,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -106,7 +106,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'never-share',
             'title'         => 'Never Share Authors',
             'description'   => 'Authors who should never be shared on social media because they do not fit with Tipoff brand identity for business & leadership.',
-            'primary'       => 9,
+            'parent'        => 9,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -114,7 +114,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'social-share',
             'title'         => 'Other Social Share Authors',
             'description'   => 'Authors who should should be treated differently on social media when shared. More details coming.',
-            'primary'       => 9,
+            'parent'        => 9,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -122,7 +122,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'basketball',
             'title'         => 'Basketball',
             'description'   => 'Basketball related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -130,7 +130,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'football',
             'title'         => 'Football',
             'description'   => 'Football related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -138,7 +138,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'baseball',
             'title'         => 'Baseball',
             'description'   => 'Baseball related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -146,7 +146,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'soccer',
             'title'         => 'Soccer',
             'description'   => 'Soccer related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -154,7 +154,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'hockey',
             'title'         => 'Hockey',
             'description'   => 'Hockey related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -162,7 +162,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'golf',
             'title'         => 'Golf',
             'description'   => 'Golf related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -170,7 +170,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'boxing',
             'title'         => 'Boxing',
             'description'   => 'Boxing related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -178,7 +178,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'mma',
             'title'         => 'Mixed Martial Arts',
             'description'   => 'MMA related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -186,7 +186,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'olympic',
             'title'         => 'Olympic Sports',
             'description'   => 'Olympic sports not otherwise listed (track & field, swimming, skiing, etc.).',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);
@@ -194,7 +194,7 @@ class CirclesTableSeeder extends Seeder
             'slug'          => 'nascar',
             'title'         => 'NASCAR',
             'description'   => 'NASCAR related authors.',
-            'primary'       => 2,
+            'parent'        => 2,
             'created_at'    => $now,
             'updated_at'    => $now,
         ]);

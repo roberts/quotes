@@ -17,9 +17,9 @@ class CreateCirclesTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique()->index();
             $table->string('title')->unique()->index();
-            $table->string('display_name')->nullable(); // If empty will use '{title} Personalities' -> exaample: "Sports Personalities" in "Business & Leadership Quotes from Sports Personalities"
+            $table->string('display_name')->nullable(); // If empty will use '{title} Personalities' -> example: "Sports Personalities" in "Business & Leadership Quotes from Sports Personalities"
             $table->string('description')->nullable();
-            $table->tinyInteger('primary')->nullable()->unsigned()->index(); //id of primary circle for this secondary circle. Must be below 10.
+            $table->tinyInteger('parent')->nullable()->unsigned()->index(); //id of primary circle for this secondary circle. Must be below 10.
             $table->timestamps();
             $table->softDeletes();
         });

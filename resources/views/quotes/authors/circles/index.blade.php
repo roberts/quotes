@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Authors of Business and Leadership Quote | Tipoff.com')
+@section('title', 'Author Circles of Business and Leadership Quotes | Tipoff.com')
 
-@section('description', 'Tipoff Project provides resources for business and leadership: articles, quotes, books, interviews, and other material to grow entreprenuers and leaders.')
+@section('description', 'List of various circles that authors of business and leadership quotes are included.')
 
 @section('featured_image', 'https://tipoff.com/ogimage.jpg')
 
@@ -20,7 +20,7 @@
       "@id": "https://tipoff.com/quotes/authors",
       "name": "Authors"
         }
-        },{
+    },{
     "@type": "ListItem",
     "position": 3,
     "item": {

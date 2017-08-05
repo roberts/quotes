@@ -37,6 +37,7 @@ Route::group(['prefix' => 'quotes'], function () {
     Route::post('authors', 'QuoteAuthorsController@store');
     Route::get('authors/circles', 'CirclesController@index');
     Route::post('authors/circles', 'CirclesController@store');
+    Route::post('authors/circles/newrelation', 'CirclesController@storeRelation');
     Route::get('authors/circles/{circle}', 'CirclesController@show');
     Route::get('authors/data', 'QuoteAuthorsController@data');
     Route::get('authors/missing', 'QuoteAuthorsController@missing');
