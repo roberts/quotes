@@ -8,19 +8,19 @@
                 <div class="horizontal justified">
                     Profiles: 
                     @if ($authordetail->wikipedia)
-                        <a href="https://en.wikipedia.org/wiki/{{ $authordetail->wikipedia }}" tabindex="-1"><paper-icon-button class="social" src="/img/wikipedia.png"></paper-icon-button></a>
+                        <a href="https://en.wikipedia.org/wiki/{{ $authordetail->wikipedia }}" tabindex="-1"><paper-icon-button class="social" src="/img/wikipedia.png" alt="{{ $author->display_name }} Wikipedia Page" title="{{ $author->display_name }} on Wikipedia"></paper-icon-button></a>
                     @endif
                     @if ($authordetail->facebook)
-                        <a href="https://www.facebook.com/{{ $authordetail->facebook }}" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png"></paper-icon-button></a>
+                        <a href="https://www.facebook.com/{{ $authordetail->facebook }}" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png" alt="Official {{ $author->display_name }} Facebook Page" title="{{ $author->display_name }} on Facebook"></paper-icon-button></a>
                     @endif
                     @if ($authordetail->instagram)
-                        <a href="https://www.instagram.com/{{ $authordetail->instagram }}/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png"></paper-icon-button></a>
+                        <a href="https://www.instagram.com/{{ $authordetail->instagram }}/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png" alt="Official {{ $author->display_name }} Instagram Account" title="{{ $author->display_name }} on Instagram"></paper-icon-button></a>
                     @endif
                     @if ($authordetail->twitter)
-                        <a href="https://twitter.com/{{ $authordetail->twitter }}" tabindex="-1"><paper-icon-button src="/img/twitter.png"></paper-icon-button></a>
+                        <a href="https://twitter.com/{{ $authordetail->twitter }}" tabindex="-1"><paper-icon-button src="/img/twitter.png" alt="Official {{ $author->display_name }} Twitter Account" title="{{ $author->display_name }} on Twitter"></paper-icon-button></a>
                     @endif
                     @if ($authordetail->linkedin)
-                        <a href="https://www.linkedin.com/in/{{ $authordetail->linkedin }}" tabindex="-1"><paper-icon-button src="/img/linkedin.png"></paper-icon-button></a>
+                        <a href="https://www.linkedin.com/in/{{ $authordetail->linkedin }}" tabindex="-1"><paper-icon-button src="/img/linkedin.png" alt="Official {{ $author->display_name }} LinkedIn Account" title="{{ $author->display_name }} on LinkedIn"></paper-icon-button></a>
                     @endif
                 </div>
             @endif
