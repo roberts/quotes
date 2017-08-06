@@ -8,19 +8,24 @@
                 <div class="horizontal justified">
                     Profiles: 
                     @if ($authordetail->wikipedia)
-                        <a href="https://en.wikipedia.org/wiki/{{ $authordetail->wikipedia }}" tabindex="-1"><paper-icon-button class="social" src="/img/wikipedia.png" alt="{{ $quoteauthor->display_name }} Wikipedia Page" title="{{ $quoteauthor->display_name }} on Wikipedia"></paper-icon-button></a>
+                        <a href="https://en.wikipedia.org/wiki/{{ $authordetail->wikipedia }}" tabindex="-1"><paper-icon-button class="social" src="/img/wikipedia.png" id="{{ $quoteauthor->slug }}-wikipedia" alt="{{ $quoteauthor->display_name }} Wikipedia Page"></paper-icon-button></a>
+                        <paper-tooltip for="{{ $quoteauthor->slug }}-wikipedia" offset="0">{{ $quoteauthor->display_name }} on Wikipedia</paper-tooltip>
                     @endif
                     @if ($authordetail->facebook)
-                        <a href="https://www.facebook.com/{{ $authordetail->facebook }}" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png" alt="Official {{ $quoteauthor->display_name }} Facebook Page" title="{{ $quoteauthor->display_name }} on Facebook"></paper-icon-button></a>
+                        <a href="https://www.facebook.com/{{ $authordetail->facebook }}" tabindex="-1"><paper-icon-button class="social" src="/img/facebook.png" id="{{ $quoteauthor->slug }}-facebook" alt="Official {{ $quoteauthor->display_name }} Facebook Page"></paper-icon-button></a>
+                        <paper-tooltip for="{{ $quoteauthor->slug }}-facebook" offset="0">{{ $quoteauthor->display_name }} on Facebook</paper-tooltip>
                     @endif
                     @if ($authordetail->instagram)
-                        <a href="https://www.instagram.com/{{ $authordetail->instagram }}/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png" alt="Official {{ $quoteauthor->display_name }} Instagram Account" title="{{ $quoteauthor->display_name }} on Instagram"></paper-icon-button></a>
+                        <a href="https://www.instagram.com/{{ $authordetail->instagram }}/" tabindex="-1"><paper-icon-button class="social" style="color: red;" src="/img/instagram.png" id="{{ $quoteauthor->slug }}-instagram" alt="Official {{ $quoteauthor->display_name }} Instagram Account"></paper-icon-button></a>
+                        <paper-tooltip for="{{ $quoteauthor->slug }}-instagram" offset="0">{{ $quoteauthor->display_name }} on Instagram</paper-tooltip>
                     @endif
                     @if ($authordetail->twitter)
-                        <a href="https://twitter.com/{{ $authordetail->twitter }}" tabindex="-1"><paper-icon-button src="/img/twitter.png" alt="Official {{ $quoteauthor->display_name }} Twitter Account" title="{{ $quoteauthor->display_name }} on Twitter"></paper-icon-button></a>
+                        <a href="https://twitter.com/{{ $authordetail->twitter }}" tabindex="-1"><paper-icon-button src="/img/twitter.png" id="{{ $quoteauthor->slug }}-twitter" alt="Official {{ $quoteauthor->display_name }} Twitter Account"></paper-icon-button></a>
+                        <paper-tooltip for="{{ $quoteauthor->slug }}-twitter" offset="0">{{ $quoteauthor->display_name }} on Twitter</paper-tooltip>
                     @endif
                     @if ($authordetail->linkedin)
-                        <a href="https://www.linkedin.com/in/{{ $authordetail->linkedin }}" tabindex="-1"><paper-icon-button src="/img/linkedin.png" alt="Official {{ $quoteauthor->display_name }} LinkedIn Account" title="{{ $quoteauthor->display_name }} on LinkedIn"></paper-icon-button></a>
+                        <a href="https://www.linkedin.com/in/{{ $authordetail->linkedin }}" tabindex="-1"><paper-icon-button src="/img/linkedin.png" id="{{ $quoteauthor->slug }}-linkedin" alt="Official {{ $quoteauthor->display_name }} LinkedIn Account"></paper-icon-button></a>
+                        <paper-tooltip for="{{ $quoteauthor->slug }}-linkedin" offset="0">{{ $quoteauthor->display_name }} on LinkedIn</paper-tooltip>
                     @endif
                 </div>
             @endif
