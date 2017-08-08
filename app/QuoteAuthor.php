@@ -142,7 +142,7 @@ class QuoteAuthor extends Model
      */
     public static function trending()
     {
-        return static::whereIn('id', [4, 5, 6, 7, 9, 10, 22])->inRandomOrder()->limit(10)->get();
+        return static::whereIn('id', [4, 5, 6, 7, 9, 10, 22, 42])->inRandomOrder()->limit(10)->get();
     }
     
 }
