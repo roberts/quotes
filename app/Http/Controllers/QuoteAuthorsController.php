@@ -133,4 +133,16 @@ class QuoteAuthorsController extends Controller
     {
         //
     }
+
+    /**
+     * Store a headshot for an author.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function storeHeadshot(Request $request)
+    {
+        request()->file('headshot')->store('authors/headshots', 'gcs');
+        return back();
+    }
 }

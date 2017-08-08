@@ -41,10 +41,7 @@ Route::group(['prefix' => 'quotes'], function () {
     Route::get('authors/circles/{circle}', 'CirclesController@show');
     Route::get('authors/data', 'QuoteAuthorsController@data');
     Route::get('authors/missing', 'QuoteAuthorsController@missing');
-    Route::post('{quoteauthor}/headshots', function() {
-        request()->file('headshot')->store('authors/headshots', 'gcs');
-        return back();
-    });
+    Route::post('{quoteauthor}/headshots', 'QuoteAuthorsController@storeHeadshot');
     Route::get('{quoteauthor}/submissions', 'QuoteSubmissionsController@author');
     Route::post('{quoteauthor}/submissions', 'QuoteSubmissionsController@store');
     Route::post('{quoteauthor}/rejections', 'QuoteRejectionsController@store');
