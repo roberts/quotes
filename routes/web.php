@@ -14,6 +14,16 @@
 Route::get('/', 'WelcomeController@show');
 
 Auth::routes();
+Route::get('login/facebook', 'Auth\LoginController@redirectToFacebook');
+Route::get('login/facebook/callback', 'Auth\LoginController@handleFacebookCallback');
+Route::get('login/twitter', 'Auth\LoginController@redirectToTwitter');
+Route::get('login/twitter/callback', 'Auth\LoginController@handleTwitterCallback');
+Route::get('login/linkedin', 'Auth\LoginController@redirectToLinkedin');
+Route::get('login/linkedin/callback', 'Auth\LoginController@handleLinkedinCallback');
+Route::get('login/google', 'Auth\LoginController@redirectToGoogle');
+Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback');
+Route::get('login/github', 'Auth\LoginController@redirectToGithub');
+Route::get('login/github/callback', 'Auth\LoginController@handleGithubCallback');
 
 Route::get('home', 'HomeController@index')->name('home');
 Route::get('company', 'CompanyController@index')->name('about');

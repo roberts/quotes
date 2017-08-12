@@ -13,6 +13,7 @@
         "intervention/image": "^2.4",
         "laravel/cashier": "~7.0",
         "laravel/framework": "5.4.*",
+        "laravel/socialite": "^3.0",
         "laravel/spark": "*@dev",
         "laravel/tinker": "~1.0",
         "league/csv": "^8.2",
