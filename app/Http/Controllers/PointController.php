@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Visit;
+use App\Point;
 use Illuminate\Http\Request;
 
-class VisitController extends Controller
+class PointController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class VisitController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Visit  $visit
+     * @param  \App\Point  $point
      * @return \Illuminate\Http\Response
      */
-    public function show(Visit $visit)
+    public function show(Point $point)
     {
         //
     }
@@ -52,10 +52,10 @@ class VisitController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Visit  $visit
+     * @param  \App\Point  $point
      * @return \Illuminate\Http\Response
      */
-    public function edit(Visit $visit)
+    public function edit(Point $point)
     {
         //
     }
@@ -64,10 +64,10 @@ class VisitController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Visit  $visit
+     * @param  \App\Point  $point
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Visit $visit)
+    public function update(Request $request, Point $point)
     {
         //
     }
@@ -75,10 +75,10 @@ class VisitController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Visit  $visit
+     * @param  \App\Point  $point
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Visit $visit)
+    public function destroy(Point $point)
     {
         //
     }
