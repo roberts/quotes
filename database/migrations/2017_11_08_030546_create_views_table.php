@@ -13,7 +13,7 @@ class CreateViewsTable extends Migration
      */
     public function up()
     {
-        Schema::create('views', function (Blueprint $table) {
+        Schema::create('views', function (Blueprint $table) { // Use to track use pageviews and give users points.
             $table->increments('id');
             $table->timestamps();
         });

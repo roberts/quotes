@@ -13,7 +13,7 @@ class CreateImageTypesTable extends Migration
      */
     public function up()
     {
-        Schema::create('image_types', function (Blueprint $table) {
+        Schema::create('image_types', function (Blueprint $table) { // Need to consolidate to just a types table
             $table->increments('id');
             $table->string('slug')->unique()->index();
             $table->string('title')->unique();
