@@ -13,7 +13,7 @@ class CreateGraphicsTable extends Migration
      */
     public function up()
     {
-        Schema::create('graphics', function (Blueprint $table) {
+        Schema::create('graphics', function (Blueprint $table) { // Keep graphics separate from images uploaded by current staffand user uploads
             $table->increments('id');
             $table->string('filename')->unique()->index(); //includes mime type extension - need to force lowercase
             $table->string('path_prefix');

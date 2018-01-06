@@ -13,7 +13,7 @@ class CreateTipoffImagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('tipoff_images', function (Blueprint $table) { // Keep images uploaded by current staff separate from users
+        Schema::create('tipoff_images', function (Blueprint $table) { // Keep images uploaded by current staff separate from user uploads and graphics
             $table->increments('id');
             $table->string('filename')->unique()->index(); //includes mime type extension - need to force lowercase
             $table->string('path_prefix');

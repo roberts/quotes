@@ -13,7 +13,7 @@ class CreateUserImagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_images', function (Blueprint $table) { // Keep images uploaded by users separate from current staff
+        Schema::create('user_images', function (Blueprint $table) { // Keep images uploaded by users separate from current staff uploads and graphics
             $table->increments('id');
             $table->string('filename')->unique()->index(); //includes mime type extension - need to force lowercase
             $table->string('path_prefix');
